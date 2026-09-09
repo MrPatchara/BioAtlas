@@ -1,0 +1,1525 @@
+{
+  "project": "SENIAM surface EMG placement reference",
+  "notice": "Placement facts (landmarks, fractions, orientation, inter-electrode distance, reference site, posture, test) in English and Thai follow the official SENIAM pages and standard clinical practice; each entry links back to its source. Placement illustrations in ../images/seniam/ are official SENIAM figures (C) SENIAM project, hosted locally with attribution. Educational reference only, not for diagnosis or treatment.",
+  "source": "SENIAM project (Surface EMG for Non-Invasive Assessment of Muscles), Roessingh Research and Development. http://www.seniam.org/",
+  "accessed": "2026-09-08",
+  "interElectrodeDistanceMm": 20,
+  "entries": [
+    {
+      "id": "trapezius-descendens",
+      "muscle": "Trapezius",
+      "subdivision": "descendens (upper)",
+      "region": "shoulder-neck",
+      "matchNames": [
+        "descending part of trapezius",
+        "trapezius"
+      ],
+      "landmarks": [
+        "acromion",
+        "spine on vertebra C7"
+      ],
+      "placement": "At 50% on the line from the acromion to the spine on vertebra C7.",
+      "orientation": "In the direction of the line between the acromion and the spine on vertebra C7.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7 or on/around the wrist",
+      "posture": "Erect sitting, with the arms hanging vertically.",
+      "test": "Elevate the acromial end of the clavicle and scapula; extend and rotate the head and neck toward the elevated shoulder with the face rotated in the opposite direction. Apply pressure against the shoulder in the direction of depression and against the head in the direction of flexion anterolaterally.",
+      "sourceUrl": "http://seniam.org/trapeziusdescendens.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ShoulderLoc01_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากอะโครเมียนถึงปุ่มสไปนัส C7",
+        "orientation": "ตามแนวเส้นจากอะโครเมียนถึงปุ่มสไปนัส C7",
+        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว",
+        "test": "ยกไหล่ขึ้น พร้อมแหงนและหันศีรษะไปข้างไหล่ที่ยก โดยหันหน้าไปทางตรงข้าม ออกแรงต้านโดยกดไหล่ลงและดันศีรษะไปทางงอ anterolateral"
+      }
+    },
+    {
+      "id": "trapezius-transversalis",
+      "muscle": "Trapezius",
+      "subdivision": "transversalis (middle)",
+      "region": "shoulder-neck",
+      "matchNames": [
+        "transverse part of trapezius",
+        "trapezius"
+      ],
+      "landmarks": [
+        "medial border of the scapula",
+        "spine at T3"
+      ],
+      "placement": "At 50% between the medial border of the scapula and the spine, at the level of T3.",
+      "orientation": "In the direction of the line between T5 and the acromion.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7 or on/around the wrist",
+      "posture": "Erect sitting, with the arms hanging vertically.",
+      "test": "Adduction of the scapula from a laterally rotated position (inferior angle rotated laterally). Elbow extended, shoulder at 90 degrees abduction and lateral rotation, palm facing cranially, without elevating the shoulder girdle.",
+      "sourceUrl": "http://seniam.org/trapeziustransversalis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ShoulderLoc02_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางระหว่างขอบในสะบักกับกระดูกสันหลัง ระดับ T3",
+        "orientation": "ตามแนวเส้นจาก T5 ไปอะโครเมียน",
+        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว",
+        "test": "เหยียดศอก กางไหล่ 90 องศาและหมุนออก (ฝ่ามือหงายขึ้น) แล้วหนีบสะบักเข้าหากันโดยไม่ยกไหล่"
+      }
+    },
+    {
+      "id": "trapezius-ascendens",
+      "muscle": "Trapezius",
+      "subdivision": "ascendens (lower)",
+      "region": "shoulder-neck",
+      "matchNames": [
+        "ascending part of trapezius",
+        "trapezius"
+      ],
+      "landmarks": [
+        "trigonum spinea",
+        "8th thoracic vertebra"
+      ],
+      "placement": "At 2/3 on the line from the trigonum spinea to the 8th thoracic vertebra.",
+      "orientation": "In the direction of the line between T8 and the acromion.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7 or on/around the wrist",
+      "posture": "Erect sitting, with the arms hanging vertically.",
+      "test": "Depression, lateral rotation of the inferior angle, and adduction of the scapula, with the arm placed diagonally overhead and the shoulder laterally rotated. Apply pressure against the forearm in a downward direction.",
+      "sourceUrl": "http://seniam.org/trapeziusascendens.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ShoulderLoc03_large.gif",
+      "th": {
+        "placement": "ที่ 2 ใน 3 ของเส้นจากไทรโกนัมสไปนีถึงกระดูกสันหลังข้อ T8",
+        "orientation": "ตามแนวเส้นจาก T8 ไปอะโครเมียน",
+        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว",
+        "test": "ยกแขนเฉียงขึ้นเหนือศีรษะพร้อมหมุนไหล่ออก แล้วกดปลายแขนลงพร้อมกดและหนีบสะบัก"
+      }
+    },
+    {
+      "id": "deltoideus-anterior",
+      "muscle": "Deltoideus",
+      "subdivision": "anterior",
+      "region": "shoulder-neck",
+      "matchNames": [
+        "clavicular part of deltoid",
+        "deltoid"
+      ],
+      "landmarks": [
+        "acromion",
+        "thumb"
+      ],
+      "placement": "One finger width distal and anterior to the acromion.",
+      "orientation": "In the direction of the line between the acromion and the thumb.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7 or on/around the wrist",
+      "posture": "Sitting with the arms hanging vertically and the palm pointing inwards.",
+      "test": "Shoulder abduction in slight flexion with the humerus in slight rotation. Apply pressure against the anteromedial surface of the arm in the direction of adduction and slight extension.",
+      "sourceUrl": "http://seniam.org/deltoideusanterior.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerbackLoc04_large.gif",
+      "th": {
+        "placement": "ต่ำกว่าอะโครเมียนหนึ่งนิ้วมือ และเยื้องมาด้านหน้า",
+        "orientation": "ตามแนวเส้นจากอะโครเมียนไปนิ้วโป้ง",
+        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "posture": "นั่ง แขนห้อยข้างลำตัว ฝ่ามือหันเข้าด้านใน",
+        "test": "กางไหล่ออกพร้อมงอไปข้างหน้าเล็กน้อย ต้านที่ต้นแขนด้านหน้าด้านในไปทางหุบเข้าและเหยียดเล็กน้อย"
+      }
+    },
+    {
+      "id": "deltoideus-medius",
+      "muscle": "Deltoideus",
+      "subdivision": "medius",
+      "region": "shoulder-neck",
+      "matchNames": [
+        "acromial part of deltoid",
+        "deltoid"
+      ],
+      "landmarks": [
+        "acromion",
+        "lateral epicondyle of the elbow"
+      ],
+      "placement": "From the acromion to the lateral epicondyle of the elbow, at the greatest bulge of the muscle.",
+      "orientation": "In the direction of the line between the acromion and the hand.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7 or on/around the wrist",
+      "posture": "Sitting with a stable trunk needing no further stabilization; if the scapula fixation muscles are weak the scapula must be stabilized.",
+      "test": "Abduct the arm without rotation. Flex the elbow to indicate neutral rotation (may extend it after to use a longer lever). Apply pressure against the dorsal surface of the distal humerus, or the forearm if the elbow is extended.",
+      "sourceUrl": "http://seniam.org/deltoideusmedius.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ShoulderLoc05_large.gif",
+      "th": {
+        "placement": "บนเส้นจากอะโครเมียนถึงอีพิคอนไดล์ด้านนอก ตรงส่วนนูนสุดของกล้ามเนื้อ",
+        "orientation": "ตามแนวเส้นจากอะโครเมียนไปมือ",
+        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "posture": "นั่งลำตัวมั่นคง หากกล้ามเนื้อยึดสะบักอ่อนแรงต้องช่วยประคองสะบัก",
+        "test": "กางแขนออกโดยไม่หมุน (งอศอกเพื่อหาตำแหน่งกลางก่อน) ต้านที่หลังต้นแขนส่วนปลายหรือปลายแขน"
+      }
+    },
+    {
+      "id": "deltoideus-posterior",
+      "muscle": "Deltoideus",
+      "subdivision": "posterior",
+      "region": "shoulder-neck",
+      "matchNames": [
+        "spinal part of deltoid",
+        "deltoid"
+      ],
+      "landmarks": [
+        "angle of the acromion",
+        "little finger"
+      ],
+      "placement": "Centered about two fingerbreaths behind the angle of the acromion.",
+      "orientation": "In the direction of the line between the acromion and the little finger.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7 or on/around the wrist",
+      "posture": "Erect sitting with the arms hanging vertically and the palm pointing inwards.",
+      "test": "Abduct the shoulder in slight extension with the humerus in slight medial rotation. Apply pressure against the posterolateral surface of the arm above the elbow in the direction of adduction and slight flexion.",
+      "sourceUrl": "http://seniam.org/deltoideusposterior.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ShoulderLoc06_large.gif",
+      "th": {
+        "placement": "หลังมุมอะโครเมียนประมาณสองนิ้วมือ ตรงกลางบริเวณนั้น",
+        "orientation": "ตามแนวเส้นจากอะโครเมียนไปนิ้วก้อย",
+        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว ฝ่ามือหันเข้าด้านใน",
+        "test": "กางไหล่ออกพร้อมเหยียดไปข้างหลังเล็กน้อย โดยหมุนต้นแขนเข้าด้านในเล็กน้อย ต้านที่ต้นแขนด้านหลังด้านนอกเหนือศอกไปทางหุบเข้าและงอเล็กน้อย"
+      }
+    },
+    {
+      "id": "erector-spinae-longissimus",
+      "muscle": "Erector spinae",
+      "subdivision": "longissimus",
+      "region": "trunk-back",
+      "matchNames": [
+        "longissimus thoracis",
+        "longissimus",
+        "erector spinae",
+        "iliocostalis"
+      ],
+      "landmarks": [
+        "proc. spin. of L1",
+        "lateral"
+      ],
+      "placement": "Two finger width lateral from the proc. spin. of L1.",
+      "orientation": "Vertical.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7",
+      "posture": "Prone with the lumbar vertebral column slightly flexed.",
+      "test": "Lifting the trunk from a prone position.",
+      "sourceUrl": "http://www.seniam.org/erectorspinaelongissimus.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerbackLoc01_large.gif",
+      "th": {
+        "placement": "ห่างจากปุ่มสไปนัส L1 ไปด้านข้างสองนิ้วมือ",
+        "orientation": "แนวตั้ง",
+        "reference": "ที่ปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำ หลังส่วนเอวโค้งเล็กน้อย",
+        "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      }
+    },
+    {
+      "id": "erector-spinae-iliocostalis",
+      "muscle": "Erector spinae",
+      "subdivision": "iliocostalis",
+      "region": "trunk-back",
+      "matchNames": [
+        "iliocostalis lumborum",
+        "iliocostalis",
+        "erector spinae"
+      ],
+      "landmarks": [
+        "posterior spina iliaca superior",
+        "lowest rib"
+      ],
+      "placement": "One finger width medial from the line from the posterior spina iliaca superior to the lowest point of the lower rib, at the level of L2.",
+      "orientation": "In the direction of the line between the posterior spina iliaca superior and the lowest point of the lower rib.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7",
+      "posture": "Prone with the lumbar vertebral column slightly flexed.",
+      "test": "Lifting the trunk from a prone position.",
+      "sourceUrl": "http://www.seniam.org/erectorspinaeiliocostalis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerbackLoc02_large.gif",
+      "th": {
+        "placement": "ชิดเข้าด้านในหนึ่งนิ้วมือจากเส้นปุ่ม PSIS ถึงชายโครงล่างสุด ระดับ L2",
+        "orientation": "ตามแนวเส้นจากปุ่ม PSIS ถึงชายโครงล่างสุด",
+        "reference": "ที่ปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำ หลังส่วนเอวโค้งเล็กน้อย",
+        "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      }
+    },
+    {
+      "id": "multifidus",
+      "muscle": "Multifidus",
+      "subdivision": null,
+      "region": "trunk-back",
+      "matchNames": [
+        "multifidus"
+      ],
+      "landmarks": [
+        "posterior spina iliaca superior",
+        "L1-L2 interspace"
+      ],
+      "placement": "On a line from the caudal tip of the posterior spina iliaca superior to the L1-L2 interspace, at the level of the L5 spinous process (about 2-3 cm from the midline).",
+      "orientation": "In the direction of the line described above.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7",
+      "posture": "Prone with the lumbar vertebral column slightly flexed.",
+      "test": "Lifting the trunk from a prone position.",
+      "sourceUrl": "http://www.seniam.org/multifidus.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerbackLoc03_large.gif",
+      "th": {
+        "placement": "บนเส้นจากปลายล่างปุ่ม PSIS ถึงช่องระหว่าง L1-L2 ที่ระดับปุ่มสไปนัส L5 (ห่างแนวกึ่งกลาง 2-3 ซม.)",
+        "orientation": "ตามแนวเส้นดังกล่าว",
+        "reference": "ที่ปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำ หลังส่วนเอวโค้งเล็กน้อย",
+        "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      }
+    },
+    {
+      "id": "abductor-policis-brevis",
+      "muscle": "Abductor pollicis brevis",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "abductor pollicis brevis"
+      ],
+      "landmarks": [
+        "1st ossa metacarpalia",
+        "thumb"
+      ],
+      "placement": "Slightly medial of the distal 1/4 of the 1st ossa metacarpalia. Small electrodes: max 5 mm isometric, 2 mm dynamic.",
+      "orientation": "Parallel to the 1st ossa metacarpalia.",
+      "iedMm": 7.5,
+      "reference": "On/around the wrist",
+      "posture": "Sitting or supine with the back of the hand stabilised on a table.",
+      "test": "Abduct the thumb ventralward from the palm while applying pressure against the proximal phalanx toward adduction to the palm.",
+      "sourceUrl": "http://seniam.org/abductorpolicisbrevis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ArmHandLoc04_large.gif",
+      "alsoInclude": [
+        "opponens pollicis",
+        "left opponens pollicis",
+        "right opponens pollicis",
+        "flexor pollicis brevis",
+        "left flexor pollicis brevis",
+        "right flexor pollicis brevis"
+      ],
+      "th": {
+        "placement": "เยื้องเข้าด้านในจากหนึ่งในสี่ส่วนปลายของกระดูกฝ่ามือชิ้นที่ 1 เล็กน้อย ใช้อิเล็กโทรดเล็ก (ไม่เกิน 5 มม. แบบเกร็งค้าง 2 มม. แบบเคลื่อนไหว)",
+        "orientation": "ขนานกับกระดูกฝ่ามือชิ้นที่ 1",
+        "reference": "ที่ข้อมือ",
+        "posture": "นั่งหรือนอนหงาย หลังมือวางนิ่งบนโต๊ะ",
+        "test": "กางนิ้วโป้งออกจากฝ่ามือ ต้านที่ข้อนิ้วโป้งท่อนโคนไปทางหุบเข้าฝ่ามือ"
+      }
+    },
+    {
+      "id": "biceps-brachii",
+      "muscle": "Biceps brachii",
+      "subdivision": "long and short head",
+      "region": "arm-hand",
+      "matchNames": [
+        "long head of biceps brachii",
+        "short head of biceps brachii",
+        "biceps brachii"
+      ],
+      "landmarks": [
+        "medial acromion",
+        "fossa cubit"
+      ],
+      "placement": "On the line between the medial acromion and the fossa cubit, at 1/3 from the fossa cubit.",
+      "orientation": "In the direction of the line between the acromion and the fossa cubit.",
+      "iedMm": 20,
+      "reference": "On/around the wrist",
+      "posture": "Sitting on a chair with the elbow flexed at a right angle and the dorsal side of the forearm horizontal, facing downwards.",
+      "test": "Cushion the elbow with one hand; flex the elbow slightly below or at a right angle with the forearm supinated. Press against the forearm toward extension.",
+      "sourceUrl": "http://seniam.org/bicepsbrachii.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ArmHandLoc01_large.gif",
+      "th": {
+        "placement": "บนเส้นจากอะโครเมียนด้านในถึงคิวบิทัลฟอสซา ที่ 1 ใน 3 จากคิวบิทัลฟอสซา",
+        "orientation": "ตามแนวเส้นจากอะโครเมียนถึงคิวบิทัลฟอสซา",
+        "reference": "ที่ข้อมือ",
+        "posture": "นั่ง งอศอกมุมฉาก หลังปลายแขนราบหงายลง",
+        "test": "งอศอกที่มุมฉากหรือต่ำกว่าเล็กน้อยโดยหงายฝ่ามือ ต้านที่ปลายแขนไปทางเหยียด"
+      }
+    },
+    {
+      "id": "triceps-brachii-long",
+      "muscle": "Triceps brachii",
+      "subdivision": "long head",
+      "region": "arm-hand",
+      "matchNames": [
+        "long head of triceps brachii",
+        "triceps brachii"
+      ],
+      "landmarks": [
+        "posterior crista of the acromion",
+        "olecranon"
+      ],
+      "placement": "At 50% on the line between the posterior crista of the acromion and the olecranon, 2 finger widths medial to the line.",
+      "orientation": "In the direction of the line between the posterior crista of the acromion and the olecranon.",
+      "iedMm": 20,
+      "reference": "On/around the wrist",
+      "posture": "Sitting with the shoulder at about 90 degrees abduction, the arm flexed 90 degrees, palm pointing downwards.",
+      "test": "Extend the elbow while applying pressure to the forearm in the direction of flexion.",
+      "sourceUrl": "http://seniam.org/tricepsbrachiilonghead.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ArmHandLoc02_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน เยื้องเข้าด้านในสองนิ้วมือ",
+        "orientation": "ตามแนวเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน",
+        "reference": "ที่ข้อมือ",
+        "posture": "นั่ง กางไหล่ประมาณ 90 องศา งอศอก 90 องศา ฝ่ามือคว่ำลง",
+        "test": "เหยียดศอกต้านแรงกดที่ปลายแขนไปทางงอ"
+      }
+    },
+    {
+      "id": "triceps-brachii-lateral",
+      "muscle": "Triceps brachii",
+      "subdivision": "lateral head",
+      "region": "arm-hand",
+      "matchNames": [
+        "lateral head of triceps brachii",
+        "triceps brachii"
+      ],
+      "landmarks": [
+        "posterior crista of the acromion",
+        "olecranon"
+      ],
+      "placement": "At 50% on the line between the posterior crista of the acromion and the olecranon, 2 finger widths lateral to the line.",
+      "orientation": "In the direction of the line between the posterior crista of the acromion and the olecranon.",
+      "iedMm": 20,
+      "reference": "On/around the wrist",
+      "posture": "Sitting with the shoulder at about 90 degrees abduction, the arm flexed 90 degrees, palm pointing downwards.",
+      "test": "Extend the elbow while applying pressure to the forearm in the direction of flexion.",
+      "sourceUrl": "http://seniam.org/tricepsbrachiilateralhead.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/ArmHandLoc03_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน เยื้องออกด้านนอกสองนิ้วมือ",
+        "orientation": "ตามแนวเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน",
+        "reference": "ที่ข้อมือ",
+        "posture": "นั่ง กางไหล่ประมาณ 90 องศา งอศอก 90 องศา ฝ่ามือคว่ำลง",
+        "test": "เหยียดศอกต้านแรงกดที่ปลายแขนไปทางงอ"
+      }
+    },
+    {
+      "id": "gluteus-maximus",
+      "muscle": "Gluteus maximus",
+      "subdivision": null,
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "gluteus maximus"
+      ],
+      "landmarks": [
+        "sacral vertebrae",
+        "greater trochanter"
+      ],
+      "placement": "At 50% on the line between the sacral vertebrae and the greater trochanter, at the greatest prominence, well above the visible bulge of the greater trochanter.",
+      "orientation": "In the direction of the line from the posterior superior iliac spine to the middle of the posterior aspect of the thigh.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7, on/around the wrist, or on/around the ankle",
+      "posture": "Prone position, lying down on a table.",
+      "test": "Lifting the complete leg against manual resistance.",
+      "sourceUrl": "http://seniam.org/gluteusmaximus.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc01_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากกระดูกกระเบนเหน็บถึงโทรแคนเตอร์ใหญ่ ตรงส่วนนูนสุด สูงกว่าแนวปุ่มกระดูกชัดเจน",
+        "orientation": "ตามแนวเส้นจากปุ่ม PSIS ถึงกลางต้นขาด้านหลัง",
+        "reference": "ที่ปุ่มสไปนัส C7 ที่ข้อมือ หรือที่ข้อเท้า",
+        "posture": "นอนคว่ำบนเตียง",
+        "test": "ยกขาทั้งข้างขึ้นต้านแรงด้วยมือขณะนอนคว่ำ"
+      }
+    },
+    {
+      "id": "gluteus-medius",
+      "muscle": "Gluteus medius",
+      "subdivision": null,
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "gluteus medius"
+      ],
+      "landmarks": [
+        "crista iliaca",
+        "trochanter"
+      ],
+      "placement": "At 50% on the line from the crista iliaca to the trochanter.",
+      "orientation": "In the direction of the line from the crista iliaca to the trochanter.",
+      "iedMm": 20,
+      "reference": "On the proc. spin. of C7, on/around the wrist, or on/around the ankle",
+      "posture": "Lying on the side on a table.",
+      "test": "Lying on the side, spread the legs against manual resistance (holding the ankles).",
+      "sourceUrl": "http://seniam.org/gluteusmedius.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc02_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากสันกระดูกเชิงกรานถึงโทรแคนเตอร์",
+        "orientation": "ตามแนวเส้นจากสันกระดูกเชิงกรานถึงโทรแคนเตอร์",
+        "reference": "ที่ปุ่มสไปนัส C7 ที่ข้อมือ หรือที่ข้อเท้า",
+        "posture": "นอนตะแคงบนเตียง",
+        "test": "นอนตะแคงแล้วกางขาออกต้านแรง (จับข้อเท้าไว้)"
+      }
+    },
+    {
+      "id": "tensor-fasciae-latae",
+      "muscle": "Tensor fasciae latae",
+      "subdivision": null,
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "tensor fasciae latae",
+        "tensor fascia lata"
+      ],
+      "landmarks": [
+        "anterior spina iliaca superior",
+        "lateral femoral condyle"
+      ],
+      "placement": "On the line from the anterior spina iliaca superior to the lateral femoral condyle, in the proximal 1/6.",
+      "orientation": "In the direction of the line from the anterior spina iliaca superior to the lateral femoral condyle.",
+      "iedMm": 20,
+      "reference": "On/around the wrist",
+      "posture": "Lying on the side on a table.",
+      "test": "Lift and abduct the leg against manual resistance.",
+      "sourceUrl": "http://seniam.org/tensorfasciaelatae.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc03_large.gif",
+      "th": {
+        "placement": "บนเส้นจากปุ่ม ASIS ถึงคอนไดล์ต้นขาด้านนอก ภายในหนึ่งในหกส่วนบน",
+        "orientation": "ตามแนวเส้นจากปุ่ม ASIS ถึงคอนไดล์ต้นขาด้านนอก",
+        "reference": "ที่ข้อมือ",
+        "posture": "นอนตะแคงบนเตียง",
+        "test": "ยกและกางขาออกต้านแรง"
+      }
+    },
+    {
+      "id": "rectus-femoris",
+      "muscle": "Quadriceps femoris",
+      "subdivision": "rectus femoris",
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "rectus femoris"
+      ],
+      "landmarks": [
+        "anterior spina iliaca superior",
+        "superior part of the patella"
+      ],
+      "placement": "At 50% on the line from the anterior spina iliaca superior to the superior part of the patella.",
+      "orientation": "In the direction of the line from the anterior spina iliaca superior to the superior part of the patella.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Sitting on a table with the knees in slight flexion and the upper body slightly bent backward.",
+      "test": "Extend the knee without rotating the thigh while applying pressure against the leg above the ankle in the direction of flexion.",
+      "sourceUrl": "http://seniam.org/quadricepsfemorisrectusfemoris.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc04_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากปุ่ม ASIS ถึงขอบบนกระดูกสะบ้า",
+        "orientation": "ตามแนวเส้นจากปุ่ม ASIS ถึงขอบบนกระดูกสะบ้า",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง งอเข่าเล็กน้อย เอนตัวไปข้างหลังเล็กน้อย",
+        "test": "เหยียดเข่าโดยไม่หมุนต้นขา ต้านเหนือข้อเท้าไปทางงอ"
+      }
+    },
+    {
+      "id": "vastus-medialis",
+      "muscle": "Quadriceps femoris",
+      "subdivision": "vastus medialis",
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "vastus medialis"
+      ],
+      "landmarks": [
+        "anterior spina iliaca superior",
+        "medial ligament"
+      ],
+      "placement": "At 80% on the line between the anterior spina iliaca superior and the joint space in front of the anterior border of the medial ligament.",
+      "orientation": "Almost perpendicular to that line.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Sitting on a table with the knees in slight flexion and the upper body slightly bent backward.",
+      "test": "Extend the knee without rotating the thigh while applying pressure against the leg above the ankle in the direction of flexion.",
+      "sourceUrl": "http://www.seniam.org/quadricepsfemorisvastusmedialis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc05_large.gif",
+      "th": {
+        "placement": "ที่ร้อยละ 80 ของเส้นจากปุ่ม ASIS ถึงช่องข้อเข่าหน้าเอ็นด้านใน",
+        "orientation": "เกือบตั้งฉากกับเส้นดังกล่าว",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง งอเข่าเล็กน้อย เอนตัวไปข้างหลังเล็กน้อย",
+        "test": "เหยียดเข่าโดยไม่หมุนต้นขา ต้านเหนือข้อเท้าไปทางงอ"
+      }
+    },
+    {
+      "id": "vastus-lateralis",
+      "muscle": "Quadriceps femoris",
+      "subdivision": "vastus lateralis",
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "vastus lateralis"
+      ],
+      "landmarks": [
+        "anterior spina iliaca superior",
+        "lateral side of the patella"
+      ],
+      "placement": "At 2/3 on the line from the anterior spina iliaca superior to the lateral side of the patella.",
+      "orientation": "In the direction of the muscle fibres.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Sitting on a table with the knees in slight flexion and the upper body slightly bent backward.",
+      "test": "Extend the knee without rotating the thigh while applying pressure against the leg above the ankle in the direction of flexion.",
+      "sourceUrl": "http://seniam.org/quadricepsfemorisvastuslateralis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc06_large.gif",
+      "th": {
+        "placement": "ที่ 2 ใน 3 ของเส้นจากปุ่ม ASIS ถึงกระดูกสะบ้าด้านนอก",
+        "orientation": "ตามแนวเส้นใยกล้ามเนื้อ",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง งอเข่าเล็กน้อย เอนตัวไปข้างหลังเล็กน้อย",
+        "test": "เหยียดเข่าโดยไม่หมุนต้นขา ต้านเหนือข้อเท้าไปทางงอ"
+      }
+    },
+    {
+      "id": "biceps-femoris",
+      "muscle": "Biceps femoris",
+      "subdivision": "long and short head",
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "biceps femoris"
+      ],
+      "landmarks": [
+        "ischial tuberosity",
+        "lateral epicondyle of the tibia"
+      ],
+      "placement": "At 50% on the line between the ischial tuberosity and the lateral epicondyle of the tibia.",
+      "orientation": "In the direction of the line between the ischial tuberosity and the lateral epicondyle of the tibia.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Lying face down with the thigh on the table and the knees flexed to less than 90 degrees, thigh in slight lateral rotation and leg in slight lateral rotation.",
+      "test": "Press against the leg proximal to the ankle in the direction of knee extension.",
+      "sourceUrl": "http://seniam.org/bicepsfemoris.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc07_large.gif",
+      "alsoInclude": [
+        "long head of biceps femoris",
+        "short head of biceps femoris",
+        "long head of left biceps femoris",
+        "long head of right biceps femoris",
+        "short head of left biceps femoris",
+        "short head of right biceps femoris"
+      ],
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านนอก",
+        "orientation": "ตามแนวเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านนอก",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำหน้า ต้นขาแนบเตียง งอเข่าไม่เกิน 90 องศา หมุนต้นขาและขาออกด้านนอกเล็กน้อย",
+        "test": "กดขาเหนือข้อเท้าไปทางเหยียดเข่า"
+      }
+    },
+    {
+      "id": "semitendinosus",
+      "muscle": "Semitendinosus",
+      "subdivision": null,
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "semitendinosus",
+        "semimembranosus"
+      ],
+      "landmarks": [
+        "ischial tuberosity",
+        "medial epicondyle of the tibia"
+      ],
+      "placement": "At 50% on the line between the ischial tuberosity and the medial epicondyle of the tibia.",
+      "orientation": "In the direction of the line between the ischial tuberosity and the medial epicondyle of the tibia.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Lying face down with the thigh held down on the table in medial rotation and the leg medially rotated, knee flexed to less than 90 degrees.",
+      "test": "Press against the leg proximal to the ankle in the direction of knee extension.",
+      "sourceUrl": "http://seniam.org/semitendinosus.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/UpperLegLoc08_large.gif",
+      "th": {
+        "placement": "ที่กึ่งกลางเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านใน",
+        "orientation": "ตามแนวเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านใน",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำหน้า กดต้นขาแนบเตียงและหมุนเข้าด้านใน ขาหมุนเข้าด้านใน งอเข่าไม่เกิน 90 องศา",
+        "test": "กดขาเหนือข้อเท้าไปทางเหยียดเข่า"
+      }
+    },
+    {
+      "id": "tibialis-anterior",
+      "muscle": "Tibialis anterior",
+      "subdivision": null,
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "tibialis anterior"
+      ],
+      "landmarks": [
+        "tip of the fibula",
+        "tip of the medial malleolus"
+      ],
+      "placement": "At 1/3 on the line between the tip of the fibula and the tip of the medial malleolus.",
+      "orientation": "In the direction of the line between the tip of the fibula and the tip of the medial malleolus.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Supine or sitting.",
+      "test": "Support the leg just above the ankle with the ankle in dorsiflexion and the foot inverted without great-toe extension. Apply pressure against the medial, dorsal foot toward plantar flexion and eversion.",
+      "sourceUrl": "http://www.seniam.org/tibialisanterior.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerLegLoc01_large.gif",
+      "th": {
+        "placement": "ที่ 1 ใน 3 ของเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านใน ชิดด้านนอกสันแข้ง",
+        "orientation": "ตามแนวเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านใน",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นอนหงายหรือนั่ง",
+        "test": "กระดกข้อเท้าขึ้นและบิดเท้าเข้าด้านใน (นิ้วโป้งไม่เหยียด) กดต้านที่เท้าด้านในด้านบนไปทางกดปลายเท้าลงและบิดออกด้านนอก"
+      }
+    },
+    {
+      "id": "peroneus-longus",
+      "muscle": "Peroneus longus",
+      "subdivision": null,
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "fibularis longus",
+        "peroneus longus"
+      ],
+      "landmarks": [
+        "tip of the head of the fibula",
+        "tip of the lateral malleolus"
+      ],
+      "placement": "At 25% on the line between the tip of the head of the fibula and the tip of the lateral malleolus.",
+      "orientation": "In the direction of the line between the tip of the head of the fibula and the tip of the lateral malleolus.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Sitting with the extremity medially rotated.",
+      "test": "Support the leg above the ankle. Evert the foot with plantar flexion while applying pressure against the lateral border and sole toward inversion and dorsiflexion.",
+      "sourceUrl": "http://www.seniam.org/peroneuslongus.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerLegLoc02_large.gif",
+      "th": {
+        "placement": "ที่ร้อยละ 25 ของเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านนอก",
+        "orientation": "ตามแนวเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านนอก",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง หมุนขาเข้าด้านใน",
+        "test": "บิดเท้าออกด้านนอกพร้อมกดปลายเท้าลงเล็กน้อย ต้านที่ขอบเท้าด้านนอกและฝ่าเท้าไปทางบิดเข้าด้านในและกระดกขึ้น"
+      }
+    },
+    {
+      "id": "peroneus-brevis",
+      "muscle": "Peroneus brevis",
+      "subdivision": null,
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "fibularis brevis",
+        "peroneus brevis"
+      ],
+      "landmarks": [
+        "tip of the lateral malleolus",
+        "fibula head"
+      ],
+      "placement": "Anterior to the tendon of peroneus longus, at 25% of the line from the tip of the lateral malleolus to the fibula head. Hard to access from the surface; avoid crosstalk from nearby extensors.",
+      "orientation": "In the direction of the line from the tip of the lateral malleolus to the fibula head.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Sitting with the extremity medially rotated.",
+      "test": "Support the leg above the ankle. Evert the foot with plantar flexion while applying pressure against the lateral border and sole toward inversion and dorsiflexion.",
+      "sourceUrl": "http://www.seniam.org/peroneusbrevis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerLegLoc03_large.gif",
+      "th": {
+        "placement": "หน้าเอ็น peroneus longus ที่ร้อยละ 25 ของเส้นจากปลายตาตุ่มด้านนอกถึงหัวกระดูกน่อง กล้ามเนื้อนี้อยู่ลึกเข้าถึงยาก ระวังสัญญาณรบกวนจากกล้ามเนื้อข้างเคียง",
+        "orientation": "ตามแนวเส้นจากปลายตาตุ่มด้านนอกถึงหัวกระดูกน่อง",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง หมุนขาเข้าด้านใน",
+        "test": "บิดเท้าออกด้านนอกพร้อมกดปลายเท้าลงเล็กน้อย ต้านที่ขอบเท้าด้านนอกและฝ่าเท้าไปทางบิดเข้าด้านในและกระดกขึ้น"
+      }
+    },
+    {
+      "id": "soleus",
+      "muscle": "Soleus",
+      "subdivision": null,
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "soleus"
+      ],
+      "landmarks": [
+        "medial condylis of the femur",
+        "medial malleolus"
+      ],
+      "placement": "At 2/3 of the line between the medial condylis of the femur and the medial malleolus.",
+      "orientation": "In the direction of the line between the medial condylis and the medial malleolus.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Sitting with the knee about 90 degrees flexed and the heel on the floor.",
+      "test": "Hold/push the knee downward while the subject lifts the heel from the floor.",
+      "sourceUrl": "http://www.seniam.org/soleus.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerLegLoc04_large.gif",
+      "th": {
+        "placement": "ที่ 2 ใน 3 ของเส้นจากคอนไดล์ต้นขาด้านในถึงตาตุ่มด้านใน ใต้ก้อนน่อง",
+        "orientation": "ตามแนวเส้นจากคอนไดล์ต้นขาด้านในถึงตาตุ่มด้านใน",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง งอเข่าประมาณ 90 องศา ส้นเท้าแตะพื้น",
+        "test": "ใช้มือกดเข่าไว้แล้วยกส้นเท้าขึ้นจากพื้น"
+      }
+    },
+    {
+      "id": "gastrocnemius-medialis",
+      "muscle": "Gastrocnemius",
+      "subdivision": "medialis",
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "medial head of gastrocnemius",
+        "gastrocnemius"
+      ],
+      "landmarks": [
+        "medial femoral condyle",
+        "heel (calcaneus)"
+      ],
+      "placement": "On the most prominent bulge of the muscle.",
+      "orientation": "In the direction of the leg.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Lying face down with the knee extended and the foot projecting over the end of the table.",
+      "test": "Plantarflexion pulling the heel upward more than pushing the forefoot down, with pressure against both the forefoot and the calcaneus.",
+      "sourceUrl": "http://www.seniam.org/gastrocnemiusmedialis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerLegLoc05_large.gif",
+      "th": {
+        "placement": "ตรงส่วนนูนสุดของน่องด้านใน",
+        "orientation": "ตามแนวขา",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำหน้า เหยียดเข่าตรง ปลายเท้าล้นปลายเตียง",
+        "test": "กดปลายเท้าลงโดยดึงส้นเท้าขึ้นมากกว่ากดปลายเท้า ต้านทั้งที่ปลายเท้าและส้นเท้า"
+      }
+    },
+    {
+      "id": "gastrocnemius-lateralis",
+      "muscle": "Gastrocnemius",
+      "subdivision": "lateralis",
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "lateral head of gastrocnemius",
+        "gastrocnemius"
+      ],
+      "landmarks": [
+        "head of the fibula",
+        "heel (calcaneus)"
+      ],
+      "placement": "At 1/3 of the line between the head of the fibula and the heel.",
+      "orientation": "In the direction of the line between the head of the fibula and the heel.",
+      "iedMm": 20,
+      "reference": "On/around the ankle or the proc. spin. of C7",
+      "posture": "Lying face down with the knee extended and the foot projecting over the end of the table.",
+      "test": "Plantarflexion pulling the heel upward more than pushing the forefoot down, with pressure against both the forefoot and the calcaneus.",
+      "sourceUrl": "http://seniam.org/gastrocnemiuslateralis.html",
+      "standard": "SENIAM",
+      "imageUrl": "/images/seniam/LowerLegLoc06_large.gif",
+      "th": {
+        "placement": "ที่ 1 ใน 3 ของเส้นจากหัวกระดูกน่องถึงกระดูกส้นเท้า ตรงก้อนน่องด้านนอก",
+        "orientation": "ตามแนวเส้นจากหัวกระดูกน่องถึงกระดูกส้นเท้า",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำหน้า เหยียดเข่าตรง ปลายเท้าล้นปลายเตียง",
+        "test": "กดปลายเท้าลงโดยดึงส้นเท้าขึ้นมากกว่ากดปลายเท้า ต้านทั้งที่ปลายเท้าและส้นเท้า"
+      }
+    },
+    {
+      "id": "sternocleidomastoid",
+      "muscle": "Sternocleidomastoid",
+      "subdivision": null,
+      "region": "shoulder-neck",
+      "matchNames": [
+        "sternocleidomastoid"
+      ],
+      "landmarks": [
+        "mastoid process",
+        "sternal notch"
+      ],
+      "placement": "Lower third on the line from the mastoid process to the sternal notch, over the sternal head.",
+      "orientation": "Along the line from the mastoid process toward the sternum.",
+      "iedMm": 20,
+      "reference": "Mastoid process or wrist",
+      "posture": "Seated upright, head in neutral.",
+      "test": "Rotate the head to the opposite side against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "หนึ่งในสามล่างของเส้นจากปุ่มกกหูถึงจูกูลาร์นอทช์ ตรงมัด sternal",
+        "orientation": "ตามแนวเส้นจากปุ่มกกหูถึงกระดูกหน้าอก",
+        "reference": "ที่ปุ่มกกหูหรือข้อมือ",
+        "posture": "นั่งตัวตรง ศีรษะตรง",
+        "test": "หันศีรษะไปด้านตรงข้ามต้านแรง"
+      }
+    },
+    {
+      "id": "pectoralis-major",
+      "muscle": "Pectoralis major",
+      "subdivision": "clavicular",
+      "region": "shoulder-neck",
+      "matchNames": [
+        "clavicular part of pectoralis major"
+      ],
+      "landmarks": [
+        "clavicle",
+        "humerus"
+      ],
+      "placement": "Two to three centimetres below the clavicle at the mid-clavicular line, over the clavicular fibres.",
+      "orientation": "Toward the upper arm, along the fibre direction.",
+      "iedMm": 20,
+      "reference": "Acromion or spinous process of C7",
+      "posture": "Seated, arm relaxed at the side.",
+      "test": "Push the arm forward and inward against resistance (horizontal adduction).",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "alsoInclude": [
+        "sternocostal part of pectoralis major",
+        "abdominal part of pectoralis major",
+        "zone of pectoralis major",
+        "pectoralis major"
+      ],
+      "th": {
+        "placement": "ต่ำกว่ากระดูกไหปลาร้า 2-3 ซม. ที่แนวกึ่งกลางไหปลาร้า ตรงมัด clavicular",
+        "orientation": "ไปทางต้นแขน ตามแนวเส้นใย",
+        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง แขนพักข้างลำตัว",
+        "test": "ดันแขนไปข้างหน้าและเข้าด้านในต้านแรง"
+      }
+    },
+    {
+      "id": "serratus-anterior",
+      "muscle": "Serratus anterior",
+      "subdivision": null,
+      "region": "shoulder-neck",
+      "matchNames": [
+        "serratus anterior"
+      ],
+      "landmarks": [
+        "axilla",
+        "5th-6th rib"
+      ],
+      "placement": "On the mid-axillary line over the 5th-6th ribs, below the armpit.",
+      "orientation": "Along the rib direction toward the shoulder blade.",
+      "iedMm": 20,
+      "reference": "Spinous process or wrist",
+      "posture": "Seated, arm raised forward to shoulder height.",
+      "test": "Punch forward (protract the shoulder blade) against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ที่แนวรักแร้กลาง ตรงซี่โครงที่ 5-6 ใต้รักแร้",
+        "orientation": "ตามแนวซี่โครงไปกระดูกสะบัก",
+        "reference": "ที่ปุ่มกระดูกสันหลังหรือข้อมือ",
+        "posture": "นั่ง ยกแขนไปข้างหน้าระดับไหล่",
+        "test": "ชกไปข้างหน้า (ดันสะบักไปข้างหน้า) ต้านแรง"
+      }
+    },
+    {
+      "id": "rhomboid-major",
+      "muscle": "Rhomboid major",
+      "subdivision": null,
+      "region": "trunk-back",
+      "matchNames": [
+        "rhomboid major"
+      ],
+      "landmarks": [
+        "thoracic spine",
+        "medial scapular border"
+      ],
+      "placement": "Between the spine and the inner shoulder-blade border at T3-T4 level, clear of the trapezius.",
+      "orientation": "Obliquely from the spine toward the shoulder blade.",
+      "iedMm": 20,
+      "reference": "Spinous process of C7",
+      "posture": "Seated upright or prone.",
+      "test": "Squeeze the shoulder blades together against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "alsoInclude": [
+        "rhomboid minor"
+      ],
+      "th": {
+        "placement": "ระหว่างกระดูกสันหลังกับขอบในสะบัก ระดับ T3-T4 หลบกล้ามเนื้อ trapezius",
+        "orientation": "เฉียงจากกระดูกสันหลังไปกระดูกสะบัก",
+        "reference": "ที่ปุ่มสไปนัส C7",
+        "posture": "นั่งตัวตรงหรือนอนคว่ำ",
+        "test": "หนีบสะบักเข้าหากันต้านแรง"
+      }
+    },
+    {
+      "id": "infraspinatus",
+      "muscle": "Infraspinatus",
+      "subdivision": null,
+      "region": "shoulder-neck",
+      "matchNames": [
+        "infraspinatus"
+      ],
+      "landmarks": [
+        "scapular spine",
+        "axilla"
+      ],
+      "placement": "Below the scapular spine over the infrascapular fossa, about 4 cm under the spine midpoint.",
+      "orientation": "Toward the armpit, along the fibre direction.",
+      "iedMm": 20,
+      "reference": "Acromion or spinous process of C7",
+      "posture": "Seated, elbow tucked at the side and bent 90 degrees.",
+      "test": "Rotate the shoulder outward against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ใต้สันสะบัก ตรงแอ่งใต้กระดูกสะบัก ห่างสันสะบักประมาณ 4 ซม.",
+        "orientation": "ไปทางรักแร้ ตามแนวเส้นใย",
+        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง หนีบศอกข้างลำตัว งอศอก 90 องศา",
+        "test": "หมุนไหล่ออกด้านนอกต้านแรง"
+      }
+    },
+    {
+      "id": "supraspinatus",
+      "muscle": "Supraspinatus",
+      "subdivision": null,
+      "region": "shoulder-neck",
+      "matchNames": [
+        "supraspinatus"
+      ],
+      "landmarks": [
+        "acromion",
+        "neck"
+      ],
+      "placement": "Above the scapular spine over the suprascapular fossa, palpated medial to the acromion. Note: close to trapezius fibres; interpret with care.",
+      "orientation": "Along the fibre direction toward the shoulder.",
+      "iedMm": 20,
+      "reference": "Acromion or spinous process of C7",
+      "posture": "Seated, arm relaxed at the side.",
+      "test": "Lift the arm sideways through the first 30 degrees against light resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "เหนือสันสะบัก ตรงแอ่งเหนือกระดูกสะบัก ชิดด้านในอะโครเมียน ระวังสัญญาณจาก trapezius",
+        "orientation": "ตามแนวเส้นใยไปหัวไหล่",
+        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง แขนพักข้างลำตัว",
+        "test": "ยกแขนออกด้านข้างช่วง 30 องศาแรกต้านแรงเบาๆ"
+      }
+    },
+    {
+      "id": "brachioradialis",
+      "muscle": "Brachioradialis",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "brachioradialis"
+      ],
+      "landmarks": [
+        "lateral elbow",
+        "wrist"
+      ],
+      "placement": "Proximal third on the line from the lateral elbow toward the wrist, over the radial forearm.",
+      "orientation": "Along the line from the elbow toward the wrist.",
+      "iedMm": 20,
+      "reference": "Olecranon or wrist",
+      "posture": "Seated, elbow bent 90 degrees in neutral (thumb up).",
+      "test": "Bend the elbow in neutral against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "หนึ่งในสามส่วนบนของเส้นจากอีพิคอนไดล์ด้านนอกถึงข้อมือ ตรงปลายแขนด้านนิ้วโป้ง",
+        "orientation": "ตามแนวเส้นจากข้อศอกถึงข้อมือ",
+        "reference": "ที่โอเลครานอนหรือข้อมือ",
+        "posture": "นั่ง งอศอก 90 องศา ท่ากลาง (นิ้วโป้งชี้ขึ้น)",
+        "test": "งอศอกในท่ากลางต้านแรง"
+      }
+    },
+    {
+      "id": "flexor-carpi-radialis",
+      "muscle": "Flexor carpi radialis",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "flexor carpi radialis"
+      ],
+      "landmarks": [
+        "medial elbow",
+        "wrist"
+      ],
+      "placement": "Proximal third of the medial forearm below the elbow crease, over the muscle belly.",
+      "orientation": "Along the forearm toward the wrist.",
+      "iedMm": 20,
+      "reference": "Medial epicondyle or wrist",
+      "posture": "Seated, forearm supported, palm up.",
+      "test": "Bend the wrist up and toward the thumb against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "หนึ่งในสามส่วนบนของปลายแขนด้านในใต้คิวบิทัลฟอสซา ตรงก้อนกล้ามเนื้อ",
+        "orientation": "ตามแนวปลายแขนถึงข้อมือ",
+        "reference": "ที่อีพิคอนไดล์ด้านในหรือข้อมือ",
+        "posture": "นั่ง ปลายแขนวางราบ หงายฝ่ามือ",
+        "test": "งอข้อมือขึ้นและไปทางนิ้วโป้งต้านแรง"
+      }
+    },
+    {
+      "id": "flexor-carpi-ulnaris",
+      "muscle": "Flexor carpi ulnaris",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "humeral head of flexor carpi ulnaris",
+        "ulnar head of flexor carpi ulnaris"
+      ],
+      "landmarks": [
+        "medial elbow",
+        "ulna"
+      ],
+      "placement": "Along the ulna on the medial proximal forearm.",
+      "orientation": "Along the ulna toward the wrist.",
+      "iedMm": 20,
+      "reference": "Medial epicondyle or wrist",
+      "posture": "Seated, forearm supported, palm up.",
+      "test": "Bend the wrist down and toward the little finger against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ตามแนวกระดูกอัลนาที่ปลายแขนด้านในส่วนบน",
+        "orientation": "ตามแนวกระดูกอัลนาถึงข้อมือ",
+        "reference": "ที่อีพิคอนไดล์ด้านในหรือข้อมือ",
+        "posture": "นั่ง ปลายแขนวางราบ หงายฝ่ามือ",
+        "test": "งอข้อมือลงและไปทางนิ้วก้อยต้านแรง"
+      }
+    },
+    {
+      "id": "extensor-carpi-radialis",
+      "muscle": "Extensor carpi radialis",
+      "subdivision": "longus and brevis",
+      "region": "arm-hand",
+      "matchNames": [
+        "extensor carpi radialis longus",
+        "extensor carpi radialis brevis"
+      ],
+      "landmarks": [
+        "lateral elbow",
+        "wrist"
+      ],
+      "placement": "Proximal lateral forearm just below the lateral elbow.",
+      "orientation": "Along the forearm toward the wrist.",
+      "iedMm": 20,
+      "reference": "Lateral epicondyle or wrist",
+      "posture": "Seated, forearm supported, palm down.",
+      "test": "Extend the wrist toward the thumb side against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ปลายแขนด้านนอกส่วนบน ใต้ข้อศอกด้านนอกเล็กน้อย",
+        "orientation": "ตามแนวปลายแขนถึงข้อมือ",
+        "reference": "ที่อีพิคอนไดล์ด้านนอกหรือข้อมือ",
+        "posture": "นั่ง ปลายแขนวางราบ คว่ำฝ่ามือ",
+        "test": "เหยียดข้อมือไปทางนิ้วโป้งต้านแรง"
+      }
+    },
+    {
+      "id": "extensor-carpi-ulnaris",
+      "muscle": "Extensor carpi ulnaris",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "extensor carpi ulnaris"
+      ],
+      "landmarks": [
+        "lateral elbow",
+        "ulna"
+      ],
+      "placement": "Ulnar side of the dorsal proximal forearm.",
+      "orientation": "Along the forearm toward the wrist.",
+      "iedMm": 20,
+      "reference": "Lateral epicondyle or wrist",
+      "posture": "Seated, forearm supported, palm down.",
+      "test": "Extend the wrist toward the little-finger side against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ปลายแขนด้านหลังฝั่งกระดูกอัลนาส่วนบน",
+        "orientation": "ตามแนวปลายแขนถึงข้อมือ",
+        "reference": "ที่อีพิคอนไดล์ด้านนอกหรือข้อมือ",
+        "posture": "นั่ง ปลายแขนวางราบ คว่ำฝ่ามือ",
+        "test": "เหยียดข้อมือไปทางนิ้วก้อยต้านแรง"
+      }
+    },
+    {
+      "id": "extensor-digitorum-hand",
+      "muscle": "Extensor digitorum",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "extensor digitorum"
+      ],
+      "landmarks": [
+        "lateral elbow",
+        "wrist"
+      ],
+      "placement": "Middle third of the dorsal proximal forearm.",
+      "orientation": "Along the forearm toward the wrist.",
+      "iedMm": 20,
+      "reference": "Wrist",
+      "posture": "Seated, forearm supported, palm down.",
+      "test": "Straighten the fingers against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "alsoInclude": [
+        "extensor digiti minimi",
+        "left extensor digiti minimi",
+        "right extensor digiti minimi",
+        "extensor indicis",
+        "left extensor indicis",
+        "right extensor indicis",
+        "extensor pollicis longus",
+        "left extensor pollicis longus",
+        "right extensor pollicis longus",
+        "extensor pollicis brevis",
+        "left extensor pollicis brevis",
+        "right extensor pollicis brevis"
+      ],
+      "th": {
+        "placement": "หนึ่งในสามกลางของปลายแขนด้านหลังส่วนบน",
+        "orientation": "ตามแนวปลายแขนถึงข้อมือ",
+        "reference": "ที่ข้อมือ",
+        "posture": "นั่ง ปลายแขนวางราบ คว่ำฝ่ามือ",
+        "test": "เหยียดนิ้วมือต้านแรง"
+      }
+    },
+    {
+      "id": "pronator-teres",
+      "muscle": "Pronator teres",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "humeral head of pronator teres",
+        "ulnar head of pronator teres"
+      ],
+      "landmarks": [
+        "medial elbow",
+        "radius"
+      ],
+      "placement": "Medial proximal forearm just below the elbow crease.",
+      "orientation": "Obliquely from the medial elbow toward the mid-forearm.",
+      "iedMm": 20,
+      "reference": "Medial epicondyle or wrist",
+      "posture": "Seated, elbow bent 90 degrees.",
+      "test": "Rotate the palm downward against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ปลายแขนด้านในส่วนบน ใต้คิวบิทัลฟอสซาเล็กน้อย",
+        "orientation": "เฉียงจากข้อศอกด้านในไปกลางปลายแขน",
+        "reference": "ที่อีพิคอนไดล์ด้านในหรือข้อมือ",
+        "posture": "นั่ง งอศอก 90 องศา",
+        "test": "หมุนฝ่ามือคว่ำลงต้านแรง"
+      }
+    },
+    {
+      "id": "hypothenar",
+      "muscle": "Hypothenar (abductor digiti minimi)",
+      "subdivision": null,
+      "region": "arm-hand",
+      "matchNames": [
+        "abductor digiti minimi of hand",
+        "hypothenar muscle"
+      ],
+      "landmarks": [
+        "wrist",
+        "little finger"
+      ],
+      "placement": "Ulnar border of the palm over the hypothenar eminence. Use small electrodes.",
+      "orientation": "Along the palm toward the little finger.",
+      "iedMm": 7.5,
+      "reference": "Wrist",
+      "posture": "Seated, palm up and supported.",
+      "test": "Move the little finger away from the ring finger against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ขอบฝ่ามือด้านนิ้วก้อย ตรงเนิน hypothenar ใช้อิเล็กโทรดเล็ก",
+        "orientation": "ตามแนวฝ่ามือไปนิ้วก้อย",
+        "reference": "ที่ข้อมือ",
+        "posture": "นั่ง หงายฝ่ามือวางราบ",
+        "test": "กางนิ้วก้อยออกจากนิ้วนางต้านแรง"
+      }
+    },
+    {
+      "id": "rectus-abdominis",
+      "muscle": "Rectus abdominis",
+      "subdivision": null,
+      "region": "trunk-back",
+      "matchNames": [
+        "muscle of anterior abdominal wall",
+        "muscle of abdomen"
+      ],
+      "landmarks": [
+        "umbilicus",
+        "pubic symphysis"
+      ],
+      "placement": "Two to three centimetres lateral to the umbilicus, clear of the tendinous intersections.",
+      "orientation": "Vertical, parallel to the midline.",
+      "iedMm": 20,
+      "reference": "Iliac crest or wrist",
+      "posture": "Supine, knees slightly bent.",
+      "test": "Lift the shoulder blades slightly off the surface.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ห่างสะดือออกด้านข้าง 2-3 ซม. หลบแนวพังผืด",
+        "orientation": "แนวตั้ง ขนานแนวกึ่งกลาง",
+        "reference": "ที่สันกระดูกเชิงกรานหรือข้อมือ",
+        "posture": "นอนหงาย งอเข่าเล็กน้อย",
+        "test": "ยกสะบักขึ้นจากพื้นเล็กน้อย"
+      }
+    },
+    {
+      "id": "external-oblique",
+      "muscle": "External oblique",
+      "subdivision": null,
+      "region": "trunk-back",
+      "matchNames": [
+        "external oblique"
+      ],
+      "landmarks": [
+        "lowest rib",
+        "iliac crest"
+      ],
+      "placement": "Mid-axillary line midway between the lowest rib and the iliac crest.",
+      "orientation": "Obliquely from the ribs toward the pelvis, along the fibres.",
+      "iedMm": 20,
+      "reference": "Iliac crest or wrist",
+      "posture": "Supine or standing upright.",
+      "test": "Rotate the trunk to the opposite side against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ที่แนวรักแร้กลาง กึ่งกลางระหว่างชายโครงล่างสุดกับสันกระดูกเชิงกราน",
+        "orientation": "เฉียงจากซี่โครงไปเชิงกราน ตามแนวเส้นใย",
+        "reference": "ที่สันกระดูกเชิงกรานหรือข้อมือ",
+        "posture": "นอนหงายหรือยืนตัวตรง",
+        "test": "บิดลำตัวไปด้านตรงข้ามต้านแรง"
+      }
+    },
+    {
+      "id": "adductor-longus",
+      "muscle": "Adductor longus",
+      "subdivision": null,
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "adductor longus"
+      ],
+      "landmarks": [
+        "pubic tubercle",
+        "medial knee"
+      ],
+      "placement": "Medial thigh about 10 cm below the pubic tubercle, over the muscle belly.",
+      "orientation": "Along the thigh toward the inner knee.",
+      "iedMm": 20,
+      "reference": "Ankle or medial epicondyle",
+      "posture": "Supine, legs extended.",
+      "test": "Press the knees together against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ต้นขาด้านใน ต่ำกว่าปุ่มหัวหน่าวประมาณ 10 ซม. ตรงก้อนกล้ามเนื้อ",
+        "orientation": "ตามแนวต้นขาถึงเข่าด้านใน",
+        "reference": "ที่ข้อเท้าหรืออีพิคอนไดล์ด้านใน",
+        "posture": "นอนหงาย เหยียดขาตรง",
+        "test": "หนีบเข่าชิดกันต้านแรง"
+      }
+    },
+    {
+      "id": "gracilis",
+      "muscle": "Gracilis",
+      "subdivision": null,
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "gracilis"
+      ],
+      "landmarks": [
+        "pubis",
+        "medial knee"
+      ],
+      "placement": "Superficial strip on the medial thigh between the adductor mass and sartorius, at mid-thigh.",
+      "orientation": "Along the thigh toward the inner knee.",
+      "iedMm": 20,
+      "reference": "Ankle or medial epicondyle",
+      "posture": "Supine, legs extended.",
+      "test": "Press the knees together with a slight knee bend.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "แถบตื้นต้นขาด้านใน ระหว่างกลุ่ม adductor กับ sartorius กลางต้นขา",
+        "orientation": "ตามแนวต้นขาถึงเข่าด้านใน",
+        "reference": "ที่ข้อเท้าหรืออีพิคอนไดล์ด้านใน",
+        "posture": "นอนหงาย เหยียดขาตรง",
+        "test": "หนีบเข่าชิดกันพร้อมงอเข่าเล็กน้อย"
+      }
+    },
+    {
+      "id": "sartorius",
+      "muscle": "Sartorius",
+      "subdivision": null,
+      "region": "hip-upper-leg",
+      "matchNames": [
+        "sartorius"
+      ],
+      "landmarks": [
+        "anterior superior iliac spine",
+        "medial knee"
+      ],
+      "placement": "Diagonal from the anterior superior iliac spine toward the inner knee, upper third. Note: thin muscle; nearby quadriceps may crosstalk.",
+      "orientation": "Diagonally from the pelvis toward the inner knee.",
+      "iedMm": 20,
+      "reference": "Ankle or spinous process of C7",
+      "posture": "Supine.",
+      "test": "Lift the leg with the hip bent, turned out and the knee slightly bent.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "เฉียงจากปุ่ม ASIS ถึงเข่าด้านใน ช่วงหนึ่งในสามบน กล้ามเนื้อบาง ระวังสัญญาณจาก quadriceps",
+        "orientation": "เฉียงจากเชิงกรานถึงเข่าด้านใน",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นอนหงาย",
+        "test": "ยกขาพร้อมงอสะโพก หมุนออก และงอเข่าเล็กน้อย"
+      }
+    },
+    {
+      "id": "extensor-digitorum-longus",
+      "muscle": "Extensor digitorum longus",
+      "subdivision": null,
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "extensor digitorum longus"
+      ],
+      "landmarks": [
+        "fibular head",
+        "ankle"
+      ],
+      "placement": "Lateral to the tibial crest, about 5 cm below the fibular head.",
+      "orientation": "Along the leg toward the ankle.",
+      "iedMm": 20,
+      "reference": "Ankle or spinous process of C7",
+      "posture": "Seated, foot relaxed.",
+      "test": "Lift the toes and foot upward against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ด้านนอกสันแข้ง ต่ำกว่าหัวกระดูกน่องประมาณ 5 ซม.",
+        "orientation": "ตามแนวขาถึงข้อเท้า",
+        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง ปลายเท้าพักสบาย",
+        "test": "ยกนิ้วเท้าและเท้าขึ้นต้านแรง"
+      }
+    },
+    {
+      "id": "erector-spinae-thoracic",
+      "muscle": "Erector spinae",
+      "subdivision": "thoracic",
+      "region": "trunk-back",
+      "matchNames": [
+        "longissimus thoracis",
+        "iliocostalis thoracis"
+      ],
+      "landmarks": [
+        "T9 spinous process",
+        "lateral"
+      ],
+      "placement": "Three to five centimetres lateral to the T9 spinous process.",
+      "orientation": "Vertical, parallel to the spine.",
+      "iedMm": 20,
+      "reference": "Spinous process of C7",
+      "posture": "Prone.",
+      "test": "Lift the trunk from a prone position.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Standard clinical surface-EMG practice for thoracic paraspinals (paraphrased)",
+      "th": {
+        "placement": "ห่างปุ่มสไปนัส T9 ออกด้านข้าง 3-5 ซม.",
+        "orientation": "แนวตั้ง ขนานกระดูกสันหลัง",
+        "reference": "ที่ปุ่มสไปนัส C7",
+        "posture": "นอนคว่ำ",
+        "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      }
+    },
+    {
+      "id": "teres-major",
+      "muscle": "Teres major",
+      "subdivision": null,
+      "region": "shoulder-neck",
+      "matchNames": [
+        "teres major"
+      ],
+      "landmarks": [
+        "posterior armpit",
+        "upper arm"
+      ],
+      "placement": "Below the posterior armpit over the muscle belly, lateral to the shoulder-blade border. Note: latissimus dorsi lies close by; interpret with care.",
+      "orientation": "Toward the upper arm, along the fibre direction.",
+      "iedMm": 20,
+      "reference": "Acromion or spinous process of C7",
+      "posture": "Seated, arm relaxed at the side.",
+      "test": "Pull the elbow down and back against resistance (shoulder extension and adduction).",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Crams Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ใต้รักแร้หลัง ตรงก้อนกล้ามเนื้อด้านนอกขอบสะบัก ระวังกล้ามเนื้อ latissimus ใกล้กัน",
+        "orientation": "ไปทางต้นแขน ตามแนวเส้นใย",
+        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "posture": "นั่ง แขนพักข้างลำตัว",
+        "test": "ดึงศอกลงและไปข้างหลังต้านแรง (เหยียดและหุบไหล่)"
+      }
+    },
+    {
+      "id": "abductor-hallucis",
+      "muscle": "Abductor hallucis",
+      "subdivision": null,
+      "region": "lower-leg-foot",
+      "matchNames": [
+        "abductor hallucis"
+      ],
+      "landmarks": [
+        "inner ankle",
+        "big toe"
+      ],
+      "placement": "Medial border of the foot below the inner ankle, over the muscle belly. Use small electrodes.",
+      "orientation": "Along the foot toward the big toe.",
+      "iedMm": 10,
+      "reference": "Ankle",
+      "posture": "Seated, foot flat on the floor.",
+      "test": "Spread the big toe away from the other toes against resistance.",
+      "sourceUrl": "http://seniam.org/sensorlocation.htm",
+      "standard": "extended",
+      "citation": "Cram JR, Kasman GS, Holtz J. Crams Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
+      "th": {
+        "placement": "ขอบเท้าด้านในใต้ตาตุ่ม ตรงก้อนกล้ามเนื้อ ใช้อิเล็กโทรดเล็ก",
+        "orientation": "ตามแนวเท้าไปนิ้วโป้ง",
+        "reference": "ที่ข้อเท้า",
+        "posture": "นั่ง วางเท้าราบกับพื้น",
+        "test": "กางนิ้วโป้งออกจากนิ้วอื่นต้านแรง"
+      }
+    }
+  ]
+}

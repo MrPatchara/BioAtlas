@@ -1,0 +1,3829 @@
+{
+  "project": "Motion-capture marker sets (paraphrased summaries)",
+  "notice": "Marker placements in English and Thai are original paraphrased summaries of the Vicon Plug-in Gait model, the Helen Hayes/Davis model, BTS SMART-Clinic protocols, and the Rizzoli Foot Model. No third-party text, tables, or images are reproduced. Follow the official documentation for real captures. Educational reference only.",
+  "source": "Vicon Plug-in Gait Reference Guide, Vicon Motion Systems",
+  "accessed": "2026-09-08",
+  "markers": [
+    {
+      "id": "LASI",
+      "label": "Left ASIS",
+      "side": "left",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing; attach on the most prominent point and keep clothing clear of it.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.1452,
+        1.0115,
+        0.0393
+      ],
+      "snapGapMm": 2.1,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน ติดตรงจุดนูนสุดและเปิดเสื้อผ้าออก"
+    },
+    {
+      "id": "RASI",
+      "label": "Right ASIS",
+      "side": "right",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing; attach on the most prominent point and keep clothing clear of it.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.1463,
+        1.0114,
+        0.0395
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน ติดตรงจุดนูนสุดและเปิดเสื้อผ้าออก"
+    },
+    {
+      "id": "LPSI",
+      "label": "Left PSIS",
+      "side": "left",
+      "segment": "Pelvis",
+      "landmarks": [
+        "posterior superior iliac spine"
+      ],
+      "placement": "Over the back of the pelvis on the posterior superior iliac spine (the dimple above the buttock).",
+      "instruction": "Use all four pelvic markers when possible so tracking survives a single occlusion; a single sacral marker (SACR) is the documented alternative.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "psis",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.0283,
+        1.0194,
+        -0.097
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังเชิงกรานตรงปุ่ม PSIS (รอยบุ๋มเหนือก้น)",
+      "thInstruction": "ใช้มาร์กเกอร์เชิงกรานทั้งสี่ถ้าทำได้เพื่อให้รอดเมื่อบังหนึ่งจุด หรือใช้ sacral เดี่ยว (SACR) ตามเอกสาร"
+    },
+    {
+      "id": "RPSI",
+      "label": "Right PSIS",
+      "side": "right",
+      "segment": "Pelvis",
+      "landmarks": [
+        "posterior superior iliac spine"
+      ],
+      "placement": "Over the back of the pelvis on the posterior superior iliac spine (the dimple above the buttock).",
+      "instruction": "Use all four pelvic markers when possible so tracking survives a single occlusion; a single sacral marker (SACR) is the documented alternative.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "psis",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.0285,
+        1.0192,
+        -0.097
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังเชิงกรานตรงปุ่ม PSIS (รอยบุ๋มเหนือก้น)",
+      "thInstruction": "ใช้มาร์กเกอร์เชิงกรานทั้งสี่ถ้าทำได้เพื่อให้รอดเมื่อบังหนึ่งจุด หรือใช้ sacral เดี่ยว (SACR) ตามเอกสาร"
+    },
+    {
+      "id": "LTHI",
+      "label": "Left thigh wand",
+      "side": "left",
+      "segment": "Thigh",
+      "landmarks": [
+        "lateral thigh"
+      ],
+      "placement": "Over the lower lateral third of the thigh, off the muscle belly, at least two marker diameters above the knee marker, in the plane of the hip/knee centres and knee axis.",
+      "instruction": "Height is not critical but the anterior-posterior position is critical for the knee axis. Keep asymmetric with the right side.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "thighWand",
+      "frac": 0.25,
+      "outwardMm": 35,
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.155,
+        0.5689,
+        -0.0151
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่ต้นขาด้านนอกหนึ่งในสามล่าง หลบก้อนกล้ามเนื้อ สูงกว่ามาร์กเกอร์เข่าอย่างน้อยสองเท่าของเส้นผ่านศูนย์กลาง อยู่ในระนาบศูนย์สะโพก/เข่าและแกนเข่า",
+      "thInstruction": "ความสูงไม่สำคัญ แต่ตำแหน่งหน้าหลังสำคัญต่อแกนเข่า วางไม่สมมาตรกับข้างขวา"
+    },
+    {
+      "id": "RTHI",
+      "label": "Right thigh wand",
+      "side": "right",
+      "segment": "Thigh",
+      "landmarks": [
+        "lateral thigh"
+      ],
+      "placement": "Over the upper lateral third of the thigh (deliberately asymmetric with the left), off the muscle belly, in the plane of the hip/knee centres and knee axis.",
+      "instruction": "Height is not critical but the anterior-posterior position is critical for the knee axis. Keep asymmetric with the left side.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "thighWand",
+      "frac": 0.75,
+      "outwardMm": 35,
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.1797,
+        0.796,
+        -0.0164
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่ต้นขาด้านนอกหนึ่งในสามบน (จงใจไม่สมมาตรกับข้างซ้าย) หลบก้อนกล้ามเนื้อ อยู่ในระนาบศูนย์สะโพก/เข่าและแกนเข่า",
+      "thInstruction": "ความสูงไม่สำคัญ แต่ตำแหน่งหน้าหลังสำคัญต่อแกนเข่า วางไม่สมมาตรกับข้างซ้าย"
+    },
+    {
+      "id": "LKNE",
+      "label": "Left knee",
+      "side": "left",
+      "segment": "Knee",
+      "landmarks": [
+        "lateral femoral epicondyle"
+      ],
+      "placement": "On the knee flexion-extension axis at the lateral side: the skin point that moves least while passively flexing/extending the knee (about 1.5 cm above the joint line, midway front-back).",
+      "instruction": "Find the axis by moving the knee first and mark it with a pen; attach the marker on the pen mark.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "knee",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.1326,
+        0.506,
+        -0.0174
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่แกนงอ-เหยียดเข่าด้านนอก คือจุดผิวหนังที่ขยับน้อยสุดขณะงอ-เหยียดเข่าแบบ passive (สูงกว่าแนวข้อประมาณ 1.5 ซม. กึ่งกลางหน้าหลัง)",
+      "thInstruction": "หาแกนโดยขยับเข่าก่อนแล้วทำเครื่องหมายด้วยปากกา แล้วติดมาร์กเกอร์ทับจุดนั้น"
+    },
+    {
+      "id": "RKNE",
+      "label": "Right knee",
+      "side": "right",
+      "segment": "Knee",
+      "landmarks": [
+        "lateral femoral epicondyle"
+      ],
+      "placement": "On the knee flexion-extension axis at the lateral side: the skin point that moves least while passively flexing/extending the knee (about 1.5 cm above the joint line, midway front-back).",
+      "instruction": "Find the axis by moving the knee first and mark it with a pen; attach the marker on the pen mark.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "knee",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.1336,
+        0.5057,
+        -0.0176
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่แกนงอ-เหยียดเข่าด้านนอก คือจุดผิวหนังที่ขยับน้อยสุดขณะงอ-เหยียดเข่าแบบ passive (สูงกว่าแนวข้อประมาณ 1.5 ซม. กึ่งกลางหน้าหลัง)",
+      "thInstruction": "หาแกนโดยขยับเข่าก่อนแล้วทำเครื่องหมายด้วยปากกา แล้วติดมาร์กเกอร์ทับจุดนั้น"
+    },
+    {
+      "id": "LTIB",
+      "label": "Left shank wand",
+      "side": "left",
+      "segment": "Shank",
+      "landmarks": [
+        "lateral shank"
+      ],
+      "placement": "Over the lower third of the shank on the lateral side, in the plane of the knee/ankle centres and ankle axis (reflecting the transmalleolar axis).",
+      "instruction": "Keep asymmetric with the right side; the anterior-posterior position sets the ankle axis.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "shankWand",
+      "frac": 0.25,
+      "outwardMm": 30,
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.1215,
+        0.1699,
+        -0.0204
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่หน้าแข้งด้านนอกหนึ่งในสามล่าง อยู่ในระนาบศูนย์เข่า/ข้อเท้าและแกนข้อเท้า",
+      "thInstruction": "วางไม่สมมาตรกับข้างขวา ตำแหน่งหน้าหลังกำหนดแกนข้อเท้า"
+    },
+    {
+      "id": "RTIB",
+      "label": "Right shank wand",
+      "side": "right",
+      "segment": "Shank",
+      "landmarks": [
+        "lateral shank"
+      ],
+      "placement": "Over the upper third of the shank on the lateral side (deliberately asymmetric with the left), in the plane of the knee/ankle centres and ankle axis.",
+      "instruction": "Keep asymmetric with the left side; the anterior-posterior position sets the ankle axis.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "shankWand",
+      "frac": 0.75,
+      "outwardMm": 30,
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.1466,
+        0.3573,
+        -0.0135
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่หน้าแข้งด้านนอกหนึ่งในสามบน (จงใจไม่สมมาตรกับข้างซ้าย) อยู่ในระนาบศูนย์เข่า/ข้อเท้าและแกนข้อเท้า",
+      "thInstruction": "วางไม่สมมาตรกับข้างซ้าย ตำแหน่งหน้าหลังกำหนดแกนข้อเท้า"
+    },
+    {
+      "id": "LANK",
+      "label": "Left ankle",
+      "side": "left",
+      "segment": "Ankle",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "On the lateral malleolus (outer ankle bone), on the transmalleolar axis.",
+      "instruction": "Palpate the most prominent point of the outer ankle bone.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.112,
+        0.06,
+        -0.0371
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ตาตุ่มด้านนอก บนแกน transmalleolar",
+      "thInstruction": "คลำจุดนูนสุดของตาตุ่มด้านนอก"
+    },
+    {
+      "id": "RANK",
+      "label": "Right ankle",
+      "side": "right",
+      "segment": "Ankle",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "On the lateral malleolus (outer ankle bone), on the transmalleolar axis.",
+      "instruction": "Palpate the most prominent point of the outer ankle bone.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.1132,
+        0.0589,
+        -0.0374
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ตาตุ่มด้านนอก บนแกน transmalleolar",
+      "thInstruction": "คลำจุดนูนสุดของตาตุ่มด้านนอก"
+    },
+    {
+      "id": "LHEE",
+      "label": "Left heel",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "calcaneus"
+      ],
+      "placement": "On the back of the heel (calcaneus), at the same height above the ground as the toe marker.",
+      "instruction": "Match the height to the toe marker before capture.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heel",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.0762,
+        0.0356,
+        -0.0834
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังส้นเท้า (กระดูกส้นเท้า) สูงจากพื้นเท่ามาร์กเกอร์นิ้วเท้า",
+      "thInstruction": "ปรับความสูงให้เท่ามาร์กเกอร์นิ้วเท้าก่อนบันทึก"
+    },
+    {
+      "id": "RHEE",
+      "label": "Right heel",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "calcaneus"
+      ],
+      "placement": "On the back of the heel (calcaneus), at the same height above the ground as the toe marker.",
+      "instruction": "Match the height to the toe marker before capture.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heel",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.0768,
+        0.0356,
+        -0.0842
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังส้นเท้า (กระดูกส้นเท้า) สูงจากพื้นเท่ามาร์กเกอร์นิ้วเท้า",
+      "thInstruction": "ปรับความสูงให้เท่ามาร์กเกอร์นิ้วเท้าก่อนบันทึก"
+    },
+    {
+      "id": "LTOE",
+      "label": "Left toe",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "second metatarsal head"
+      ],
+      "placement": "Over the second metatarsal head, on the mid-foot side of the fore/mid-foot break.",
+      "instruction": "Bend the toes to feel the break between forefoot and midfoot; place just behind it.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "toe",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.1059,
+        0.0319,
+        0.0913
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หัวกระดูกฝ่าเท้าชิ้นที่ 2 ฝั่งกลางเท้าของรอยพับปลายเท้า",
+      "thInstruction": "งอนิ้วเท้าเพื่อหารอยพับระหว่างปลายเท้ากับกลางเท้า แล้วติดหลังรอยนั้นเล็กน้อย"
+    },
+    {
+      "id": "RTOE",
+      "label": "Right toe",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "second metatarsal head"
+      ],
+      "placement": "Over the second metatarsal head, on the mid-foot side of the fore/mid-foot break.",
+      "instruction": "Bend the toes to feel the break between forefoot and midfoot; place just behind it.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "toe",
+      "sets": [
+        "lower",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.106,
+        0.0319,
+        0.0915
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หัวกระดูกฝ่าเท้าชิ้นที่ 2 ฝั่งกลางเท้าของรอยพับปลายเท้า",
+      "thInstruction": "งอนิ้วเท้าเพื่อหารอยพับระหว่างปลายเท้ากับกลางเท้า แล้วติดหลังรอยนั้นเล็กน้อย"
+    },
+    {
+      "id": "LFHD",
+      "label": "Left front head",
+      "side": "left",
+      "segment": "Head",
+      "landmarks": [
+        "temple"
+      ],
+      "placement": "Over the left temple, roughly level with the outer eye corner.",
+      "instruction": "Attach on skin or a headband; keep symmetric in height with the right side.",
+      "bone": [
+        "frontal bone"
+      ],
+      "rule": "headFront",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.0236,
+        1.6695,
+        0.071
+      ],
+      "snapGapMm": 2.1,
+      "thPlacement": "ที่ขมับซ้าย ระดับเดียวกับหางตาโดยประมาณ",
+      "thInstruction": "ติดบนผิวหรือแถบคาดศีรษะ ให้ระดับสูงเท่าข้างขวา"
+    },
+    {
+      "id": "RFHD",
+      "label": "Right front head",
+      "side": "right",
+      "segment": "Head",
+      "landmarks": [
+        "temple"
+      ],
+      "placement": "Over the right temple, roughly level with the outer eye corner.",
+      "instruction": "Attach on skin or a headband; keep symmetric in height with the left side.",
+      "bone": [
+        "frontal bone"
+      ],
+      "rule": "headFront",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.0274,
+        1.6783,
+        0.0701
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ขมับขวา ระดับเดียวกับหางตาโดยประมาณ",
+      "thInstruction": "ติดบนผิวหรือแถบคาดศีรษะ ให้ระดับสูงเท่าข้างซ้าย"
+    },
+    {
+      "id": "LBHD",
+      "label": "Left back head",
+      "side": "left",
+      "segment": "Head",
+      "landmarks": [
+        "occiput"
+      ],
+      "placement": "On the back of the head, roughly level with the front head markers.",
+      "instruction": "Place in the headband line so front/back pairs stay level.",
+      "bone": [
+        "parietal bone",
+        "occipital bone"
+      ],
+      "rule": "headBack",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.0463,
+        1.6667,
+        -0.1102
+      ],
+      "snapGapMm": 2.1,
+      "thPlacement": "ที่หลังศีรษะ ระดับเดียวกับมาร์กเกอร์หน้าผากโดยประมาณ",
+      "thInstruction": "วางตามแนวแถบคาดให้คู่หน้า/หลังระดับเดียวกัน"
+    },
+    {
+      "id": "RBHD",
+      "label": "Right back head",
+      "side": "right",
+      "segment": "Head",
+      "landmarks": [
+        "occiput"
+      ],
+      "placement": "On the back of the head, roughly level with the front head markers.",
+      "instruction": "Place in the headband line so front/back pairs stay level.",
+      "bone": [
+        "parietal bone",
+        "occipital bone"
+      ],
+      "rule": "headBack",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.047,
+        1.6655,
+        -0.1099
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังศีรษะ ระดับเดียวกับมาร์กเกอร์หน้าผากโดยประมาณ",
+      "thInstruction": "วางตามแนวแถบคาดให้คู่หน้า/หลังระดับเดียวกัน"
+    },
+    {
+      "id": "C7",
+      "label": "C7",
+      "side": "midline",
+      "segment": "Torso",
+      "landmarks": [
+        "C7 spinous process"
+      ],
+      "placement": "On the spinous process of the 7th cervical vertebra (the bump at the base of the neck).",
+      "instruction": "Ask the subject to bend the neck forward to feel the prominent process.",
+      "bone": [
+        "seventh cervical vertebra"
+      ],
+      "rule": "spineProc",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.0011,
+        1.4617,
+        -0.0945
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ปุ่มสไปนัส C7 (ปุ่มที่โคนคอ)",
+      "thInstruction": "ให้ผู้ถูกวัดก้มคอเพื่อคลำปุ่มกระดูกที่นูน"
+    },
+    {
+      "id": "T10",
+      "label": "T10",
+      "side": "midline",
+      "segment": "Torso",
+      "landmarks": [
+        "T10 spinous process"
+      ],
+      "placement": "On the spinous process of the 10th thoracic vertebra.",
+      "instruction": "Count down from C7 or up from the sacrum to confirm the level.",
+      "bone": [
+        "tenth thoracic vertebra"
+      ],
+      "rule": "spineProc",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.0005,
+        1.2059,
+        -0.1006
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ปุ่มสไปนัส T10",
+      "thInstruction": "นับลงจาก C7 หรือนับขึ้นจากกระดูกกระเบนเหน็บเพื่อยืนยันระดับข้อ"
+    },
+    {
+      "id": "CLAV",
+      "label": "Clavicle notch",
+      "side": "midline",
+      "segment": "Torso",
+      "landmarks": [
+        "jugular notch"
+      ],
+      "placement": "At the jugular notch, the dip at the top of the breastbone between the collarbones.",
+      "instruction": "Attach on the skin over the notch, clear of necklaces.",
+      "bone": [
+        "body of sternum",
+        "sternum"
+      ],
+      "rule": "sternumTop",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.0095,
+        1.3569,
+        0.0919
+      ],
+      "snapGapMm": 1.9,
+      "thPlacement": "ที่จูกูลาร์นอทช์ แอ่งบนสุดของกระดูกหน้าอกระหว่างกระดูกไหปลาร้า",
+      "thInstruction": "ติดบนผิวตรงจูกูลาร์นอทช์ หลบสร้อยคอ"
+    },
+    {
+      "id": "STRN",
+      "label": "Sternum tip",
+      "side": "midline",
+      "segment": "Torso",
+      "landmarks": [
+        "xiphoid process"
+      ],
+      "placement": "At the xiphoid process, the bottom tip of the breastbone.",
+      "instruction": "Palpate gently downward along the sternum to the tip.",
+      "bone": [
+        "body of sternum",
+        "sternum"
+      ],
+      "rule": "sternumBottom",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.0001,
+        1.2578,
+        0.1142
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ลิ้นปี่ ปลายล่างสุดของกระดูกหน้าอก",
+      "thInstruction": "คลำเบาๆ ลงตามกระดูกหน้าอกถึงปลาย"
+    },
+    {
+      "id": "RBAK",
+      "label": "Right shoulder blade",
+      "side": "right",
+      "segment": "Torso",
+      "landmarks": [
+        "scapula"
+      ],
+      "placement": "Over the middle of the right shoulder blade.",
+      "instruction": "Right side only by design; the asymmetry helps auto-labelling tell left from right.",
+      "bone": [
+        "scapula"
+      ],
+      "rule": "scapulaMid",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.115,
+        1.3461,
+        -0.1366
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่กลางกระดูกสะบักขวา",
+      "thInstruction": "ออกแบบให้มีข้างขวาเท่านั้น ความไม่สมมาตรช่วยแยกซ้ายขวาอัตโนมัติ"
+    },
+    {
+      "id": "LSHO",
+      "label": "Left shoulder",
+      "side": "left",
+      "segment": "Shoulder",
+      "landmarks": [
+        "acromio-clavicular joint"
+      ],
+      "placement": "On the acromio-clavicular joint, the bump on top of the shoulder.",
+      "instruction": "Palpate the joint line between collarbone and shoulder blade.",
+      "bone": [
+        "clavicle"
+      ],
+      "rule": "acromion",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.1443,
+        1.4258,
+        -0.0031
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ข้ออะโครมิโอคลาวิคิวลาร์ ปุ่มบนหัวไหล่",
+      "thInstruction": "คลำแนวข้อระหว่างกระดูกไหปลาร้ากับสะบัก"
+    },
+    {
+      "id": "RSHO",
+      "label": "Right shoulder",
+      "side": "right",
+      "segment": "Shoulder",
+      "landmarks": [
+        "acromio-clavicular joint"
+      ],
+      "placement": "On the acromio-clavicular joint, the bump on top of the shoulder.",
+      "instruction": "Palpate the joint line between collarbone and shoulder blade.",
+      "bone": [
+        "clavicle"
+      ],
+      "rule": "acromion",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.1451,
+        1.4259,
+        -0.0035
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ข้ออะโครมิโอคลาวิคิวลาร์ ปุ่มบนหัวไหล่",
+      "thInstruction": "คลำแนวข้อระหว่างกระดูกไหปลาร้ากับสะบัก"
+    },
+    {
+      "id": "LUPA",
+      "label": "Left upper arm wand",
+      "side": "left",
+      "segment": "Upper arm",
+      "landmarks": [
+        "lateral upper arm"
+      ],
+      "placement": "Over the upper lateral third of the arm (deliberately asymmetric with the right). Optional, but improves tracking in dynamic trials.",
+      "instruction": "Keep off the muscle belly and asymmetric with the right side.",
+      "bone": [
+        "humerus"
+      ],
+      "rule": "armWand",
+      "frac": 0.75,
+      "outwardMm": 30,
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.2494,
+        1.3372,
+        -0.0274
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่ต้นแขนด้านนอกหนึ่งในสามบน (จงใจไม่สมมาตรกับข้างขวา) เป็นจุดเสริม ช่วยให้ติดตามขณะเคลื่อนไหวดีขึ้น",
+      "thInstruction": "หลบก้อนกล้ามเนื้อและวางไม่สมมาตรกับข้างขวา"
+    },
+    {
+      "id": "RUPA",
+      "label": "Right upper arm wand",
+      "side": "right",
+      "segment": "Upper arm",
+      "landmarks": [
+        "lateral upper arm"
+      ],
+      "placement": "Over the lower lateral third of the arm (deliberately asymmetric with the left). Optional, but improves tracking in dynamic trials.",
+      "instruction": "Keep off the muscle belly and asymmetric with the left side.",
+      "bone": [
+        "humerus"
+      ],
+      "rule": "armWand",
+      "frac": 0.25,
+      "outwardMm": 30,
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.2641,
+        1.1831,
+        -0.026
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่ต้นแขนด้านนอกหนึ่งในสามล่าง (จงใจไม่สมมาตรกับข้างซ้าย) เป็นจุดเสริม ช่วยให้ติดตามขณะเคลื่อนไหวดีขึ้น",
+      "thInstruction": "หลบก้อนกล้ามเนื้อและวางไม่สมมาตรกับข้างซ้าย"
+    },
+    {
+      "id": "LELB",
+      "label": "Left elbow",
+      "side": "left",
+      "segment": "Elbow",
+      "landmarks": [
+        "lateral epicondyle"
+      ],
+      "placement": "On the lateral epicondyle, approximating the elbow joint axis.",
+      "instruction": "Bend/straighten the elbow to feel the axis point on the outer side.",
+      "bone": [
+        "humerus"
+      ],
+      "rule": "elbow",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.2573,
+        1.1177,
+        -0.0162
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่อีพิคอนไดล์ด้านนอก ใกล้เคียงแกนข้อศอก",
+      "thInstruction": "งอ/เหยียดศอกเพื่อคลำจุดแกนด้านนอก"
+    },
+    {
+      "id": "RELB",
+      "label": "Right elbow",
+      "side": "right",
+      "segment": "Elbow",
+      "landmarks": [
+        "lateral epicondyle"
+      ],
+      "placement": "On the lateral epicondyle, approximating the elbow joint axis.",
+      "instruction": "Bend/straighten the elbow to feel the axis point on the outer side.",
+      "bone": [
+        "humerus"
+      ],
+      "rule": "elbow",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.2574,
+        1.1181,
+        -0.0146
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่อีพิคอนไดล์ด้านนอก ใกล้เคียงแกนข้อศอก",
+      "thInstruction": "งอ/เหยียดศอกเพื่อคลำจุดแกนด้านนอก"
+    },
+    {
+      "id": "LFRM",
+      "label": "Left forearm wand",
+      "side": "left",
+      "segment": "Forearm",
+      "landmarks": [
+        "lateral forearm"
+      ],
+      "placement": "Over the lower lateral third of the forearm. Optional, but improves tracking in dynamic trials.",
+      "instruction": "Keep asymmetric with the right side where possible.",
+      "bone": [
+        "radius"
+      ],
+      "rule": "forearmWand",
+      "frac": 0.25,
+      "outwardMm": 25,
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.2797,
+        0.946,
+        -0.0262
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่ปลายแขนด้านนอกหนึ่งในสามล่าง เป็นจุดเสริม ช่วยให้ติดตามขณะเคลื่อนไหวดีขึ้น",
+      "thInstruction": "วางไม่สมมาตรกับข้างขวาถ้าทำได้"
+    },
+    {
+      "id": "RFRM",
+      "label": "Right forearm wand",
+      "side": "right",
+      "segment": "Forearm",
+      "landmarks": [
+        "lateral forearm"
+      ],
+      "placement": "Over the lower lateral third of the forearm. Optional, but improves tracking in dynamic trials.",
+      "instruction": "Keep asymmetric with the left side where possible.",
+      "bone": [
+        "radius"
+      ],
+      "rule": "forearmWand",
+      "frac": 0.25,
+      "outwardMm": 25,
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.2824,
+        0.9461,
+        -0.0246
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ที่ปลายแขนด้านนอกหนึ่งในสามล่าง เป็นจุดเสริม ช่วยให้ติดตามขณะเคลื่อนไหวดีขึ้น",
+      "thInstruction": "วางไม่สมมาตรกับข้างซ้ายถ้าทำได้"
+    },
+    {
+      "id": "LWRA",
+      "label": "Left wrist A (thumb side)",
+      "side": "left",
+      "segment": "Wrist",
+      "landmarks": [
+        "radial styloid"
+      ],
+      "placement": "Thumb side of a bar worn on the back of the wrist, as close to the joint centre as possible.",
+      "instruction": "A wrist bar is recommended for axial-rotation tracking; loose markers also work.",
+      "bone": [
+        "radius"
+      ],
+      "rule": "wristA",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.2687,
+        0.895,
+        -0.0101
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ฝั่งนิ้วโป้งของแท่งบาร์ที่หลังข้อมือ ชิดศูนย์ข้อมากที่สุด",
+      "thInstruction": "แนะนำใช้แท่งบาร์ข้อมือเพื่อติดตามการหมุนตามแนวแกน ใช้มาร์กเกอร์ลอยก็ได้"
+    },
+    {
+      "id": "LWRB",
+      "label": "Left wrist B (little-finger side)",
+      "side": "left",
+      "segment": "Wrist",
+      "landmarks": [
+        "ulnar styloid"
+      ],
+      "placement": "Little-finger side of a bar worn on the back of the wrist, as close to the joint centre as possible.",
+      "instruction": "A wrist bar is recommended for axial-rotation tracking; loose markers also work.",
+      "bone": [
+        "ulna"
+      ],
+      "rule": "wristB",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.1562,
+        0.8794,
+        -0.0429
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ฝั่งนิ้วก้อยของแท่งบาร์ที่หลังข้อมือ ชิดศูนย์ข้อมากที่สุด",
+      "thInstruction": "แนะนำใช้แท่งบาร์ข้อมือเพื่อติดตามการหมุนตามแนวแกน ใช้มาร์กเกอร์ลอยก็ได้"
+    },
+    {
+      "id": "RWRA",
+      "label": "Right wrist A (thumb side)",
+      "side": "right",
+      "segment": "Wrist",
+      "landmarks": [
+        "radial styloid"
+      ],
+      "placement": "Thumb side of a bar worn on the back of the wrist, as close to the joint centre as possible.",
+      "instruction": "A wrist bar is recommended for axial-rotation tracking; loose markers also work.",
+      "bone": [
+        "radius"
+      ],
+      "rule": "wristA",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.267,
+        0.8939,
+        -0.011
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ฝั่งนิ้วโป้งของแท่งบาร์ที่หลังข้อมือ ชิดศูนย์ข้อมากที่สุด",
+      "thInstruction": "แนะนำใช้แท่งบาร์ข้อมือเพื่อติดตามการหมุนตามแนวแกน ใช้มาร์กเกอร์ลอยก็ได้"
+    },
+    {
+      "id": "RWRB",
+      "label": "Right wrist B (little-finger side)",
+      "side": "right",
+      "segment": "Wrist",
+      "landmarks": [
+        "ulnar styloid"
+      ],
+      "placement": "Little-finger side of a bar worn on the back of the wrist, as close to the joint centre as possible.",
+      "instruction": "A wrist bar is recommended for axial-rotation tracking; loose markers also work.",
+      "bone": [
+        "ulna"
+      ],
+      "rule": "wristB",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.1569,
+        0.8795,
+        -0.0444
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ฝั่งนิ้วก้อยของแท่งบาร์ที่หลังข้อมือ ชิดศูนย์ข้อมากที่สุด",
+      "thInstruction": "แนะนำใช้แท่งบาร์ข้อมือเพื่อติดตามการหมุนตามแนวแกน ใช้มาร์กเกอร์ลอยก็ได้"
+    },
+    {
+      "id": "LFIN",
+      "label": "Left finger",
+      "side": "left",
+      "segment": "Hand",
+      "landmarks": [
+        "third metacarpal head"
+      ],
+      "placement": "Just beyond the middle knuckle of the hand.",
+      "instruction": "Make a loose fist to locate the knuckle, then place just past it.",
+      "bone": [
+        "third metacarpal bone"
+      ],
+      "rule": "finger",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        0.2626,
+        0.8305,
+        0.05
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "เลยข้อนิ้วกลางมือไปเล็กน้อย",
+      "thInstruction": "กำมือหลวมๆ เพื่อหาข้อนิ้ว แล้วติดเลยข้อนั้นไปเล็กน้อย"
+    },
+    {
+      "id": "RFIN",
+      "label": "Right finger",
+      "side": "right",
+      "segment": "Hand",
+      "landmarks": [
+        "third metacarpal head"
+      ],
+      "placement": "Just beyond the middle knuckle of the hand.",
+      "instruction": "Make a loose fist to locate the knuckle, then place just past it.",
+      "bone": [
+        "third metacarpal bone"
+      ],
+      "rule": "finger",
+      "sets": [
+        "upper",
+        "full"
+      ],
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "snap": [
+        -0.2616,
+        0.8306,
+        0.0505
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "เลยข้อนิ้วกลางมือไปเล็กน้อย",
+      "thInstruction": "กำมือหลวมๆ เพื่อหาข้อนิ้ว แล้วติดเลยข้อนั้นไปเล็กน้อย"
+    },
+    {
+      "id": "HH_LASI",
+      "label": "Left ASIS (HH)",
+      "side": "left",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing; the pelvis origin sits midway between the two ASIS markers.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        0.1452,
+        1.0115,
+        0.0393
+      ],
+      "snapGapMm": 2.1,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน จุดกำเนิดเชิงกรานอยู่กึ่งกลางระหว่างมาร์กเกอร์ ASIS สองข้าง"
+    },
+    {
+      "id": "HH_RASI",
+      "label": "Right ASIS (HH)",
+      "side": "right",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing; the pelvis origin sits midway between the two ASIS markers.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.1463,
+        1.0114,
+        0.0395
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน จุดกำเนิดเชิงกรานอยู่กึ่งกลางระหว่างมาร์กเกอร์ ASIS สองข้าง"
+    },
+    {
+      "id": "HH_SACR",
+      "label": "Sacrum (HH)",
+      "side": "midline",
+      "segment": "Pelvis",
+      "landmarks": [
+        "S2 vertebra"
+      ],
+      "placement": "Over the S2 vertebra, midway between the posterior dimples.",
+      "instruction": "Mark the midpoint between the PSIS dimples with the subject standing; mediolateral position matters for the pelvis plane.",
+      "bone": [
+        "sacrum"
+      ],
+      "rule": "sacr",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.0007,
+        0.9767,
+        -0.1131
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ตรงกระดูก S2 กึ่งกลางระหว่างรอยบุ๋มหลัง",
+      "thInstruction": "ทำเครื่องหมายกึ่งกลางระหว่างรอยบุ๋ม PSIS ขณะยืน ตำแหน่งด้านข้างสำคัญต่อระนาบเชิงกราน"
+    },
+    {
+      "id": "HH_LTHI",
+      "label": "Left thigh wand (HH)",
+      "side": "left",
+      "segment": "Thigh",
+      "landmarks": [
+        "lateral thigh"
+      ],
+      "placement": "Lateral mid-thigh on a wand, in line with the hip joint and knee marker.",
+      "instruction": "The anterior-posterior position defines the thigh plane and knee axis; confirm by watching knee flexion. Distal third reduces muscle-bulk motion.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "thighWand",
+      "frac": 0.5,
+      "outwardMm": 35,
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        0.1689,
+        0.68,
+        -0.0126
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ต้นขาด้านนอกกึ่งกลางบน wand อยู่ในแนวข้อสะโพกกับมาร์กเกอร์เข่า",
+      "thInstruction": "ตำแหน่งหน้าหลังกำหนดระนาบต้นขาและแกนเข่า ยืนยันโดยดูการงอเข่า ติดช่วงล่างลดการขยับจากก้อนกล้ามเนื้อ"
+    },
+    {
+      "id": "HH_RTHI",
+      "label": "Right thigh wand (HH)",
+      "side": "right",
+      "segment": "Thigh",
+      "landmarks": [
+        "lateral thigh"
+      ],
+      "placement": "Lateral mid-thigh on a wand, in line with the hip joint and knee marker.",
+      "instruction": "The anterior-posterior position defines the thigh plane and knee axis; confirm by watching knee flexion. Distal third reduces muscle-bulk motion.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "thighWand",
+      "frac": 0.5,
+      "outwardMm": 35,
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.17,
+        0.6801,
+        -0.0132
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "ต้นขาด้านนอกกึ่งกลางบน wand อยู่ในแนวข้อสะโพกกับมาร์กเกอร์เข่า",
+      "thInstruction": "ตำแหน่งหน้าหลังกำหนดระนาบต้นขาและแกนเข่า ยืนยันโดยดูการงอเข่า ติดช่วงล่างลดการขยับจากก้อนกล้ามเนื้อ"
+    },
+    {
+      "id": "HH_LKNE",
+      "label": "Left knee (HH)",
+      "side": "left",
+      "segment": "Knee",
+      "landmarks": [
+        "lateral femoral epicondyle"
+      ],
+      "placement": "On the lateral femoral epicondyle, at the skin point that moves least during passive knee motion.",
+      "instruction": "Move the knee passively, pen-mark the fixed point on the lateral side, and attach the marker there.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "knee",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        0.1326,
+        0.506,
+        -0.0174
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่อีพิคอนไดล์ต้นขาด้านนอก ตรงจุดผิวหนังที่ขยับน้อยสุดขณะขยับเข่าแบบ passive",
+      "thInstruction": "ขยับเข่าแบบ passive ทำเครื่องหมายจุดด้านนอกที่นิ่ง แล้วติดมาร์กเกอร์ตรงนั้น"
+    },
+    {
+      "id": "HH_RKNE",
+      "label": "Right knee (HH)",
+      "side": "right",
+      "segment": "Knee",
+      "landmarks": [
+        "lateral femoral epicondyle"
+      ],
+      "placement": "On the lateral femoral epicondyle, at the skin point that moves least during passive knee motion.",
+      "instruction": "Move the knee passively, pen-mark the fixed point on the lateral side, and attach the marker there.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "knee",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.1336,
+        0.5057,
+        -0.0176
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่อีพิคอนไดล์ต้นขาด้านนอก ตรงจุดผิวหนังที่ขยับน้อยสุดขณะขยับเข่าแบบ passive",
+      "thInstruction": "ขยับเข่าแบบ passive ทำเครื่องหมายจุดด้านนอกที่นิ่ง แล้วติดมาร์กเกอร์ตรงนั้น"
+    },
+    {
+      "id": "HH_LTIB",
+      "label": "Left shank wand (HH)",
+      "side": "left",
+      "segment": "Shank",
+      "landmarks": [
+        "lateral shank"
+      ],
+      "placement": "Lateral mid-shank on a wand, in the plane of the knee and ankle centres.",
+      "instruction": "Distal third placement reduces muscle-bulk motion; anterior-posterior position sets the ankle axis.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "shankWand",
+      "frac": 0.5,
+      "outwardMm": 30,
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        0.1357,
+        0.2627,
+        -0.0182
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "หน้าแข้งด้านนอกกึ่งกลางบน wand อยู่ในระนาบศูนย์เข่าและข้อเท้า",
+      "thInstruction": "ติดช่วงล่างลดการขยับจากก้อนกล้ามเนื้อ ตำแหน่งหน้าหลังกำหนดแกนข้อเท้า"
+    },
+    {
+      "id": "HH_RTIB",
+      "label": "Right shank wand (HH)",
+      "side": "right",
+      "segment": "Shank",
+      "landmarks": [
+        "lateral shank"
+      ],
+      "placement": "Lateral mid-shank on a wand, in the plane of the knee and ankle centres.",
+      "instruction": "Distal third placement reduces muscle-bulk motion; anterior-posterior position sets the ankle axis.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "shankWand",
+      "frac": 0.5,
+      "outwardMm": 30,
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.1368,
+        0.2626,
+        -0.0176
+      ],
+      "snapGapMm": 12,
+      "thPlacement": "หน้าแข้งด้านนอกกึ่งกลางบน wand อยู่ในระนาบศูนย์เข่าและข้อเท้า",
+      "thInstruction": "ติดช่วงล่างลดการขยับจากก้อนกล้ามเนื้อ ตำแหน่งหน้าหลังกำหนดแกนข้อเท้า"
+    },
+    {
+      "id": "HH_LANK",
+      "label": "Left ankle (HH)",
+      "side": "left",
+      "segment": "Ankle",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "On the lateral malleolus, on the transmalleolar axis.",
+      "instruction": "Palpate the most prominent point of the outer ankle bone.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        0.112,
+        0.06,
+        -0.0371
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ตาตุ่มด้านนอก บนแกน transmalleolar",
+      "thInstruction": "คลำจุดนูนสุดของตาตุ่มด้านนอก"
+    },
+    {
+      "id": "HH_RANK",
+      "label": "Right ankle (HH)",
+      "side": "right",
+      "segment": "Ankle",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "On the lateral malleolus, on the transmalleolar axis.",
+      "instruction": "Palpate the most prominent point of the outer ankle bone.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.1132,
+        0.0589,
+        -0.0374
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ตาตุ่มด้านนอก บนแกน transmalleolar",
+      "thInstruction": "คลำจุดนูนสุดของตาตุ่มด้านนอก"
+    },
+    {
+      "id": "HH_LTOE",
+      "label": "Left toe (HH)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "2nd-3rd metatarsal heads"
+      ],
+      "placement": "On the dorsum between the 2nd and 3rd metatarsal heads, just behind the toe joints.",
+      "instruction": "Bend the toes to feel the fore/mid-foot break; place just behind it.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "toe",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        0.1059,
+        0.0319,
+        0.0913
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังเท้าระหว่างหัวกระดูกฝ่าเท้าชิ้นที่ 2-3 หลังข้อนิ้วเท้าเล็กน้อย",
+      "thInstruction": "งอนิ้วเท้าเพื่อหารอยพับปลายเท้า/กลางเท้า แล้วติดหลังรอยนั้นเล็กน้อย"
+    },
+    {
+      "id": "HH_RTOE",
+      "label": "Right toe (HH)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "2nd-3rd metatarsal heads"
+      ],
+      "placement": "On the dorsum between the 2nd and 3rd metatarsal heads, just behind the toe joints.",
+      "instruction": "Bend the toes to feel the fore/mid-foot break; place just behind it.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "toe",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.106,
+        0.0319,
+        0.0915
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังเท้าระหว่างหัวกระดูกฝ่าเท้าชิ้นที่ 2-3 หลังข้อนิ้วเท้าเล็กน้อย",
+      "thInstruction": "งอนิ้วเท้าเพื่อหารอยพับปลายเท้า/กลางเท้า แล้วติดหลังรอยนั้นเล็กน้อย"
+    },
+    {
+      "id": "HH_LHEE",
+      "label": "Left heel (HH)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "calcaneus"
+      ],
+      "placement": "On the ball of the heel (calcaneus prominence).",
+      "instruction": "Heel plus toe markers allow tracking the foot segment, including the ankle frontal plane.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heel",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        0.0762,
+        0.0356,
+        -0.0834
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ก้อนส้นเท้า (ปุ่มกระดูกส้นเท้า)",
+      "thInstruction": "มาร์กเกอร์ส้น+ปลายเท้าช่วยติดตาม segment เท้า รวมถึงระนาบ frontal ของข้อเท้า"
+    },
+    {
+      "id": "HH_RHEE",
+      "label": "Right heel (HH)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "calcaneus"
+      ],
+      "placement": "On the ball of the heel (calcaneus prominence).",
+      "instruction": "Heel plus toe markers allow tracking the foot segment, including the ankle frontal plane.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heel",
+      "sets": [
+        "helen-hayes"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/markers.html",
+      "snap": [
+        -0.0768,
+        0.0356,
+        -0.0842
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ก้อนส้นเท้า (ปุ่มกระดูกส้นเท้า)",
+      "thInstruction": "มาร์กเกอร์ส้น+ปลายเท้าช่วยติดตาม segment เท้า รวมถึงระนาบ frontal ของข้อเท้า"
+    },
+    {
+      "id": "BTS_C7",
+      "label": "C7 spinous process",
+      "side": "midline",
+      "segment": "Torso",
+      "landmarks": [
+        "C7 spinous process"
+      ],
+      "placement": "On the spinous process of the 7th cervical vertebra.",
+      "instruction": "Bend the neck forward to feel the prominent process.",
+      "bone": [
+        "seventh cervical vertebra"
+      ],
+      "rule": "spineProc",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.0011,
+        1.4617,
+        -0.0945
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ปุ่มสไปนัส C7",
+      "thInstruction": "ก้มคอเพื่อคลำปุ่มกระดูกที่นูน"
+    },
+    {
+      "id": "BTS_LACR",
+      "label": "Acromion (left)",
+      "side": "left",
+      "segment": "Shoulder",
+      "landmarks": [
+        "acromio-clavicular joint"
+      ],
+      "placement": "On the acromio-clavicular joint, the bump on top of the shoulder.",
+      "instruction": "Palpate the joint line between collarbone and shoulder blade.",
+      "bone": [
+        "clavicle"
+      ],
+      "rule": "acromion",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.1443,
+        1.4258,
+        -0.0031
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ข้ออะโครมิโอคลาวิคิวลาร์ ปุ่มบนหัวไหล่",
+      "thInstruction": "คลำแนวข้อระหว่างกระดูกไหปลาร้ากับสะบัก"
+    },
+    {
+      "id": "BTS_LASI",
+      "label": "ASIS (left)",
+      "side": "left",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.1452,
+        1.0115,
+        0.0393
+      ],
+      "snapGapMm": 2.1,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน"
+    },
+    {
+      "id": "BTS_LTROC",
+      "label": "Greater trochanter (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "greater trochanter"
+      ],
+      "placement": "Over the greater trochanter on the lateral hip. Position is approximate on this model.",
+      "instruction": "Palpate the bony prominence on the outer hip with the subject standing.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "trochanter",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "approx": true,
+      "snap": [
+        0.1571,
+        0.8755,
+        -0.0207
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่โทรแคนเตอร์ใหญ่ด้านนอกสะโพก (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "คลำโทรแคนเตอร์ใหญ่ด้านนอกขณะยืน"
+    },
+    {
+      "id": "BTS_LKNE",
+      "label": "Knee (lateral epicondyle) (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral femoral epicondyle"
+      ],
+      "placement": "On the lateral femoral epicondyle, at the skin point moving least during passive knee motion.",
+      "instruction": "Move the knee passively and pen-mark the fixed lateral point first.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "knee",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.1326,
+        0.506,
+        -0.0174
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่อีพิคอนไดล์ต้นขาด้านนอก ตรงจุดผิวหนังที่ขยับน้อยสุดขณะขยับเข่าแบบ passive",
+      "thInstruction": "ขยับเข่าแบบ passive แล้วทำเครื่องหมายจุดด้านนอกที่นิ่งก่อน"
+    },
+    {
+      "id": "BTS_LFIB",
+      "label": "Fibular head (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "fibular head"
+      ],
+      "placement": "Over the most proximal-lateral point of the fibular head.",
+      "instruction": "Palpate just below the outer knee; the bony knob is the fibular head.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "fibularHead",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.1308,
+        0.4192,
+        -0.0371
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่จุดบน-นอกสุดของหัวกระดูกน่อง",
+      "thInstruction": "คลำใต้เข่าด้านนอกเล็กน้อย ปุ่มกระดูกคือหัวกระดูกน่อง"
+    },
+    {
+      "id": "BTS_LANK",
+      "label": "Ankle (lateral malleolus) (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "On the lateral malleolus, on the transmalleolar axis.",
+      "instruction": "Palpate the most prominent point of the outer ankle bone.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.112,
+        0.06,
+        -0.0371
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ตาตุ่มด้านนอก บนแกน transmalleolar",
+      "thInstruction": "คลำจุดนูนสุดของตาตุ่มด้านนอก"
+    },
+    {
+      "id": "BTS_LMTP5",
+      "label": "5th metatarsal joint (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "fifth metatarsophalangeal joint"
+      ],
+      "placement": "Over the fifth metatarsophalangeal joint on the outer forefoot.",
+      "instruction": "Bend the little toe to feel the joint line.",
+      "bone": [
+        "fifth metatarsal bone"
+      ],
+      "rule": "metHead5",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.1492,
+        0.0329,
+        0.0571
+      ],
+      "snapGapMm": 2.1,
+      "thPlacement": "ที่ข้อฝ่าเท้า-นิ้วก้อย (ข้อที่ 5) ด้านนอกปลายเท้า",
+      "thInstruction": "งอนิ้วก้อยเพื่อคลำแนวข้อ"
+    },
+    {
+      "id": "BTS_LHEE",
+      "label": "Heel (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "calcaneus"
+      ],
+      "placement": "On the back of the heel (calcaneus), level with the toe marker height.",
+      "instruction": "Match the height to the toe marker before capture.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heel",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.0762,
+        0.0356,
+        -0.0834
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังส้นเท้า (กระดูกส้นเท้า) ระดับเดียวกับมาร์กเกอร์นิ้วเท้า",
+      "thInstruction": "ปรับความสูงให้เท่ามาร์กเกอร์นิ้วเท้าก่อนบันทึก"
+    },
+    {
+      "id": "BTS_LTHIC",
+      "label": "Thigh cluster (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral thigh"
+      ],
+      "placement": "Strap-mounted cluster at the mid-lateral thigh.",
+      "instruction": "Fix the strap firmly mid-segment; used for dynamic tracking after static calibration.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "thighWand",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "frac": 0.5,
+      "outwardMm": 30,
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.1587,
+        0.6806,
+        -0.0112
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ชุด cluster รัดที่ต้นขาด้านนอกกึ่งกลาง",
+      "thInstruction": "รัดสายรัดให้แน่นกลางท่อน ใช้ติดตามขณะเคลื่อนไหวหลัง static calibration"
+    },
+    {
+      "id": "BTS_LSHC",
+      "label": "Shank cluster (left)",
+      "side": "left",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral shank"
+      ],
+      "placement": "Strap-mounted cluster at the mid-lateral shank.",
+      "instruction": "Fix the strap firmly mid-segment; used for dynamic tracking after static calibration.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "shankWand",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "frac": 0.5,
+      "outwardMm": 25,
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        0.1259,
+        0.2638,
+        -0.0205
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ชุด cluster รัดที่หน้าแข้งด้านนอกกึ่งกลาง",
+      "thInstruction": "รัดสายรัดให้แน่นกลางท่อน ใช้ติดตามขณะเคลื่อนไหวหลัง static calibration"
+    },
+    {
+      "id": "BTS_RACR",
+      "label": "Acromion (right)",
+      "side": "right",
+      "segment": "Shoulder",
+      "landmarks": [
+        "acromio-clavicular joint"
+      ],
+      "placement": "On the acromio-clavicular joint, the bump on top of the shoulder.",
+      "instruction": "Palpate the joint line between collarbone and shoulder blade.",
+      "bone": [
+        "clavicle"
+      ],
+      "rule": "acromion",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1451,
+        1.4259,
+        -0.0035
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ข้ออะโครมิโอคลาวิคิวลาร์ ปุ่มบนหัวไหล่",
+      "thInstruction": "คลำแนวข้อระหว่างกระดูกไหปลาร้ากับสะบัก"
+    },
+    {
+      "id": "BTS_RASI",
+      "label": "ASIS (right)",
+      "side": "right",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1463,
+        1.0114,
+        0.0395
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน"
+    },
+    {
+      "id": "BTS_RTROC",
+      "label": "Greater trochanter (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "greater trochanter"
+      ],
+      "placement": "Over the greater trochanter on the lateral hip. Position is approximate on this model.",
+      "instruction": "Palpate the bony prominence on the outer hip with the subject standing.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "trochanter",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "approx": true,
+      "snap": [
+        -0.1583,
+        0.8757,
+        -0.0211
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่โทรแคนเตอร์ใหญ่ด้านนอกสะโพก (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "คลำโทรแคนเตอร์ใหญ่ด้านนอกขณะยืน"
+    },
+    {
+      "id": "BTS_RKNE",
+      "label": "Knee (lateral epicondyle) (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral femoral epicondyle"
+      ],
+      "placement": "On the lateral femoral epicondyle, at the skin point moving least during passive knee motion.",
+      "instruction": "Move the knee passively and pen-mark the fixed lateral point first.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "knee",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1336,
+        0.5057,
+        -0.0176
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่อีพิคอนไดล์ต้นขาด้านนอก ตรงจุดผิวหนังที่ขยับน้อยสุดขณะขยับเข่าแบบ passive",
+      "thInstruction": "ขยับเข่าแบบ passive แล้วทำเครื่องหมายจุดด้านนอกที่นิ่งก่อน"
+    },
+    {
+      "id": "BTS_RFIB",
+      "label": "Fibular head (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "fibular head"
+      ],
+      "placement": "Over the most proximal-lateral point of the fibular head.",
+      "instruction": "Palpate just below the outer knee; the bony knob is the fibular head.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "fibularHead",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1324,
+        0.4187,
+        -0.0355
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่จุดบน-นอกสุดของหัวกระดูกน่อง",
+      "thInstruction": "คลำใต้เข่าด้านนอกเล็กน้อย ปุ่มกระดูกคือหัวกระดูกน่อง"
+    },
+    {
+      "id": "BTS_RANK",
+      "label": "Ankle (lateral malleolus) (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "On the lateral malleolus, on the transmalleolar axis.",
+      "instruction": "Palpate the most prominent point of the outer ankle bone.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1132,
+        0.0589,
+        -0.0374
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ตาตุ่มด้านนอก บนแกน transmalleolar",
+      "thInstruction": "คลำจุดนูนสุดของตาตุ่มด้านนอก"
+    },
+    {
+      "id": "BTS_RMTP5",
+      "label": "5th metatarsal joint (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "fifth metatarsophalangeal joint"
+      ],
+      "placement": "Over the fifth metatarsophalangeal joint on the outer forefoot.",
+      "instruction": "Bend the little toe to feel the joint line.",
+      "bone": [
+        "fifth metatarsal bone"
+      ],
+      "rule": "metHead5",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1502,
+        0.0331,
+        0.0547
+      ],
+      "snapGapMm": 1.9,
+      "thPlacement": "ที่ข้อฝ่าเท้า-นิ้วก้อย (ข้อที่ 5) ด้านนอกปลายเท้า",
+      "thInstruction": "งอนิ้วก้อยเพื่อคลำแนวข้อ"
+    },
+    {
+      "id": "BTS_RHEE",
+      "label": "Heel (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "calcaneus"
+      ],
+      "placement": "On the back of the heel (calcaneus), level with the toe marker height.",
+      "instruction": "Match the height to the toe marker before capture.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heel",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.0768,
+        0.0356,
+        -0.0842
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่หลังส้นเท้า (กระดูกส้นเท้า) ระดับเดียวกับมาร์กเกอร์นิ้วเท้า",
+      "thInstruction": "ปรับความสูงให้เท่ามาร์กเกอร์นิ้วเท้าก่อนบันทึก"
+    },
+    {
+      "id": "BTS_RTHIC",
+      "label": "Thigh cluster (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral thigh"
+      ],
+      "placement": "Strap-mounted cluster at the mid-lateral thigh.",
+      "instruction": "Fix the strap firmly mid-segment; used for dynamic tracking after static calibration.",
+      "bone": [
+        "femur"
+      ],
+      "rule": "thighWand",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "frac": 0.5,
+      "outwardMm": 30,
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1602,
+        0.68,
+        -0.0107
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ชุด cluster รัดที่ต้นขาด้านนอกกึ่งกลาง",
+      "thInstruction": "รัดสายรัดให้แน่นกลางท่อน ใช้ติดตามขณะเคลื่อนไหวหลัง static calibration"
+    },
+    {
+      "id": "BTS_RSHC",
+      "label": "Shank cluster (right)",
+      "side": "right",
+      "segment": "Lower limb",
+      "landmarks": [
+        "lateral shank"
+      ],
+      "placement": "Strap-mounted cluster at the mid-lateral shank.",
+      "instruction": "Fix the strap firmly mid-segment; used for dynamic tracking after static calibration.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "shankWand",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "frac": 0.5,
+      "outwardMm": 25,
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.1269,
+        0.2635,
+        -0.0198
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ชุด cluster รัดที่หน้าแข้งด้านนอกกึ่งกลาง",
+      "thInstruction": "รัดสายรัดให้แน่นกลางท่อน ใช้ติดตามขณะเคลื่อนไหวหลัง static calibration"
+    },
+    {
+      "id": "BTS_PSISMID",
+      "label": "PSIS midpoint",
+      "side": "midline",
+      "segment": "Pelvis",
+      "landmarks": [
+        "PSIS midpoint"
+      ],
+      "placement": "On the skin over the midpoint of the line joining the posterior dimples.",
+      "instruction": "Mark the midpoint between the PSIS dimples with the subject standing.",
+      "bone": [
+        "sacrum"
+      ],
+      "rule": "sacr",
+      "sets": [
+        "bts-davis"
+      ],
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "snap": [
+        -0.0007,
+        0.9767,
+        -0.1131
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ที่ผิวกึ่งกลางเส้นเชื่อมรอยบุ๋มหลังทั้งสอง",
+      "thInstruction": "ทำเครื่องหมายกึ่งกลางระหว่างรอยบุ๋ม PSIS ขณะยืน"
+    },
+    {
+      "id": "RCA",
+      "label": "Calcaneus posterior (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "calcaneus posterior"
+      ],
+      "placement": "Upper central ridge of the calcaneus posterior surface (Achilles attachment).",
+      "instruction": "Palpate the back of the heel upward to the Achilles insertion.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "calcPost",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.0763,
+        0.046,
+        -0.0808
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "สันกลางบนของผิวหลังกระดูกส้นเท้า (จุดเกาะเอ็นร้อยหวาย)",
+      "thInstruction": "คลำหลังส้นเท้าขึ้นถึงจุดเกาะเอ็นร้อยหวาย"
+    },
+    {
+      "id": "RST",
+      "label": "Sustentaculum tali (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "sustentaculum tali"
+      ],
+      "placement": "Lateral apex of the sustentaculum tali (inner ankle under the talus). Position is approximate on this model.",
+      "instruction": "Palpate below the inner ankle bone; confirm against the official diagram.",
+      "bone": [
+        "talus"
+      ],
+      "rule": "sustentaculum",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "approx": true,
+      "snap": [
+        -0.0457,
+        0.0569,
+        -0.0217
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายด้านนอกของ sustentaculum tali (ใต้ตาตุ่มด้านใน) (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "คลำใต้ตาตุ่มด้านใน เทียบกับภาพทางการ"
+    },
+    {
+      "id": "RPT",
+      "label": "Peroneal tubercle (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "peroneal tubercle"
+      ],
+      "placement": "Lateral apex of the peroneal tubercle on the outer heel. Position is approximate on this model.",
+      "instruction": "Palpate the small bump on the outer heel wall.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "peronealTub",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "approx": true,
+      "snap": [
+        -0.1083,
+        0.034,
+        -0.0448
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายด้านนอกของปุ่มเพอโรเนียลที่ส้นเท้าด้านนอก (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "คลำปุ่มเล็กผนังส้นเท้าด้านนอก"
+    },
+    {
+      "id": "RTN",
+      "label": "Navicular tuberosity (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "navicular tuberosity"
+      ],
+      "placement": "Most medial apex of the navicular tuberosity.",
+      "instruction": "Palpate the bump on the inner midfoot.",
+      "bone": [
+        "navicular bone of foot"
+      ],
+      "rule": "navicular",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.054,
+        0.0604,
+        0.0091
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายด้านในสุดของปุ่มกระดูกเนวิคิวลาร์",
+      "thInstruction": "คลำปุ่มกลางเท้าด้านใน"
+    },
+    {
+      "id": "RFMB",
+      "label": "1st metatarsal base (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "1st metatarsal base"
+      ],
+      "placement": "Base of the first metatarsal, dorso-medial aspect.",
+      "instruction": "Palpate the inner midfoot ridge back from the big-toe joint.",
+      "bone": [
+        "first metatarsal bone"
+      ],
+      "rule": "metBase1",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.0696,
+        0.0577,
+        0.0342
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "โคนกระดูกฝ่าเท้าชิ้นที่ 1 ด้านบนด้านใน",
+      "thInstruction": "คลำสันกลางเท้าด้านในถอยจากข้อนิ้วโป้ง"
+    },
+    {
+      "id": "RSMB",
+      "label": "2nd metatarsal base (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "2nd metatarsal base"
+      ],
+      "placement": "Base of the second metatarsal, dorsal aspect.",
+      "instruction": "Mid-dorsum of the foot, in line with the second toe.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "metBase2",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.1125,
+        0.0665,
+        0.0239
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "โคนกระดูกฝ่าเท้าชิ้นที่ 2 ด้านบน",
+      "thInstruction": "กลางหลังเท้า อยู่ในแนวเดียวกับนิ้วที่สอง"
+    },
+    {
+      "id": "RVMB",
+      "label": "5th metatarsal base (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "5th metatarsal base"
+      ],
+      "placement": "Base of the fifth metatarsal, dorsal aspect.",
+      "instruction": "Palpate the outer midfoot ridge.",
+      "bone": [
+        "fifth metatarsal bone"
+      ],
+      "rule": "metBase5",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.1417,
+        0.0287,
+        -0.0034
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "โคนกระดูกฝ่าเท้าชิ้นที่ 5 ด้านบน",
+      "thInstruction": "คลำสันกลางเท้าด้านนอก"
+    },
+    {
+      "id": "RFMH",
+      "label": "1st metatarsal head (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "1st metatarsal head"
+      ],
+      "placement": "Head of the first metatarsal, dorso-medial aspect of the joint.",
+      "instruction": "Bend the big toe to feel the joint.",
+      "bone": [
+        "first metatarsal bone"
+      ],
+      "rule": "metHead1",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.0841,
+        0.0413,
+        0.0833
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "หัวกระดูกฝ่าเท้าชิ้นที่ 1 ด้านบนด้านในของข้อ",
+      "thInstruction": "งอนิ้วโป้งเพื่อคลำข้อ"
+    },
+    {
+      "id": "RSMH",
+      "label": "2nd metatarsal head (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "2nd metatarsal head"
+      ],
+      "placement": "Head of the second metatarsal, dorsal aspect of the joint.",
+      "instruction": "Bend the second toe to feel the joint.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "metHead2",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.1005,
+        0.0469,
+        0.0813
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "หัวกระดูกฝ่าเท้าชิ้นที่ 2 ด้านบนของข้อ",
+      "thInstruction": "งอนิ้วที่สองเพื่อคลำข้อ"
+    },
+    {
+      "id": "RVMH",
+      "label": "5th metatarsal head (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "5th metatarsal head"
+      ],
+      "placement": "Head of the fifth metatarsal, dorso-lateral aspect of the joint.",
+      "instruction": "Bend the little toe to feel the joint.",
+      "bone": [
+        "fifth metatarsal bone"
+      ],
+      "rule": "metHead5",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.1502,
+        0.0331,
+        0.0547
+      ],
+      "snapGapMm": 1.9,
+      "thPlacement": "หัวกระดูกฝ่าเท้าชิ้นที่ 5 ด้านบนด้านนอกของข้อ",
+      "thInstruction": "งอนิ้วก้อยเพื่อคลำข้อ"
+    },
+    {
+      "id": "RPM",
+      "label": "Hallux (proximal phalanx) (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "hallux (proximal phalanx)"
+      ],
+      "placement": "Most distal-dorsal point of the hallux proximal phalanx. Position is approximate on this model.",
+      "instruction": "Just past the big-toe joint on top.",
+      "bone": [
+        "first metatarsal bone"
+      ],
+      "rule": "hallux",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "approx": true,
+      "snap": [
+        -0.0879,
+        0.0269,
+        0.1036
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "จุดปลายบนสุดของกระดูกนิ้วโป้งท่อนโคน (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "เลยข้อนิ้วโป้งไปด้านบนเล็กน้อย"
+    },
+    {
+      "id": "RLM",
+      "label": "Lateral malleolus (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "Distal apex of the lateral malleolus.",
+      "instruction": "Most prominent outer ankle point.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.1132,
+        0.0589,
+        -0.0374
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายล่างสุดของตาตุ่มด้านนอก",
+      "thInstruction": "จุดนูนสุดของข้อเท้าด้านนอก"
+    },
+    {
+      "id": "RHF",
+      "label": "Fibular head (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "fibular head"
+      ],
+      "placement": "Most proximal apex of the fibular head.",
+      "instruction": "Bony knob just below the outer knee.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "fibularHead",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.1324,
+        0.4187,
+        -0.0355
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายบนสุดของหัวกระดูกน่อง",
+      "thInstruction": "ปุ่มกระดูกใต้เข่าด้านนอก"
+    },
+    {
+      "id": "RTT",
+      "label": "Tibial tuberosity (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "tibial tuberosity"
+      ],
+      "placement": "Most anterior prominence of the tibial tuberosity.",
+      "instruction": "Bump below the kneecap on the front of the shin.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "tibialTub",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        -0.0726,
+        0.4141,
+        0.0161
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ส่วนนูนสุดด้านหน้าของปุ่มกระดูกแข้ง",
+      "thInstruction": "ปุ่มใต้กระดูกสะบ้าด้านหน้าแข้ง"
+    },
+    {
+      "id": "RMM",
+      "label": "Medial malleolus (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "medial malleolus"
+      ],
+      "placement": "Distal apex of the medial malleolus. Static calibration only; remove for dynamic trials.",
+      "instruction": "Most prominent inner ankle point.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "ankleMedial",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "calibrationOnly": true,
+      "snap": [
+        -0.0392,
+        0.0769,
+        -0.0181
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายล่างสุดของตาตุ่มด้านใน ใช้เฉพาะตอน static calibration ถอดออกตอนเก็บท่าเดิน",
+      "thInstruction": "จุดนูนสุดของข้อเท้าด้านใน"
+    },
+    {
+      "id": "RHL",
+      "label": "Heel ground projection (right)",
+      "side": "right",
+      "segment": "Foot",
+      "landmarks": [
+        "heel ground projection"
+      ],
+      "placement": "Projection of the calcaneus marker on the ground. Static calibration only; remove for dynamic trials.",
+      "instruction": "Vertically below the heel marker near ground level.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heelGround",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "calibrationOnly": true,
+      "snap": [
+        -0.0729,
+        0.0073,
+        -0.0548
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "จุดฉายของมาร์กเกอร์ส้นเท้าลงพื้น ใช้เฉพาะตอน static calibration ถอดออกตอนเก็บท่าเดิน",
+      "thInstruction": "ใต้มาร์กเกอร์ส้นเท้าตรงๆ ใกล้พื้น"
+    },
+    {
+      "id": "LCA",
+      "label": "Calcaneus posterior (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "calcaneus posterior"
+      ],
+      "placement": "Upper central ridge of the calcaneus posterior surface (Achilles attachment).",
+      "instruction": "Palpate the back of the heel upward to the Achilles insertion.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "calcPost",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.0757,
+        0.0457,
+        -0.08
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "สันกลางบนของผิวหลังกระดูกส้นเท้า (จุดเกาะเอ็นร้อยหวาย)",
+      "thInstruction": "คลำหลังส้นเท้าขึ้นถึงจุดเกาะเอ็นร้อยหวาย"
+    },
+    {
+      "id": "LST",
+      "label": "Sustentaculum tali (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "sustentaculum tali"
+      ],
+      "placement": "Lateral apex of the sustentaculum tali (inner ankle under the talus). Position is approximate on this model.",
+      "instruction": "Palpate below the inner ankle bone; confirm against the official diagram.",
+      "bone": [
+        "talus"
+      ],
+      "rule": "sustentaculum",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "approx": true,
+      "snap": [
+        0.0446,
+        0.0569,
+        -0.0215
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายด้านนอกของ sustentaculum tali (ใต้ตาตุ่มด้านใน) (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "คลำใต้ตาตุ่มด้านใน เทียบกับภาพทางการ"
+    },
+    {
+      "id": "LPT",
+      "label": "Peroneal tubercle (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "peroneal tubercle"
+      ],
+      "placement": "Lateral apex of the peroneal tubercle on the outer heel. Position is approximate on this model.",
+      "instruction": "Palpate the small bump on the outer heel wall.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "peronealTub",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "approx": true,
+      "snap": [
+        0.1075,
+        0.033,
+        -0.045
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายด้านนอกของปุ่มเพอโรเนียลที่ส้นเท้าด้านนอก (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "คลำปุ่มเล็กผนังส้นเท้าด้านนอก"
+    },
+    {
+      "id": "LTN",
+      "label": "Navicular tuberosity (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "navicular tuberosity"
+      ],
+      "placement": "Most medial apex of the navicular tuberosity.",
+      "instruction": "Palpate the bump on the inner midfoot.",
+      "bone": [
+        "navicular bone of foot"
+      ],
+      "rule": "navicular",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.0532,
+        0.0601,
+        0.0099
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายด้านในสุดของปุ่มกระดูกเนวิคิวลาร์",
+      "thInstruction": "คลำปุ่มกลางเท้าด้านใน"
+    },
+    {
+      "id": "LFMB",
+      "label": "1st metatarsal base (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "1st metatarsal base"
+      ],
+      "placement": "Base of the first metatarsal, dorso-medial aspect.",
+      "instruction": "Palpate the inner midfoot ridge back from the big-toe joint.",
+      "bone": [
+        "first metatarsal bone"
+      ],
+      "rule": "metBase1",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.0694,
+        0.0585,
+        0.0349
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "โคนกระดูกฝ่าเท้าชิ้นที่ 1 ด้านบนด้านใน",
+      "thInstruction": "คลำสันกลางเท้าด้านในถอยจากข้อนิ้วโป้ง"
+    },
+    {
+      "id": "LSMB",
+      "label": "2nd metatarsal base (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "2nd metatarsal base"
+      ],
+      "placement": "Base of the second metatarsal, dorsal aspect.",
+      "instruction": "Mid-dorsum of the foot, in line with the second toe.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "metBase2",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.1115,
+        0.066,
+        0.0241
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "โคนกระดูกฝ่าเท้าชิ้นที่ 2 ด้านบน",
+      "thInstruction": "กลางหลังเท้า อยู่ในแนวเดียวกับนิ้วที่สอง"
+    },
+    {
+      "id": "LVMB",
+      "label": "5th metatarsal base (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "5th metatarsal base"
+      ],
+      "placement": "Base of the fifth metatarsal, dorsal aspect.",
+      "instruction": "Palpate the outer midfoot ridge.",
+      "bone": [
+        "fifth metatarsal bone"
+      ],
+      "rule": "metBase5",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.1406,
+        0.0291,
+        -0.0031
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "โคนกระดูกฝ่าเท้าชิ้นที่ 5 ด้านบน",
+      "thInstruction": "คลำสันกลางเท้าด้านนอก"
+    },
+    {
+      "id": "LFMH",
+      "label": "1st metatarsal head (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "1st metatarsal head"
+      ],
+      "placement": "Head of the first metatarsal, dorso-medial aspect of the joint.",
+      "instruction": "Bend the big toe to feel the joint.",
+      "bone": [
+        "first metatarsal bone"
+      ],
+      "rule": "metHead1",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.0852,
+        0.0431,
+        0.0834
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "หัวกระดูกฝ่าเท้าชิ้นที่ 1 ด้านบนด้านในของข้อ",
+      "thInstruction": "งอนิ้วโป้งเพื่อคลำข้อ"
+    },
+    {
+      "id": "LSMH",
+      "label": "2nd metatarsal head (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "2nd metatarsal head"
+      ],
+      "placement": "Head of the second metatarsal, dorsal aspect of the joint.",
+      "instruction": "Bend the second toe to feel the joint.",
+      "bone": [
+        "second metatarsal bone"
+      ],
+      "rule": "metHead2",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.1,
+        0.0469,
+        0.0815
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "หัวกระดูกฝ่าเท้าชิ้นที่ 2 ด้านบนของข้อ",
+      "thInstruction": "งอนิ้วที่สองเพื่อคลำข้อ"
+    },
+    {
+      "id": "LVMH",
+      "label": "5th metatarsal head (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "5th metatarsal head"
+      ],
+      "placement": "Head of the fifth metatarsal, dorso-lateral aspect of the joint.",
+      "instruction": "Bend the little toe to feel the joint.",
+      "bone": [
+        "fifth metatarsal bone"
+      ],
+      "rule": "metHead5",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.1492,
+        0.0329,
+        0.0571
+      ],
+      "snapGapMm": 2.1,
+      "thPlacement": "หัวกระดูกฝ่าเท้าชิ้นที่ 5 ด้านบนด้านนอกของข้อ",
+      "thInstruction": "งอนิ้วก้อยเพื่อคลำข้อ"
+    },
+    {
+      "id": "LPM",
+      "label": "Hallux (proximal phalanx) (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "hallux (proximal phalanx)"
+      ],
+      "placement": "Most distal-dorsal point of the hallux proximal phalanx. Position is approximate on this model.",
+      "instruction": "Just past the big-toe joint on top.",
+      "bone": [
+        "first metatarsal bone"
+      ],
+      "rule": "hallux",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "approx": true,
+      "snap": [
+        0.0866,
+        0.0248,
+        0.1054
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "จุดปลายบนสุดของกระดูกนิ้วโป้งท่อนโคน (ตำแหน่งโดยประมาณในโมเดลนี้)",
+      "thInstruction": "เลยข้อนิ้วโป้งไปด้านบนเล็กน้อย"
+    },
+    {
+      "id": "LLM",
+      "label": "Lateral malleolus (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "lateral malleolus"
+      ],
+      "placement": "Distal apex of the lateral malleolus.",
+      "instruction": "Most prominent outer ankle point.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "ankle",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.112,
+        0.06,
+        -0.0371
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายล่างสุดของตาตุ่มด้านนอก",
+      "thInstruction": "จุดนูนสุดของข้อเท้าด้านนอก"
+    },
+    {
+      "id": "LHF",
+      "label": "Fibular head (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "fibular head"
+      ],
+      "placement": "Most proximal apex of the fibular head.",
+      "instruction": "Bony knob just below the outer knee.",
+      "bone": [
+        "fibula"
+      ],
+      "rule": "fibularHead",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.1308,
+        0.4192,
+        -0.0371
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายบนสุดของหัวกระดูกน่อง",
+      "thInstruction": "ปุ่มกระดูกใต้เข่าด้านนอก"
+    },
+    {
+      "id": "LTT",
+      "label": "Tibial tuberosity (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "tibial tuberosity"
+      ],
+      "placement": "Most anterior prominence of the tibial tuberosity.",
+      "instruction": "Bump below the kneecap on the front of the shin.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "tibialTub",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "snap": [
+        0.0722,
+        0.414,
+        0.0166
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ส่วนนูนสุดด้านหน้าของปุ่มกระดูกแข้ง",
+      "thInstruction": "ปุ่มใต้กระดูกสะบ้าด้านหน้าแข้ง"
+    },
+    {
+      "id": "LMM",
+      "label": "Medial malleolus (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "medial malleolus"
+      ],
+      "placement": "Distal apex of the medial malleolus. Static calibration only; remove for dynamic trials.",
+      "instruction": "Most prominent inner ankle point.",
+      "bone": [
+        "tibia"
+      ],
+      "rule": "ankleMedial",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "calibrationOnly": true,
+      "snap": [
+        0.0382,
+        0.077,
+        -0.0179
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "ปลายล่างสุดของตาตุ่มด้านใน ใช้เฉพาะตอน static calibration ถอดออกตอนเก็บท่าเดิน",
+      "thInstruction": "จุดนูนสุดของข้อเท้าด้านใน"
+    },
+    {
+      "id": "LHL",
+      "label": "Heel ground projection (left)",
+      "side": "left",
+      "segment": "Foot",
+      "landmarks": [
+        "heel ground projection"
+      ],
+      "placement": "Projection of the calcaneus marker on the ground. Static calibration only; remove for dynamic trials.",
+      "instruction": "Vertically below the heel marker near ground level.",
+      "bone": [
+        "calcaneus"
+      ],
+      "rule": "heelGround",
+      "sets": [
+        "rizzoli"
+      ],
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "calibrationOnly": true,
+      "snap": [
+        0.073,
+        0.0075,
+        -0.0545
+      ],
+      "snapGapMm": 2,
+      "thPlacement": "จุดฉายของมาร์กเกอร์ส้นเท้าลงพื้น ใช้เฉพาะตอน static calibration ถอดออกตอนเก็บท่าเดิน",
+      "thInstruction": "ใต้มาร์กเกอร์ส้นเท้าตรงๆ ใกล้พื้น"
+    },
+    {
+      "id": "RAB_LEAR",
+      "label": "Left ear",
+      "side": "left",
+      "segment": "Head",
+      "landmarks": [
+        "ear"
+      ],
+      "placement": "On the left ear (a helmet or hat may carry the head markers).",
+      "instruction": "Fix on a snug cap over the ear together with the head-top marker.",
+      "bone": [
+        "external ear",
+        "temporal bone"
+      ],
+      "rule": "ear",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.0643,
+        1.5914,
+        -0.0156
+      ],
+      "snapGapMm": 2.9,
+      "thPlacement": "ที่หูซ้าย (อาจติดมาร์กเกอร์บนหมวก)",
+      "thInstruction": "ติดบนหมวกกระชับเหนือหู พร้อมมาร์กเกอร์กลางกระหม่อม"
+    },
+    {
+      "id": "RAB_REAR",
+      "label": "Right ear",
+      "side": "right",
+      "segment": "Head",
+      "landmarks": [
+        "ear"
+      ],
+      "placement": "On the right ear (a helmet or hat may carry the head markers).",
+      "instruction": "Fix on a snug cap over the ear together with the head-top marker.",
+      "bone": [
+        "external ear",
+        "temporal bone"
+      ],
+      "rule": "ear",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.0657,
+        1.5914,
+        -0.0156
+      ],
+      "snapGapMm": 3,
+      "thPlacement": "ที่หูขวา (อาจติดมาร์กเกอร์บนหมวก)",
+      "thInstruction": "ติดบนหมวกกระชับเหนือหู พร้อมมาร์กเกอร์กลางกระหม่อม"
+    },
+    {
+      "id": "RAB_TPHD",
+      "label": "Top of head",
+      "side": "midline",
+      "segment": "Head",
+      "landmarks": [
+        "skull vertex"
+      ],
+      "placement": "On the top of the head.",
+      "instruction": "Place on the crown, in line with the ears.",
+      "bone": [
+        "skull"
+      ],
+      "rule": "headTop",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.0006,
+        1.7152,
+        -0.0136
+      ],
+      "snapGapMm": 2.8,
+      "thPlacement": "ที่กลางกระหม่อม",
+      "thInstruction": "วางกลางกระหม่อม อยู่ในแนวเดียวกับหู"
+    },
+    {
+      "id": "RAB_C7",
+      "label": "C7 spinous process",
+      "side": "midline",
+      "segment": "Torso",
+      "landmarks": [
+        "C7 spinous process"
+      ],
+      "placement": "On the spinous process of the 7th cervical vertebra.",
+      "instruction": "Bend the neck forward to feel the prominent process.",
+      "bone": [
+        "seventh cervical vertebra"
+      ],
+      "rule": "spineProc",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.0011,
+        1.4617,
+        -0.0945
+      ],
+      "snapGapMm": 14.9,
+      "thPlacement": "ที่ปุ่มสไปนัส C7",
+      "thInstruction": "ก้มคอเพื่อคลำปุ่มกระดูกที่นูน"
+    },
+    {
+      "id": "RAB_STRN",
+      "label": "Sternum (manubrium)",
+      "side": "midline",
+      "segment": "Torso",
+      "landmarks": [
+        "manubrium"
+      ],
+      "placement": "On the manubrium of the sternum.",
+      "instruction": "Palpate the broad upper breastbone below the jugular notch.",
+      "bone": [
+        "body of sternum",
+        "sternum"
+      ],
+      "rule": "sternumTop",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.0095,
+        1.3569,
+        0.0919
+      ],
+      "snapGapMm": 31.6,
+      "thPlacement": "ที่มานูเบรียมของกระดูกหน้าอก",
+      "thInstruction": "คลำกระดูกหน้าอกส่วนบนกว้างใต้จูกูลาร์นอทช์"
+    },
+    {
+      "id": "RAB_LASI",
+      "label": "ASIS (left)",
+      "side": "left",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.1452,
+        1.0115,
+        0.0393
+      ],
+      "snapGapMm": 1.6,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน"
+    },
+    {
+      "id": "RAB_LSHO",
+      "label": "Acromion (left)",
+      "side": "left",
+      "segment": "Shoulder",
+      "landmarks": [
+        "acromio-clavicular joint"
+      ],
+      "placement": "On the acromio-clavicular joint, a thin-tissue site on top of the shoulder.",
+      "instruction": "Palpate the joint line between collarbone and shoulder blade.",
+      "bone": [
+        "clavicle"
+      ],
+      "rule": "acromion",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.1443,
+        1.4258,
+        -0.0031
+      ],
+      "snapGapMm": 10.4,
+      "thPlacement": "ที่ข้ออะโครมิโอคลาวิคิวลาร์ บนหัวไหล่ ตรงเนื้อเยื่อบาง",
+      "thInstruction": "คลำแนวข้อระหว่างกระดูกไหปลาร้ากับสะบัก"
+    },
+    {
+      "id": "RAB_LELB",
+      "label": "Olecranon (left)",
+      "side": "left",
+      "segment": "Elbow",
+      "landmarks": [
+        "olecranon"
+      ],
+      "placement": "On the olecranon (tip of the elbow), a thin-tissue site.",
+      "instruction": "Bend the elbow to feel the point; avoid the hyper-extended (collinear) position.",
+      "bone": [
+        "humerus"
+      ],
+      "rule": "olecranon",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.1801,
+        1.1113,
+        -0.0546
+      ],
+      "snapGapMm": 13,
+      "thPlacement": "ที่โอเลครานอน (ปลายศอก) ตรงเนื้อเยื่อบาง",
+      "thInstruction": "งอศอกเพื่อคลำโอเลครานอน หลีกเลี่ยงท่าเหยียดเกิน (แนวตรง)"
+    },
+    {
+      "id": "RAB_LWRU",
+      "label": "Distal radius (left)",
+      "side": "left",
+      "segment": "Wrist",
+      "landmarks": [
+        "radial styloid"
+      ],
+      "placement": "On the radial styloid (thumb-side wrist bone), a thin-tissue site.",
+      "instruction": "Palpate the thumb-side wrist bump with the palm facing forward.",
+      "bone": [
+        "radius"
+      ],
+      "rule": "radialStyloid",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.2769,
+        0.8851,
+        -0.0023
+      ],
+      "snapGapMm": 6.2,
+      "thPlacement": "ที่ปุ่มสไตลอยด์ฝั่งนิ้วโป้ง ตรงเนื้อเยื่อบาง",
+      "thInstruction": "คลำปุ่มสไตลอยด์ฝั่งนิ้วโป้งโดยหันฝ่ามือไปข้างหน้า"
+    },
+    {
+      "id": "RAB_LWRR",
+      "label": "Distal ulna (left)",
+      "side": "left",
+      "segment": "Wrist",
+      "landmarks": [
+        "ulnar styloid"
+      ],
+      "placement": "On the ulnar styloid (little-finger-side wrist bone), a thin-tissue site.",
+      "instruction": "Palpate the little-finger-side wrist bump.",
+      "bone": [
+        "ulna"
+      ],
+      "rule": "ulnarStyloid",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.2236,
+        0.8934,
+        -0.0034
+      ],
+      "snapGapMm": 33.3,
+      "thPlacement": "ที่ปุ่มสไตลอยด์ฝั่งนิ้วก้อย ตรงเนื้อเยื่อบาง",
+      "thInstruction": "คลำปุ่มสไตลอยด์ฝั่งนิ้วก้อย"
+    },
+    {
+      "id": "RAB_LFIN",
+      "label": "Dorsal MCP3 (left)",
+      "side": "left",
+      "segment": "Hand",
+      "landmarks": [
+        "3rd metacarpophalangeal joint"
+      ],
+      "placement": "On the dorsal 3rd metacarpophalangeal joint (middle knuckle).",
+      "instruction": "Make a loose fist to locate the knuckle, then place on top.",
+      "bone": [
+        "third metacarpal bone"
+      ],
+      "rule": "mcpDorsal",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        0.2624,
+        0.8631,
+        0.0466
+      ],
+      "snapGapMm": 1.8,
+      "thPlacement": "ที่ข้อ MCP3 ด้านบน (ข้อนิ้วกลาง)",
+      "thInstruction": "กำมือหลวมๆ เพื่อหาข้อนิ้ว แล้วติดด้านบน"
+    },
+    {
+      "id": "RAB_RASI",
+      "label": "ASIS (right)",
+      "side": "right",
+      "segment": "Pelvis",
+      "landmarks": [
+        "anterior superior iliac spine"
+      ],
+      "placement": "Directly over the front of the pelvis on the bony prominence of the anterior superior iliac spine.",
+      "instruction": "Palpate the ASIS with the subject standing.",
+      "bone": [
+        "side of bony pelvis",
+        "bony pelvis",
+        "pelvis"
+      ],
+      "rule": "asis",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.1463,
+        1.0114,
+        0.0395
+      ],
+      "snapGapMm": 0.5,
+      "thPlacement": "ตรงหน้าเชิงกรานบนปุ่ม ASIS ที่นูนที่สุด",
+      "thInstruction": "คลำปุ่ม ASIS ขณะยืน"
+    },
+    {
+      "id": "RAB_RSHO",
+      "label": "Acromion (right)",
+      "side": "right",
+      "segment": "Shoulder",
+      "landmarks": [
+        "acromio-clavicular joint"
+      ],
+      "placement": "On the acromio-clavicular joint, a thin-tissue site on top of the shoulder.",
+      "instruction": "Palpate the joint line between collarbone and shoulder blade.",
+      "bone": [
+        "clavicle"
+      ],
+      "rule": "acromion",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.1451,
+        1.4259,
+        -0.0035
+      ],
+      "snapGapMm": 10.7,
+      "thPlacement": "ที่ข้ออะโครมิโอคลาวิคิวลาร์ บนหัวไหล่ ตรงเนื้อเยื่อบาง",
+      "thInstruction": "คลำแนวข้อระหว่างกระดูกไหปลาร้ากับสะบัก"
+    },
+    {
+      "id": "RAB_RELB",
+      "label": "Olecranon (right)",
+      "side": "right",
+      "segment": "Elbow",
+      "landmarks": [
+        "olecranon"
+      ],
+      "placement": "On the olecranon (tip of the elbow), a thin-tissue site.",
+      "instruction": "Bend the elbow to feel the point; avoid the hyper-extended (collinear) position.",
+      "bone": [
+        "humerus"
+      ],
+      "rule": "olecranon",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.1815,
+        1.1112,
+        -0.0545
+      ],
+      "snapGapMm": 11.7,
+      "thPlacement": "ที่โอเลครานอน (ปลายศอก) ตรงเนื้อเยื่อบาง",
+      "thInstruction": "งอศอกเพื่อคลำโอเลครานอน หลีกเลี่ยงท่าเหยียดเกิน (แนวตรง)"
+    },
+    {
+      "id": "RAB_RWRU",
+      "label": "Distal radius (right)",
+      "side": "right",
+      "segment": "Wrist",
+      "landmarks": [
+        "radial styloid"
+      ],
+      "placement": "On the radial styloid (thumb-side wrist bone), a thin-tissue site.",
+      "instruction": "Palpate the thumb-side wrist bump with the palm facing forward.",
+      "bone": [
+        "radius"
+      ],
+      "rule": "radialStyloid",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.2774,
+        0.8848,
+        -0.0029
+      ],
+      "snapGapMm": 5.9,
+      "thPlacement": "ที่ปุ่มสไตลอยด์ฝั่งนิ้วโป้ง ตรงเนื้อเยื่อบาง",
+      "thInstruction": "คลำปุ่มสไตลอยด์ฝั่งนิ้วโป้งโดยหันฝ่ามือไปข้างหน้า"
+    },
+    {
+      "id": "RAB_RWRR",
+      "label": "Distal ulna (right)",
+      "side": "right",
+      "segment": "Wrist",
+      "landmarks": [
+        "ulnar styloid"
+      ],
+      "placement": "On the ulnar styloid (little-finger-side wrist bone), a thin-tissue site.",
+      "instruction": "Palpate the little-finger-side wrist bump.",
+      "bone": [
+        "ulna"
+      ],
+      "rule": "ulnarStyloid",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.1668,
+        0.8791,
+        -0.0086
+      ],
+      "snapGapMm": 33.2,
+      "thPlacement": "ที่ปุ่มสไตลอยด์ฝั่งนิ้วก้อย ตรงเนื้อเยื่อบาง",
+      "thInstruction": "คลำปุ่มสไตลอยด์ฝั่งนิ้วก้อย"
+    },
+    {
+      "id": "RAB_RFIN",
+      "label": "Dorsal MCP3 (right)",
+      "side": "right",
+      "segment": "Hand",
+      "landmarks": [
+        "3rd metacarpophalangeal joint"
+      ],
+      "placement": "On the dorsal 3rd metacarpophalangeal joint (middle knuckle).",
+      "instruction": "Make a loose fist to locate the knuckle, then place on top.",
+      "bone": [
+        "third metacarpal bone"
+      ],
+      "rule": "mcpDorsal",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.2625,
+        0.8633,
+        0.0464
+      ],
+      "snapGapMm": 1.7,
+      "thPlacement": "ที่ข้อ MCP3 ด้านบน (ข้อนิ้วกลาง)",
+      "thInstruction": "กำมือหลวมๆ เพื่อหาข้อนิ้ว แล้วติดด้านบน"
+    },
+    {
+      "id": "RAB_SACR",
+      "label": "Sacrum",
+      "side": "midline",
+      "segment": "Pelvis",
+      "landmarks": [
+        "S2 vertebra"
+      ],
+      "placement": "Over the S2 vertebra, midway between the posterior dimples.",
+      "instruction": "Mark the midpoint between the PSIS dimples with the subject standing.",
+      "bone": [
+        "sacrum"
+      ],
+      "rule": "sacr",
+      "sets": [
+        "bts-upper"
+      ],
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "snap": [
+        -0.0007,
+        0.9767,
+        -0.1131
+      ],
+      "snapGapMm": 1.1,
+      "thPlacement": "ตรงกระดูก S2 กึ่งกลางระหว่างรอยบุ๋มหลัง",
+      "thInstruction": "ทำเครื่องหมายกึ่งกลางระหว่างรอยบุ๋ม PSIS ขณะยืน"
+    }
+  ],
+  "sets": [
+    {
+      "id": "lower",
+      "name": "Plug-in Gait · Lower body",
+      "description": "Plug-in Gait lower-body model: pelvis plus both legs (16 markers). A single sacral marker (SACR) may replace LPSI/RPSI.",
+      "markerIds": [
+        "LASI",
+        "RASI",
+        "LPSI",
+        "RPSI",
+        "LTHI",
+        "RTHI",
+        "LKNE",
+        "RKNE",
+        "LTIB",
+        "RTIB",
+        "LANK",
+        "RANK",
+        "LHEE",
+        "RHEE",
+        "LTOE",
+        "RTOE"
+      ],
+      "citation": "Vicon Plug-in Gait Reference Guide, Vicon Motion Systems (de-facto clinical standard; paraphrased summaries)",
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "descriptionTh": "โมเดลขาส่วนล่าง Plug-in Gait: เชิงกรานและขาทั้งสองข้าง (16 มาร์กเกอร์)"
+    },
+    {
+      "id": "upper",
+      "name": "Plug-in Gait · Upper body",
+      "description": "Plug-in Gait upper-body model: head, torso and both arms (23 markers, including optional UPA/FRM wands).",
+      "markerIds": [
+        "LFHD",
+        "RFHD",
+        "LBHD",
+        "RBHD",
+        "C7",
+        "T10",
+        "CLAV",
+        "STRN",
+        "RBAK",
+        "LSHO",
+        "RSHO",
+        "LUPA",
+        "RUPA",
+        "LELB",
+        "RELB",
+        "LFRM",
+        "RFRM",
+        "LWRA",
+        "LWRB",
+        "RWRA",
+        "RWRB",
+        "LFIN",
+        "RFIN"
+      ],
+      "citation": "Vicon Plug-in Gait Reference Guide, Vicon Motion Systems (de-facto clinical standard; paraphrased summaries)",
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "descriptionTh": "โมเดลบน Plug-in Gait: ศีรษะ ลำตัว และแขนทั้งสองข้าง รวม wand เสริม UPA/FRM (23 มาร์กเกอร์)"
+    },
+    {
+      "id": "full",
+      "name": "Plug-in Gait · Full body",
+      "description": "Plug-in Gait full-body model: lower plus upper sets combined (39 markers). Place wand markers asymmetrically to help auto-labelling.",
+      "markerIds": [
+        "LASI",
+        "RASI",
+        "LPSI",
+        "RPSI",
+        "LTHI",
+        "RTHI",
+        "LKNE",
+        "RKNE",
+        "LTIB",
+        "RTIB",
+        "LANK",
+        "RANK",
+        "LHEE",
+        "RHEE",
+        "LTOE",
+        "RTOE",
+        "LFHD",
+        "RFHD",
+        "LBHD",
+        "RBHD",
+        "C7",
+        "T10",
+        "CLAV",
+        "STRN",
+        "RBAK",
+        "LSHO",
+        "RSHO",
+        "LUPA",
+        "RUPA",
+        "LELB",
+        "RELB",
+        "LFRM",
+        "RFRM",
+        "LWRA",
+        "LWRB",
+        "RWRA",
+        "RWRB",
+        "LFIN",
+        "RFIN"
+      ],
+      "citation": "Vicon Plug-in Gait Reference Guide, Vicon Motion Systems (de-facto clinical standard; paraphrased summaries)",
+      "sourceUrl": "https://help.vicon.com/download/attachments/350752592/Plug-in%20Gait%20Reference%20Guide.pdf",
+      "descriptionTh": "โมเดลทั้งตัว Plug-in Gait: รวมชุดล่างและบน (39 มาร์กเกอร์) วาง wand ไม่สมมาตรเพื่อช่วย auto-labelling"
+    },
+    {
+      "id": "helen-hayes",
+      "name": "Helen Hayes (Davis) · Lower body",
+      "description": "Classic clinical-gait lower-body model: pelvis (ASIS + sacrum) plus legs (15 markers). Basis of Plug-in Gait.",
+      "markerIds": [
+        "HH_LASI",
+        "HH_RASI",
+        "HH_SACR",
+        "HH_LTHI",
+        "HH_RTHI",
+        "HH_LKNE",
+        "HH_RKNE",
+        "HH_LTIB",
+        "HH_RTIB",
+        "HH_LANK",
+        "HH_RANK",
+        "HH_LTOE",
+        "HH_RTOE",
+        "HH_LHEE",
+        "HH_RHEE"
+      ],
+      "citation": "Davis RB et al., Hum Mov Sci 1991; Kadaba MP et al., J Orthop Res 1990 (paraphrased summaries)",
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "descriptionTh": "โมเดลขาส่วนล่างทางคลินิกดั้งเดิม: เชิงกราน (ASIS + sacrum) และขา (15 มาร์กเกอร์) เป็นพื้นฐานของ Plug-in Gait"
+    },
+    {
+      "id": "bts-davis",
+      "name": "BTS Davis Heel · Lower body + trunk",
+      "description": "BTS SMART-Clinic Davis Heel protocol: C7, shoulders, pelvis plus legs with strap clusters (22 markers).",
+      "markerIds": [
+        "BTS_C7",
+        "BTS_LACR",
+        "BTS_RACR",
+        "BTS_LASI",
+        "BTS_RASI",
+        "BTS_PSISMID",
+        "BTS_LTROC",
+        "BTS_RTROC",
+        "BTS_LKNE",
+        "BTS_RKNE",
+        "BTS_LFIB",
+        "BTS_RFIB",
+        "BTS_LANK",
+        "BTS_RANK",
+        "BTS_LMTP5",
+        "BTS_RMTP5",
+        "BTS_LHEE",
+        "BTS_RHEE",
+        "BTS_LTHIC",
+        "BTS_RTHIC",
+        "BTS_LSHC",
+        "BTS_RSHC"
+      ],
+      "citation": "Davis RB et al., Hum Mov Sci 1991; BTS SMART-Clinic Davis Heel protocol (paraphrased)",
+      "sourceUrl": "https://clinicalgaitanalysis.com/faq/sets/",
+      "descriptionTh": "โปรโตคอล BTS Davis Heel: C7 ไหล่ เชิงกราน และขาพร้อม strap cluster (22 มาร์กเกอร์)"
+    },
+    {
+      "id": "rizzoli",
+      "name": "Rizzoli · Multi-segment foot",
+      "description": "Rizzoli Foot Model: rear/mid/fore-foot plus hallux and shank landmarks, both feet (32 markers; MM/HL static only).",
+      "markerIds": [
+        "RCA",
+        "RST",
+        "RPT",
+        "RTN",
+        "RFMB",
+        "RSMB",
+        "RVMB",
+        "RFMH",
+        "RSMH",
+        "RVMH",
+        "RPM",
+        "RLM",
+        "RHF",
+        "RTT",
+        "RMM",
+        "RHL",
+        "LCA",
+        "LST",
+        "LPT",
+        "LTN",
+        "LFMB",
+        "LSMB",
+        "LVMB",
+        "LFMH",
+        "LSMH",
+        "LVMH",
+        "LPM",
+        "LLM",
+        "LHF",
+        "LTT",
+        "LMM",
+        "LHL"
+      ],
+      "citation": "Leardini A et al., Gait & Posture 2007 (Rizzoli Foot Model; paraphrased)",
+      "sourceUrl": "https://docs.optitrack.com/movement-sciences/movement-sciences-markersets/rizzoli-markersets",
+      "descriptionTh": "โมเดลเท้า Rizzoli หลาย segment: ส้น เท้ากลาง เท้าปลาย นิ้วโป้ง และหน้าแข้ง ทั้งสองเท้า (32 มาร์กเกอร์; MM/HL เฉพาะ static)"
+    },
+    {
+      "id": "bts-upper",
+      "name": "BTS Upper Limb (Modified Rab)",
+      "description": "Modified Rab upper-extremity model used in BTS GAITLAB: head, trunk, arms and pelvis (18 markers, no wands).",
+      "markerIds": [
+        "RAB_LEAR",
+        "RAB_REAR",
+        "RAB_TPHD",
+        "RAB_C7",
+        "RAB_STRN",
+        "RAB_LASI",
+        "RAB_RASI",
+        "RAB_SACR",
+        "RAB_LSHO",
+        "RAB_RSHO",
+        "RAB_LELB",
+        "RAB_RELB",
+        "RAB_LWRU",
+        "RAB_RWRU",
+        "RAB_LWRR",
+        "RAB_RWRR",
+        "RAB_LFIN",
+        "RAB_RFIN"
+      ],
+      "citation": "Rab G et al., Gait & Posture 2002 (Modified Rab model, basis of BTS GAITLAB Upper Limb Protocol; paraphrased)",
+      "sourceUrl": "https://wiki.has-motion.com/doku.php?id=visual3d%3Atutorials%3Amodeling%3Arab_upper_extremity_model",
+      "descriptionTh": "โปรโตคอลแขนบน BTS (Modified Rab): ศีรษะ ลำตัว แขน และเชิงกราน (18 มาร์กเกอร์ ไม่ใช้ wand)"
+    }
+  ]
+}
