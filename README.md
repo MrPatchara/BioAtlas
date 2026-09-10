@@ -63,7 +63,7 @@ The repository includes browser-ready geometry. Rebuilding it is optional: obtai
 
 ## Deploy
 
-Import this repository into Vercel as a Vite project. The included `vercel.json` configures `npm ci`, `npm run build`, and the `dist` output directory. It can also be served by a static host.
+Import this repository into Vercel as a Vite project. The included `vercel.json` configures `npm ci`, `npm run build`, and the `dist` output directory. It can also be served by a static host. A web manifest plus service worker (`public/manifest.webmanifest`, `public/sw.js`) make the built site installable (desktop/mobile) and usable offline after the first visit.
 
 ## License
 
