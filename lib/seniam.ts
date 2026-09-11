@@ -23,6 +23,10 @@ export interface SeniamEntry {
   alsoInclude?: string[];
   /** Thai translation of the five descriptive fields. */
   th?: { placement: string; orientation: string; reference: string; posture: string; test: string };
+  /** Verified origin / insertion / function (SENIAM pages + standard anatomy). */
+  origin?: { en: string; th: string };
+  insertion?: { en: string; th: string };
+  function?: { en: string; th: string };
 }
 
 export interface SeniamFile {

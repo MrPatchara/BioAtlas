@@ -1,4 +1,4 @@
-# BioAtlas
+# Human Anatomy
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
 
@@ -33,6 +33,7 @@ npm run check
 node scripts/validate-atlas.mjs
 node scripts/validate-seniam.mjs
 node scripts/validate-markers.mjs
+node scripts/validate-describe.mjs
 node scripts/validate-interactions.mjs
 npm run build
 ```

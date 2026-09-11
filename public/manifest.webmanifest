@@ -1,6 +1,6 @@
 {
-  "name": "BioAtlas — Interactive 3D Anatomy",
-  "short_name": "BioAtlas",
+  "name": "Human Anatomy — Interactive 3D Anatomy",
+  "short_name": "Human Anatomy",
   "description": "Interactive 3D human anatomy with EMG placements and motion-capture marker sets (EN/TH).",
   "lang": "en",
   "start_url": "/",

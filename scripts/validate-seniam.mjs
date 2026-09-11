@@ -24,6 +24,9 @@ for (const e of seniam.entries) {
   for (const f of ['placement', 'orientation', 'reference', 'posture', 'test']) {
     if (!e.th?.[f]) fail.push(`${e.id}: missing Thai ${f}`);
   }
+  for (const f of ['origin', 'insertion', 'function']) {
+    if (!e[f]?.en || !e[f]?.th) fail.push(`${e.id}: missing bilingual ${f}`);
+  }
 }
 
 // Coverage: every entry should match >=1 atlas concept by substring.

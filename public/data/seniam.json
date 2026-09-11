@@ -28,11 +28,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ShoulderLoc01_large.gif",
       "th": {
-        "placement": "ที่กึ่งกลางเส้นจากอะโครเมียนถึงปุ่มสไปนัส C7",
-        "orientation": "ตามแนวเส้นจากอะโครเมียนถึงปุ่มสไปนัส C7",
-        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "placement": "ที่กึ่งกลางเส้นจาก acromion ถึง spinous process C7",
+        "orientation": "ตามแนวเส้นจาก acromion ถึง spinous process C7",
+        "reference": "ที่ spinous process C7 หรือที่ข้อมือ",
         "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว",
-        "test": "ยกไหล่ขึ้น พร้อมแหงนและหันศีรษะไปข้างไหล่ที่ยก โดยหันหน้าไปทางตรงข้าม ออกแรงต้านโดยกดไหล่ลงและดันศีรษะไปทางงอ anterolateral"
+        "test": "ยกไหล่ขึ้น พร้อมแหงนและหันศีรษะไปข้างไหล่ที่ยก โดยหันหน้าไปทางตรงข้าม ออกแรงต้านโดยกดไหล่ลงและดันศีรษะไปทางด้านหน้าด้านนอก (anterolateral)"
+      },
+      "origin": {
+        "en": "Occiput, nuchal ligament and C7 spinous process",
+        "th": "ท้ายทอย เอ็นหลังคอ และ spinous process C7"
+      },
+      "insertion": {
+        "en": "Outer clavicle and acromion",
+        "th": "กระดูกไหปลาร้าส่วนนอกและ acromion"
+      },
+      "function": {
+        "en": "Elevates the scapula; acting on one side, extends, laterally flexes and rotates the head and neck.",
+        "th": "ยกสะบักขึ้น ทำงานข้างเดียวจะเหยียด งอออกด้านข้าง และหมุนศีรษะกับคอ"
       }
     },
     {
@@ -59,10 +71,22 @@
       "imageUrl": "/images/seniam/ShoulderLoc02_large.gif",
       "th": {
         "placement": "ที่กึ่งกลางระหว่างขอบในสะบักกับกระดูกสันหลัง ระดับ T3",
-        "orientation": "ตามแนวเส้นจาก T5 ไปอะโครเมียน",
-        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "orientation": "ตามแนวเส้นจาก T5 ไป acromion",
+        "reference": "ที่ spinous process C7 หรือที่ข้อมือ",
         "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว",
         "test": "เหยียดศอก กางไหล่ 90 องศาและหมุนออก (ฝ่ามือหงายขึ้น) แล้วหนีบสะบักเข้าหากันโดยไม่ยกไหล่"
+      },
+      "origin": {
+        "en": "T1-T5 spinous processes",
+        "th": "spinous processes T1-T5"
+      },
+      "insertion": {
+        "en": "Superior lip of scapular spine",
+        "th": "ขอบบนสันสะบัก"
+      },
+      "function": {
+        "en": "Chiefly pulls the shoulder blade toward the spine.",
+        "th": "หนีบสะบักเข้าหากระดูกสันหลังเป็นหลัก"
       }
     },
     {
@@ -88,11 +112,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ShoulderLoc03_large.gif",
       "th": {
-        "placement": "ที่ 2 ใน 3 ของเส้นจากไทรโกนัมสไปนีถึงกระดูกสันหลังข้อ T8",
-        "orientation": "ตามแนวเส้นจาก T8 ไปอะโครเมียน",
-        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "placement": "ที่ 2 ใน 3 ของเส้นจาก trigonum spinae ถึงกระดูกสันหลังข้อ T8",
+        "orientation": "ตามแนวเส้นจาก T8 ไป acromion",
+        "reference": "ที่ spinous process C7 หรือที่ข้อมือ",
         "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว",
-        "test": "ยกแขนเฉียงขึ้นเหนือศีรษะพร้อมหมุนไหล่ออก แล้วกดปลายแขนลงพร้อมกดและหนีบสะบัก"
+        "test": "ยกแขนเฉียงขึ้นเหนือศีรษะพร้อมหมุนไหล่ออก แล้วกดปลายแขนลงพร้อมหนีบสะบัก"
+      },
+      "origin": {
+        "en": "T6-T12 spinous processes",
+        "th": "spinous processes T6-T12"
+      },
+      "insertion": {
+        "en": "Apex of scapular spine",
+        "th": "ปลายสันสะบัก"
+      },
+      "function": {
+        "en": "Depresses the shoulder blade and assists its rotation.",
+        "th": "กดสะบักลงและช่วยหมุนสะบัก"
       }
     },
     {
@@ -118,11 +154,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ShoulderLoc04_large.gif",
       "th": {
-        "placement": "ต่ำกว่าอะโครเมียนหนึ่งนิ้วมือ และเยื้องมาด้านหน้า",
-        "orientation": "ตามแนวเส้นจากอะโครเมียนไปนิ้วโป้ง",
-        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "placement": "ต่ำกว่า acromion หนึ่งนิ้วมือ และเยื้องมาด้านหน้า",
+        "orientation": "ตามแนวเส้นจาก acromion ไปนิ้วโป้ง",
+        "reference": "ที่ spinous process C7 หรือที่ข้อมือ",
         "posture": "นั่ง แขนห้อยข้างลำตัว ฝ่ามือหันเข้าด้านใน",
         "test": "กางไหล่ออกพร้อมงอไปข้างหน้าเล็กน้อย ต้านที่ต้นแขนด้านหน้าด้านในไปทางหุบเข้าและเหยียดเล็กน้อย"
+      },
+      "origin": {
+        "en": "Front of lateral third of clavicle",
+        "th": "ขอบหน้ากระดูกไหปลาร้าส่วนนอก"
+      },
+      "insertion": {
+        "en": "Deltoid tuberosity of humerus",
+        "th": "deltoid tuberosity ของกระดูกต้นแขน"
+      },
+      "function": {
+        "en": "Lifts the arm forward; its front fibres flex and medially rotate the shoulder.",
+        "th": "ยกแขนไปข้างหน้า เส้นใยด้านหน้างอและหมุนไหล่เข้าด้านใน"
       }
     },
     {
@@ -148,11 +196,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ShoulderLoc05_large.gif",
       "th": {
-        "placement": "บนเส้นจากอะโครเมียนถึงอีพิคอนไดล์ด้านนอก ตรงส่วนนูนสุดของกล้ามเนื้อ",
-        "orientation": "ตามแนวเส้นจากอะโครเมียนไปมือ",
-        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "placement": "บนเส้นจาก acromion ถึง lateral epicondyle ตรงส่วนนูนสุดของกล้ามเนื้อ",
+        "orientation": "ตามแนวเส้นจาก acromion ไปมือ",
+        "reference": "ที่ spinous process C7 หรือที่ข้อมือ",
         "posture": "นั่งลำตัวมั่นคง หากกล้ามเนื้อยึดสะบักอ่อนแรงต้องช่วยประคองสะบัก",
         "test": "กางแขนออกโดยไม่หมุน (งอศอกเพื่อหาตำแหน่งกลางก่อน) ต้านที่หลังต้นแขนส่วนปลายหรือปลายแขน"
+      },
+      "origin": {
+        "en": "Lateral acromion",
+        "th": "acromion ด้านนอก"
+      },
+      "insertion": {
+        "en": "Deltoid tuberosity of humerus",
+        "th": "deltoid tuberosity ของกระดูกต้นแขน"
+      },
+      "function": {
+        "en": "The chief muscle lifting the arm sideways.",
+        "th": "มัดหลักในการกางแขนออกด้านข้าง"
       }
     },
     {
@@ -178,11 +238,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ShoulderLoc06_large.gif",
       "th": {
-        "placement": "หลังมุมอะโครเมียนประมาณสองนิ้วมือ ตรงกลางบริเวณนั้น",
-        "orientation": "ตามแนวเส้นจากอะโครเมียนไปนิ้วก้อย",
-        "reference": "ที่ปุ่มสไปนัส C7 หรือที่ข้อมือ",
+        "placement": "หลังมุม acromion ประมาณสองนิ้วมือ ตรงกลางบริเวณนั้น",
+        "orientation": "ตามแนวเส้นจาก acromion ไปนิ้วก้อย",
+        "reference": "ที่ spinous process C7 หรือที่ข้อมือ",
         "posture": "นั่งตัวตรง แขนห้อยข้างลำตัว ฝ่ามือหันเข้าด้านใน",
-        "test": "กางไหล่ออกพร้อมเหยียดไปข้างหลังเล็กน้อย โดยหมุนต้นแขนเข้าด้านในเล็กน้อย ต้านที่ต้นแขนด้านหลังด้านนอกเหนือศอกไปทางหุบเข้าและงอเล็กน้อย"
+        "test": "กางไหล่ออกพร้อมเหยียดไปข้างหลังเล็กน้อย โดยหมุนต้นแขนเข้าด้านในเล็กน้อย ต้านที่หลังต้นแขนส่วนนอก โดยดันไปทางหุบเข้าและงอเล็กน้อย"
+      },
+      "origin": {
+        "en": "Spine of scapula, posterior border",
+        "th": "สันสะบักด้านหลัง"
+      },
+      "insertion": {
+        "en": "Deltoid tuberosity of humerus",
+        "th": "deltoid tuberosity ของกระดูกต้นแขน"
+      },
+      "function": {
+        "en": "Assists lifting the arm; extends the shoulder and rotates it outward.",
+        "th": "ช่วยยกแขน เหยียดไหล่และหมุนออกด้านนอก"
       }
     },
     {
@@ -210,11 +282,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/LowerbackLoc01_large.gif",
       "th": {
-        "placement": "ห่างจากปุ่มสไปนัส L1 ไปด้านข้างสองนิ้วมือ",
+        "placement": "ห่างจาก spinous process L1 ไปด้านข้างสองนิ้วมือ",
         "orientation": "แนวตั้ง",
-        "reference": "ที่ปุ่มสไปนัส C7",
+        "reference": "ที่ spinous process C7",
         "posture": "นอนคว่ำ หลังส่วนเอวโค้งเล็กน้อย",
         "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      },
+      "origin": {
+        "en": "Lumbar vertebrae and thoracolumbar fascia",
+        "th": "กระดูกสันหลังเอวและพังผืดหลัง"
+      },
+      "insertion": {
+        "en": "Thoracic transverse processes and lower ribs",
+        "th": "ปุ่มขวางกระดูกสันหลังอกและซี่โครงล่าง"
+      },
+      "function": {
+        "en": "Extends the spine.",
+        "th": "เหยียดกระดูกสันหลัง"
       }
     },
     {
@@ -243,9 +327,21 @@
       "th": {
         "placement": "ชิดเข้าด้านในหนึ่งนิ้วมือจากเส้นปุ่ม PSIS ถึงชายโครงล่างสุด ระดับ L2",
         "orientation": "ตามแนวเส้นจากปุ่ม PSIS ถึงชายโครงล่างสุด",
-        "reference": "ที่ปุ่มสไปนัส C7",
+        "reference": "ที่ spinous process C7",
         "posture": "นอนคว่ำ หลังส่วนเอวโค้งเล็กน้อย",
         "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      },
+      "origin": {
+        "en": "Sacrum, iliac crest and lower spine (broad tendon)",
+        "th": "กระดูกกระเบนเหน็บ สันเชิงกราน และกระดูกสันหลังส่วนล่าง"
+      },
+      "insertion": {
+        "en": "Angles of the lower 6-7 ribs",
+        "th": "มุมซี่โครงล่าง 6-7 ซี่"
+      },
+      "function": {
+        "en": "Extends the spine; one-sided activity bends it sideways.",
+        "th": "เหยียดกระดูกสันหลัง ทำงานข้างเดียวทำให้งอออกด้านข้าง"
       }
     },
     {
@@ -270,11 +366,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/LowerbackLoc03_large.gif",
       "th": {
-        "placement": "บนเส้นจากปลายล่างปุ่ม PSIS ถึงช่องระหว่าง L1-L2 ที่ระดับปุ่มสไปนัส L5 (ห่างแนวกึ่งกลาง 2-3 ซม.)",
+        "placement": "บนเส้นจากปลายล่างปุ่ม PSIS ถึงช่องระหว่าง L1-L2 ที่ระดับ spinous process L5 (ห่างแนวกึ่งกลาง 2-3 ซม.)",
         "orientation": "ตามแนวเส้นดังกล่าว",
-        "reference": "ที่ปุ่มสไปนัส C7",
+        "reference": "ที่ spinous process C7",
         "posture": "นอนคว่ำ หลังส่วนเอวโค้งเล็กน้อย",
         "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      },
+      "origin": {
+        "en": "L1-L5 spinous processes",
+        "th": "spinous processes L1-L5"
+      },
+      "insertion": {
+        "en": "Mammillary processes, iliac crest and dorsal sacrum",
+        "th": "ปุ่มกระดูกสันหลังส่วนล่าง สันเชิงกราน และหลังกระเบนเหน็บ"
+      },
+      "function": {
+        "en": "Extends the spine.",
+        "th": "เหยียดกระดูกสันหลัง"
       }
     },
     {
@@ -307,11 +415,23 @@
         "right flexor pollicis brevis"
       ],
       "th": {
-        "placement": "เยื้องเข้าด้านในจากหนึ่งในสี่ส่วนปลายของกระดูกฝ่ามือชิ้นที่ 1 เล็กน้อย ใช้อิเล็กโทรดเล็ก (ไม่เกิน 5 มม. แบบเกร็งค้าง 2 มม. แบบเคลื่อนไหว)",
+        "placement": "เยื้องเข้าด้านในจากหนึ่งในสี่ส่วนปลายของกระดูกฝ่ามือชิ้นที่ 1 เล็กน้อย ใช้อิเล็กโทรดเล็ก (ไม่เกิน 5 มม. แบบไอโซเมตริก 2 มม. แบบไดนามิก)",
         "orientation": "ขนานกับกระดูกฝ่ามือชิ้นที่ 1",
         "reference": "ที่ข้อมือ",
         "posture": "นั่งหรือนอนหงาย หลังมือวางนิ่งบนโต๊ะ",
         "test": "กางนิ้วโป้งออกจากฝ่ามือ ต้านที่ข้อนิ้วโป้งท่อนโคนไปทางหุบเข้าฝ่ามือ"
+      },
+      "origin": {
+        "en": "Flexor retinaculum and carpal tubercles",
+        "th": "พังผืดฝ่ามือและปุ่ม carpal"
+      },
+      "insertion": {
+        "en": "Base of thumb proximal phalanx, radial side",
+        "th": "ฐานกระดูกนิ้วโป้งท่อนโคนด้านนิ้วชี้"
+      },
+      "function": {
+        "en": "Moves the thumb away from the palm and assists grip.",
+        "th": "กางนิ้วโป้งออกจากฝ่ามือและช่วยการหยิบจับ"
       }
     },
     {
@@ -338,11 +458,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ArmHandLoc01_large.gif",
       "th": {
-        "placement": "บนเส้นจากอะโครเมียนด้านในถึงคิวบิทัลฟอสซา ที่ 1 ใน 3 จากคิวบิทัลฟอสซา",
-        "orientation": "ตามแนวเส้นจากอะโครเมียนถึงคิวบิทัลฟอสซา",
+        "placement": "บนเส้นจาก acromion ด้านในถึง cubital fossa ที่ 1 ใน 3 จาก cubital fossa",
+        "orientation": "ตามแนวเส้นจาก acromion ถึง cubital fossa",
         "reference": "ที่ข้อมือ",
-        "posture": "นั่ง งอศอกมุมฉาก หลังปลายแขนราบหงายลง",
+        "posture": "นั่ง งอศอกมุมฉาก หลังปลายแขนขนานพื้นหงายลง",
         "test": "งอศอกที่มุมฉากหรือต่ำกว่าเล็กน้อยโดยหงายฝ่ามือ ต้านที่ปลายแขนไปทางเหยียด"
+      },
+      "origin": {
+        "en": "Coracoid process (short head) and supraglenoid tubercle (long head)",
+        "th": "ปุ่ม coracoid (หัวสั้น) และ supraglenoid tubercle (หัวยาว)"
+      },
+      "insertion": {
+        "en": "Radial tuberosity and bicipital aponeurosis",
+        "th": "ปุ่ม radial tuberosity และพังผืด bicipital"
+      },
+      "function": {
+        "en": "Bends the elbow and turns the palm up.",
+        "th": "งอศอกและหงายฝ่ามือ"
       }
     },
     {
@@ -368,11 +500,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ArmHandLoc02_large.gif",
       "th": {
-        "placement": "ที่กึ่งกลางเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน เยื้องเข้าด้านในสองนิ้วมือ",
-        "orientation": "ตามแนวเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน",
+        "placement": "ที่กึ่งกลางเส้นจาก posterior acromion ถึง olecranon เยื้องเข้าด้านในสองนิ้วมือ",
+        "orientation": "ตามแนวเส้นจาก posterior acromion ถึง olecranon",
         "reference": "ที่ข้อมือ",
         "posture": "นั่ง กางไหล่ประมาณ 90 องศา งอศอก 90 องศา ฝ่ามือคว่ำลง",
-        "test": "เหยียดศอกต้านแรงกดที่ปลายแขนไปทางงอ"
+        "test": "เหยียดศอกต้านแรงที่ปลายแขนไปทางงอ"
+      },
+      "origin": {
+        "en": "Infraglenoid tubercle of scapula",
+        "th": "infraglenoid tubercle ของสะบัก"
+      },
+      "insertion": {
+        "en": "Olecranon of ulna",
+        "th": "olecranon"
+      },
+      "function": {
+        "en": "Straightens the elbow; the long head also draws the arm in and assists shoulder extension.",
+        "th": "เหยียดศอก หัวยาวช่วยหุบแขนและเหยียดไหล่"
       }
     },
     {
@@ -398,11 +542,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/ArmHandLoc03_large.gif",
       "th": {
-        "placement": "ที่กึ่งกลางเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน เยื้องออกด้านนอกสองนิ้วมือ",
-        "orientation": "ตามแนวเส้นจากสันหลังอะโครเมียนถึงโอเลครานอน",
+        "placement": "ที่กึ่งกลางเส้นจาก posterior acromion ถึง olecranon เยื้องออกด้านนอกสองนิ้วมือ",
+        "orientation": "ตามแนวเส้นจาก posterior acromion ถึง olecranon",
         "reference": "ที่ข้อมือ",
         "posture": "นั่ง กางไหล่ประมาณ 90 องศา งอศอก 90 องศา ฝ่ามือคว่ำลง",
-        "test": "เหยียดศอกต้านแรงกดที่ปลายแขนไปทางงอ"
+        "test": "เหยียดศอกต้านแรงที่ปลายแขนไปทางงอ"
+      },
+      "origin": {
+        "en": "Proximal humerus, lateral and posterior",
+        "th": "ต้นแขนส่วนบนด้านนอกและด้านหลัง"
+      },
+      "insertion": {
+        "en": "Olecranon of ulna",
+        "th": "olecranon"
+      },
+      "function": {
+        "en": "Straightens the elbow.",
+        "th": "เหยียดศอก"
       }
     },
     {
@@ -427,11 +583,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/UpperLegLoc01_large.gif",
       "th": {
-        "placement": "ที่กึ่งกลางเส้นจากกระดูกกระเบนเหน็บถึงโทรแคนเตอร์ใหญ่ ตรงส่วนนูนสุด สูงกว่าแนวปุ่มกระดูกชัดเจน",
+        "placement": "ที่กึ่งกลางเส้นจากกระดูกกระเบนเหน็บถึง greater trochanter ตรงส่วนนูนสุด สูงกว่าแนวนูนของ trochanter ชัดเจน",
         "orientation": "ตามแนวเส้นจากปุ่ม PSIS ถึงกลางต้นขาด้านหลัง",
-        "reference": "ที่ปุ่มสไปนัส C7 ที่ข้อมือ หรือที่ข้อเท้า",
+        "reference": "ที่ spinous process C7 ข้อมือ หรือข้อเท้า",
         "posture": "นอนคว่ำบนเตียง",
-        "test": "ยกขาทั้งข้างขึ้นต้านแรงด้วยมือขณะนอนคว่ำ"
+        "test": "ยกขาทั้งข้างขึ้นต้านแรงจากมือผู้ตรวจขณะนอนคว่ำ"
+      },
+      "origin": {
+        "en": "Posterior ilium, sacrum and sacrotuberous ligament",
+        "th": "หลังกระดูกเชิงกราน กระดูกกระเบนเหน็บ และเอ็น sacrotuberous"
+      },
+      "insertion": {
+        "en": "Iliotibial tract and gluteal tuberosity of femur",
+        "th": "แถบ iliotibial และ gluteal tuberosity ต้นขาด้านหลัง"
+      },
+      "function": {
+        "en": "Extends and outwardly rotates the hip; steadies the straight knee through the iliotibial tract.",
+        "th": "เหยียดและหมุนสะโพกออกด้านนอก ช่วยยึดเข่าให้ตรงผ่าน iliotibial tract"
       }
     },
     {
@@ -456,11 +624,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/UpperLegLoc02_large.gif",
       "th": {
-        "placement": "ที่กึ่งกลางเส้นจากสันกระดูกเชิงกรานถึงโทรแคนเตอร์",
-        "orientation": "ตามแนวเส้นจากสันกระดูกเชิงกรานถึงโทรแคนเตอร์",
-        "reference": "ที่ปุ่มสไปนัส C7 ที่ข้อมือ หรือที่ข้อเท้า",
+        "placement": "ที่กึ่งกลางเส้นจากสันกระดูกเชิงกรานถึง trochanter",
+        "orientation": "ตามแนวเส้นจากสันกระดูกเชิงกรานถึง trochanter",
+        "reference": "ที่ spinous process C7 ข้อมือ หรือข้อเท้า",
         "posture": "นอนตะแคงบนเตียง",
         "test": "นอนตะแคงแล้วกางขาออกต้านแรง (จับข้อเท้าไว้)"
+      },
+      "origin": {
+        "en": "Outer ilium between crest and gluteal lines",
+        "th": "ผิวกระดูกเชิงกรานด้านนอก"
+      },
+      "insertion": {
+        "en": "Greater trochanter, lateral side",
+        "th": "greater trochanter ด้านนอก"
+      },
+      "function": {
+        "en": "Moves the leg sideways at the hip; front fibres turn it inward, back fibres outward.",
+        "th": "กางขาที่สะโพก เส้นใยหน้าหมุนเข้าด้านใน เส้นใยหลังหมุนออกด้านนอก"
       }
     },
     {
@@ -486,11 +666,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/UpperLegLoc03_large.gif",
       "th": {
-        "placement": "บนเส้นจากปุ่ม ASIS ถึงคอนไดล์ต้นขาด้านนอก ภายในหนึ่งในหกส่วนบน",
-        "orientation": "ตามแนวเส้นจากปุ่ม ASIS ถึงคอนไดล์ต้นขาด้านนอก",
+        "placement": "บนเส้นจากปุ่ม ASIS ถึง lateral femoral condyle ภายในหนึ่งในหกส่วนบน",
+        "orientation": "ตามแนวเส้นจากปุ่ม ASIS ถึง lateral femoral condyle",
         "reference": "ที่ข้อมือ",
         "posture": "นอนตะแคงบนเตียง",
         "test": "ยกและกางขาออกต้านแรง"
+      },
+      "origin": {
+        "en": "Front of iliac crest at the ASIS",
+        "th": "ปุ่ม ASIS และสันเชิงกรานด้านหน้า"
+      },
+      "insertion": {
+        "en": "Iliotibial tract at upper-mid thigh",
+        "th": "แถบ iliotibial ช่วงต้นขาส่วนบน"
+      },
+      "function": {
+        "en": "Bends the hip forward-inward and tenses the fascia lata; may assist knee extension.",
+        "th": "งอและหุบสะโพก ขึง fascia lata และอาจช่วยเหยียดเข่า"
       }
     },
     {
@@ -517,9 +709,21 @@
       "th": {
         "placement": "ที่กึ่งกลางเส้นจากปุ่ม ASIS ถึงขอบบนกระดูกสะบ้า",
         "orientation": "ตามแนวเส้นจากปุ่ม ASIS ถึงขอบบนกระดูกสะบ้า",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นั่ง งอเข่าเล็กน้อย เอนตัวไปข้างหลังเล็กน้อย",
         "test": "เหยียดเข่าโดยไม่หมุนต้นขา ต้านเหนือข้อเท้าไปทางงอ"
+      },
+      "origin": {
+        "en": "Anterior inferior iliac spine and above the acetabulum",
+        "th": "ปุ่ม AIIS และเหนือเบ้าสะโพก"
+      },
+      "insertion": {
+        "en": "Patella via the patellar ligament",
+        "th": "กระดูกสะบ้าผ่านเอ็นสะบ้า"
+      },
+      "function": {
+        "en": "Straightens the knee and bends the hip.",
+        "th": "เหยียดเข่าและงอสะโพก"
       }
     },
     {
@@ -544,11 +748,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/UpperLegLoc05_large.gif",
       "th": {
-        "placement": "ที่ร้อยละ 80 ของเส้นจากปุ่ม ASIS ถึงช่องข้อเข่าหน้าเอ็นด้านใน",
+        "placement": "ที่ร้อยละ 80 ของเส้นจากปุ่ม ASIS ถึงช่องข้อเข่าด้านหน้าเอ็นยึดด้านใน",
         "orientation": "เกือบตั้งฉากกับเส้นดังกล่าว",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นั่ง งอเข่าเล็กน้อย เอนตัวไปข้างหลังเล็กน้อย",
         "test": "เหยียดเข่าโดยไม่หมุนต้นขา ต้านเหนือข้อเท้าไปทางงอ"
+      },
+      "origin": {
+        "en": "Medial femur: linea aspera lip and adductor tendons",
+        "th": "ต้นขาด้านใน (linea aspera และเอ็น adductor)"
+      },
+      "insertion": {
+        "en": "Patella via the patellar ligament",
+        "th": "กระดูกสะบ้าผ่านเอ็นสะบ้า"
+      },
+      "function": {
+        "en": "Straightens the knee.",
+        "th": "เหยียดเข่า"
       }
     },
     {
@@ -575,9 +791,21 @@
       "th": {
         "placement": "ที่ 2 ใน 3 ของเส้นจากปุ่ม ASIS ถึงกระดูกสะบ้าด้านนอก",
         "orientation": "ตามแนวเส้นใยกล้ามเนื้อ",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นั่ง งอเข่าเล็กน้อย เอนตัวไปข้างหลังเล็กน้อย",
         "test": "เหยียดเข่าโดยไม่หมุนต้นขา ต้านเหนือข้อเท้าไปทางงอ"
+      },
+      "origin": {
+        "en": "Proximal femur: intertrochanteric line and linea aspera",
+        "th": "ต้นขาส่วนบน (แนว intertrochanteric และ linea aspera)"
+      },
+      "insertion": {
+        "en": "Patella via the patellar ligament",
+        "th": "กระดูกสะบ้าผ่านเอ็นสะบ้า"
+      },
+      "function": {
+        "en": "Straightens the knee.",
+        "th": "เหยียดเข่า"
       }
     },
     {
@@ -610,11 +838,23 @@
         "short head of right biceps femoris"
       ],
       "th": {
-        "placement": "ที่กึ่งกลางเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านนอก",
-        "orientation": "ตามแนวเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านนอก",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
-        "posture": "นอนคว่ำหน้า ต้นขาแนบเตียง งอเข่าไม่เกิน 90 องศา หมุนต้นขาและขาออกด้านนอกเล็กน้อย",
+        "placement": "ที่กึ่งกลางเส้นจาก ischial tuberosity ถึง lateral tibial epicondyle",
+        "orientation": "ตามแนวเส้นจาก ischial tuberosity ถึง lateral tibial epicondyle",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
+        "posture": "นอนคว่ำหน้า ต้นขาแนบเตียง งอเข่าไม่เกิน 90 องศา หมุนต้นขาและปลายขาออกด้านนอกเล็กน้อย",
         "test": "กดขาเหนือข้อเท้าไปทางเหยียดเข่า"
+      },
+      "origin": {
+        "en": "Ischial tuberosity (long head); linea aspera of femur (short head)",
+        "th": "ischial tuberosity (หัวยาว) และ linea aspera ต้นขา (หัวสั้น)"
+      },
+      "insertion": {
+        "en": "Head of fibula",
+        "th": "หัวกระดูกน่อง"
+      },
+      "function": {
+        "en": "Bends the knee and turns it outward; the long head also extends the hip.",
+        "th": "งอเข่าและหมุนออกด้านนอก หัวยาวช่วยเหยียดสะโพก"
       }
     },
     {
@@ -640,11 +880,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/UpperLegLoc08_large.gif",
       "th": {
-        "placement": "ที่กึ่งกลางเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านใน",
-        "orientation": "ตามแนวเส้นจากปุ่มอิสเคียลถึงอีพิคอนไดล์กระดูกแข้งด้านใน",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
-        "posture": "นอนคว่ำหน้า กดต้นขาแนบเตียงและหมุนเข้าด้านใน ขาหมุนเข้าด้านใน งอเข่าไม่เกิน 90 องศา",
+        "placement": "ที่กึ่งกลางเส้นจาก ischial tuberosity ถึง medial tibial epicondyle",
+        "orientation": "ตามแนวเส้นจาก ischial tuberosity ถึง medial tibial epicondyle",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
+        "posture": "นอนคว่ำหน้า กดต้นขาแนบเตียง หมุนต้นขาและขาเข้าด้านใน",
         "test": "กดขาเหนือข้อเท้าไปทางเหยียดเข่า"
+      },
+      "origin": {
+        "en": "Ischial tuberosity, shared tendon with biceps long head",
+        "th": "ischial tuberosity (เอ็นร่วมกับ biceps)"
+      },
+      "insertion": {
+        "en": "Medial proximal tibia",
+        "th": "กระดูกแข้งด้านในส่วนบน"
+      },
+      "function": {
+        "en": "Bends the knee and turns it inward; assists hip extension.",
+        "th": "งอเข่าและหมุนเข้าด้านใน ช่วยเหยียดสะโพก"
       }
     },
     {
@@ -671,9 +923,21 @@
       "th": {
         "placement": "ที่ 1 ใน 3 ของเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านใน ชิดด้านนอกสันแข้ง",
         "orientation": "ตามแนวเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านใน",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นอนหงายหรือนั่ง",
-        "test": "กระดกข้อเท้าขึ้นและบิดเท้าเข้าด้านใน (นิ้วโป้งไม่เหยียด) กดต้านที่เท้าด้านในด้านบนไปทางกดปลายเท้าลงและบิดออกด้านนอก"
+        "test": "กระดกข้อเท้าขึ้นและบิดเท้าเข้าด้านใน (นิ้วโป้งไม่เหยียด) กดต้านที่หลังเท้าด้านในไปทางกดปลายเท้าลงและบิดออกด้านนอก"
+      },
+      "origin": {
+        "en": "Lateral tibial condyle and proximal fibula",
+        "th": "lateral tibial condyle และกระดูกน่องส่วนบน"
+      },
+      "insertion": {
+        "en": "Medial cuneiform and first metatarsal base",
+        "th": "medial cuneiform และฐานฝ่าเท้าชิ้นที่ 1"
+      },
+      "function": {
+        "en": "Lifts the foot upward (dorsiflexion) and assists turning it inward.",
+        "th": "กระดกเท้าขึ้นและช่วยบิดเท้าเข้าด้านใน"
       }
     },
     {
@@ -701,9 +965,21 @@
       "th": {
         "placement": "ที่ร้อยละ 25 ของเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านนอก",
         "orientation": "ตามแนวเส้นจากปลายหัวกระดูกน่องถึงปลายตาตุ่มด้านนอก",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นั่ง หมุนขาเข้าด้านใน",
         "test": "บิดเท้าออกด้านนอกพร้อมกดปลายเท้าลงเล็กน้อย ต้านที่ขอบเท้าด้านนอกและฝ่าเท้าไปทางบิดเข้าด้านในและกระดกขึ้น"
+      },
+      "origin": {
+        "en": "Lateral tibial condyle, fibular head and proximal fibula",
+        "th": "lateral tibial condyle หัวกระดูกน่อง และกระดูกน่องส่วนบน"
+      },
+      "insertion": {
+        "en": "First metatarsal base and medial cuneiform",
+        "th": "ฐานฝ่าเท้าชิ้นที่ 1 และ medial cuneiform"
+      },
+      "function": {
+        "en": "Turns the foot outward and assists pressing it down.",
+        "th": "บิดเท้าออกด้านนอกและช่วยกดปลายเท้าลง"
       }
     },
     {
@@ -731,9 +1007,21 @@
       "th": {
         "placement": "หน้าเอ็น peroneus longus ที่ร้อยละ 25 ของเส้นจากปลายตาตุ่มด้านนอกถึงหัวกระดูกน่อง กล้ามเนื้อนี้อยู่ลึกเข้าถึงยาก ระวังสัญญาณรบกวนจากกล้ามเนื้อข้างเคียง",
         "orientation": "ตามแนวเส้นจากปลายตาตุ่มด้านนอกถึงหัวกระดูกน่อง",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นั่ง หมุนขาเข้าด้านใน",
         "test": "บิดเท้าออกด้านนอกพร้อมกดปลายเท้าลงเล็กน้อย ต้านที่ขอบเท้าด้านนอกและฝ่าเท้าไปทางบิดเข้าด้านในและกระดกขึ้น"
+      },
+      "origin": {
+        "en": "Distal two-thirds of fibula",
+        "th": "กระดูกน่องสองในสามส่วนล่าง"
+      },
+      "insertion": {
+        "en": "Fifth metatarsal tuberosity",
+        "th": "ปุ่มฐานฝ่าเท้าชิ้นที่ 5"
+      },
+      "function": {
+        "en": "Turns the foot outward and assists pressing it down.",
+        "th": "บิดเท้าออกด้านนอกและช่วยกดปลายเท้าลง"
       }
     },
     {
@@ -758,11 +1046,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/LowerLegLoc04_large.gif",
       "th": {
-        "placement": "ที่ 2 ใน 3 ของเส้นจากคอนไดล์ต้นขาด้านในถึงตาตุ่มด้านใน ใต้ก้อนน่อง",
-        "orientation": "ตามแนวเส้นจากคอนไดล์ต้นขาด้านในถึงตาตุ่มด้านใน",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "placement": "ที่ 2 ใน 3 ของเส้นจาก medial femoral condyle ถึงตาตุ่มด้านใน ใต้ส่วนนูนของน่อง",
+        "orientation": "ตามแนวเส้นจาก medial femoral condyle ถึงตาตุ่มด้านใน",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นั่ง งอเข่าประมาณ 90 องศา ส้นเท้าแตะพื้น",
         "test": "ใช้มือกดเข่าไว้แล้วยกส้นเท้าขึ้นจากพื้น"
+      },
+      "origin": {
+        "en": "Fibular head, soleal line of tibia, tibiofibular arch",
+        "th": "หัวกระดูกน่องและ soleal line ของกระดูกแข้ง"
+      },
+      "insertion": {
+        "en": "Calcaneus via the Achilles tendon",
+        "th": "กระดูกส้นเท้าผ่านเอ็นร้อยหวาย"
+      },
+      "function": {
+        "en": "Presses the foot down at the ankle.",
+        "th": "กดปลายเท้าลงที่ข้อเท้า"
       }
     },
     {
@@ -790,9 +1090,21 @@
       "th": {
         "placement": "ตรงส่วนนูนสุดของน่องด้านใน",
         "orientation": "ตามแนวขา",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นอนคว่ำหน้า เหยียดเข่าตรง ปลายเท้าล้นปลายเตียง",
         "test": "กดปลายเท้าลงโดยดึงส้นเท้าขึ้นมากกว่ากดปลายเท้า ต้านทั้งที่ปลายเท้าและส้นเท้า"
+      },
+      "origin": {
+        "en": "Medial femoral condyle, posterior",
+        "th": "medial femoral condyle ด้านหลัง"
+      },
+      "insertion": {
+        "en": "Calcaneus via the Achilles tendon",
+        "th": "กระดูกส้นเท้าผ่านเอ็นร้อยหวาย"
+      },
+      "function": {
+        "en": "Presses the foot down and assists bending the knee.",
+        "th": "กดปลายเท้าลงและช่วยงอเข่า"
       }
     },
     {
@@ -818,11 +1130,23 @@
       "standard": "SENIAM",
       "imageUrl": "/images/seniam/LowerLegLoc06_large.gif",
       "th": {
-        "placement": "ที่ 1 ใน 3 ของเส้นจากหัวกระดูกน่องถึงกระดูกส้นเท้า ตรงก้อนน่องด้านนอก",
+        "placement": "ที่ 1 ใน 3 ของเส้นจากหัวกระดูกน่องถึงกระดูกส้นเท้า ตรงส่วนนูนของน่องด้านนอก",
         "orientation": "ตามแนวเส้นจากหัวกระดูกน่องถึงกระดูกส้นเท้า",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นอนคว่ำหน้า เหยียดเข่าตรง ปลายเท้าล้นปลายเตียง",
         "test": "กดปลายเท้าลงโดยดึงส้นเท้าขึ้นมากกว่ากดปลายเท้า ต้านทั้งที่ปลายเท้าและส้นเท้า"
+      },
+      "origin": {
+        "en": "Lateral femoral condyle",
+        "th": "lateral femoral condyle"
+      },
+      "insertion": {
+        "en": "Calcaneus via the Achilles tendon",
+        "th": "กระดูกส้นเท้าผ่านเอ็นร้อยหวาย"
+      },
+      "function": {
+        "en": "Presses the foot down and assists bending the knee.",
+        "th": "กดปลายเท้าลงและช่วยงอเข่า"
       }
     },
     {
@@ -847,11 +1171,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "หนึ่งในสามล่างของเส้นจากปุ่มกกหูถึงจูกูลาร์นอทช์ ตรงมัด sternal",
+        "placement": "หนึ่งในสามล่างของเส้นจากปุ่มกกหูถึง jugular notch ตรงส่วน sternal",
         "orientation": "ตามแนวเส้นจากปุ่มกกหูถึงกระดูกหน้าอก",
         "reference": "ที่ปุ่มกกหูหรือข้อมือ",
         "posture": "นั่งตัวตรง ศีรษะตรง",
         "test": "หันศีรษะไปด้านตรงข้ามต้านแรง"
+      },
+      "origin": {
+        "en": "Sternum (manubrium) and medial clavicle",
+        "th": "manubrium และไหปลาร้าด้านใน"
+      },
+      "insertion": {
+        "en": "Mastoid process",
+        "th": "ปุ่มกกหู"
+      },
+      "function": {
+        "en": "Turns the head to the opposite side and bends the neck forward.",
+        "th": "หันศีรษะไปด้านตรงข้ามและก้มคอ"
       }
     },
     {
@@ -882,11 +1218,23 @@
         "pectoralis major"
       ],
       "th": {
-        "placement": "ต่ำกว่ากระดูกไหปลาร้า 2-3 ซม. ที่แนวกึ่งกลางไหปลาร้า ตรงมัด clavicular",
+        "placement": "ต่ำกว่ากระดูกไหปลาร้า 2-3 ซม. ที่แนวกึ่งกลางไหปลาร้า ตรงส่วน clavicular",
         "orientation": "ไปทางต้นแขน ตามแนวเส้นใย",
-        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "reference": "ที่ acromion หรือ spinous process C7",
         "posture": "นั่ง แขนพักข้างลำตัว",
         "test": "ดันแขนไปข้างหน้าและเข้าด้านในต้านแรง"
+      },
+      "origin": {
+        "en": "Medial clavicle (clavicular head)",
+        "th": "ไหปลาร้าด้านใน (ส่วน clavicular)"
+      },
+      "insertion": {
+        "en": "Bicipital groove of humerus",
+        "th": "ร่อง bicipital ของต้นแขน"
+      },
+      "function": {
+        "en": "Draws the arm forward and inward across the chest.",
+        "th": "ดันแขนไปข้างหน้าและเข้าหากลางอก"
       }
     },
     {
@@ -913,9 +1261,21 @@
       "th": {
         "placement": "ที่แนวรักแร้กลาง ตรงซี่โครงที่ 5-6 ใต้รักแร้",
         "orientation": "ตามแนวซี่โครงไปกระดูกสะบัก",
-        "reference": "ที่ปุ่มกระดูกสันหลังหรือข้อมือ",
+        "reference": "ที่ spinous process หรือข้อมือ",
         "posture": "นั่ง ยกแขนไปข้างหน้าระดับไหล่",
         "test": "ชกไปข้างหน้า (ดันสะบักไปข้างหน้า) ต้านแรง"
+      },
+      "origin": {
+        "en": "Outer surface of ribs 1-8",
+        "th": "ผิวซี่โครงที่ 1-8 ด้านนอก"
+      },
+      "insertion": {
+        "en": "Medial scapular border",
+        "th": "ขอบในสะบัก"
+      },
+      "function": {
+        "en": "Pushes the shoulder blade forward around the ribs.",
+        "th": "ดันสะบักไปข้างหน้ารอบซี่โครง"
       }
     },
     {
@@ -945,9 +1305,21 @@
       "th": {
         "placement": "ระหว่างกระดูกสันหลังกับขอบในสะบัก ระดับ T3-T4 หลบกล้ามเนื้อ trapezius",
         "orientation": "เฉียงจากกระดูกสันหลังไปกระดูกสะบัก",
-        "reference": "ที่ปุ่มสไปนัส C7",
+        "reference": "ที่ spinous process C7",
         "posture": "นั่งตัวตรงหรือนอนคว่ำ",
         "test": "หนีบสะบักเข้าหากันต้านแรง"
+      },
+      "origin": {
+        "en": "T2-T5 spinous processes",
+        "th": "spinous processes T2-T5"
+      },
+      "insertion": {
+        "en": "Medial scapular border",
+        "th": "ขอบในสะบัก"
+      },
+      "function": {
+        "en": "Pulls the shoulder blades together.",
+        "th": "หนีบสะบักเข้าหากัน"
       }
     },
     {
@@ -972,11 +1344,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "ใต้สันสะบัก ตรงแอ่งใต้กระดูกสะบัก ห่างสันสะบักประมาณ 4 ซม.",
+        "placement": "ใต้สันสะบัก ตรง infraspinous fossa ห่างสันสะบักประมาณ 4 ซม.",
         "orientation": "ไปทางรักแร้ ตามแนวเส้นใย",
-        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "reference": "ที่ acromion หรือ spinous process C7",
         "posture": "นั่ง หนีบศอกข้างลำตัว งอศอก 90 องศา",
         "test": "หมุนไหล่ออกด้านนอกต้านแรง"
+      },
+      "origin": {
+        "en": "Infraspinous fossa of scapula",
+        "th": "infraspinous fossa"
+      },
+      "insertion": {
+        "en": "Greater tubercle, middle facet",
+        "th": "ทูเบอร์เคิลใหญ่ของต้นแขน ด้านกลาง"
+      },
+      "function": {
+        "en": "Rotates the shoulder outward.",
+        "th": "หมุนไหล่ออกด้านนอก"
       }
     },
     {
@@ -1001,11 +1385,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "เหนือสันสะบัก ตรงแอ่งเหนือกระดูกสะบัก ชิดด้านในอะโครเมียน ระวังสัญญาณจาก trapezius",
+        "placement": "เหนือสันสะบัก ตรง supraspinous fossa ชิดด้านใน acromion ระวังสัญญาณจาก trapezius",
         "orientation": "ตามแนวเส้นใยไปหัวไหล่",
-        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "reference": "ที่ acromion หรือ spinous process C7",
         "posture": "นั่ง แขนพักข้างลำตัว",
         "test": "ยกแขนออกด้านข้างช่วง 30 องศาแรกต้านแรงเบาๆ"
+      },
+      "origin": {
+        "en": "Supraspinous fossa of scapula",
+        "th": "supraspinous fossa"
+      },
+      "insertion": {
+        "en": "Greater tubercle, superior facet",
+        "th": "ทูเบอร์เคิลใหญ่ของต้นแขน ด้านบน"
+      },
+      "function": {
+        "en": "Starts lifting the arm sideways.",
+        "th": "เริ่มยกแขนออกด้านข้าง"
       }
     },
     {
@@ -1030,11 +1426,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "หนึ่งในสามส่วนบนของเส้นจากอีพิคอนไดล์ด้านนอกถึงข้อมือ ตรงปลายแขนด้านนิ้วโป้ง",
-        "orientation": "ตามแนวเส้นจากข้อศอกถึงข้อมือ",
-        "reference": "ที่โอเลครานอนหรือข้อมือ",
+        "placement": "หนึ่งในสามส่วนบนของเส้นจาก lateral epicondyle ถึงข้อมือ ตรงปลายแขนด้านนิ้วโป้ง",
+        "orientation": "ตามแนวปลายแขนถึงข้อมือ",
+        "reference": "ที่ olecranon หรือข้อมือ",
         "posture": "นั่ง งอศอก 90 องศา ท่ากลาง (นิ้วโป้งชี้ขึ้น)",
         "test": "งอศอกในท่ากลางต้านแรง"
+      },
+      "origin": {
+        "en": "Lateral supracondylar ridge of humerus",
+        "th": "supracondylar ridge ด้านนอกของต้นแขน"
+      },
+      "insertion": {
+        "en": "Radial styloid",
+        "th": "ปุ่ม radial styloid"
+      },
+      "function": {
+        "en": "Bends the elbow in neutral position.",
+        "th": "งอศอกในท่ากลาง"
       }
     },
     {
@@ -1059,11 +1467,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "หนึ่งในสามส่วนบนของปลายแขนด้านในใต้คิวบิทัลฟอสซา ตรงก้อนกล้ามเนื้อ",
+        "placement": "หนึ่งในสามส่วนบนของปลายแขนด้านในใต้ cubital fossa ตรงมัดกล้ามเนื้อ",
         "orientation": "ตามแนวปลายแขนถึงข้อมือ",
-        "reference": "ที่อีพิคอนไดล์ด้านในหรือข้อมือ",
+        "reference": "ที่ medial epicondyle หรือข้อมือ",
         "posture": "นั่ง ปลายแขนวางราบ หงายฝ่ามือ",
         "test": "งอข้อมือขึ้นและไปทางนิ้วโป้งต้านแรง"
+      },
+      "origin": {
+        "en": "Medial epicondyle of humerus",
+        "th": "medial epicondyle"
+      },
+      "insertion": {
+        "en": "Second and third metacarpal bases",
+        "th": "ฐานกระดูกฝ่ามือชิ้นที่ 2-3"
+      },
+      "function": {
+        "en": "Bends the wrist up and toward the thumb.",
+        "th": "งอข้อมือขึ้นและไปทางนิ้วโป้ง"
       }
     },
     {
@@ -1091,9 +1511,21 @@
       "th": {
         "placement": "ตามแนวกระดูกอัลนาที่ปลายแขนด้านในส่วนบน",
         "orientation": "ตามแนวกระดูกอัลนาถึงข้อมือ",
-        "reference": "ที่อีพิคอนไดล์ด้านในหรือข้อมือ",
+        "reference": "ที่ medial epicondyle หรือข้อมือ",
         "posture": "นั่ง ปลายแขนวางราบ หงายฝ่ามือ",
         "test": "งอข้อมือลงและไปทางนิ้วก้อยต้านแรง"
+      },
+      "origin": {
+        "en": "Medial epicondyle, olecranon and ulna",
+        "th": "medial epicondyle, olecranon และ ulna"
+      },
+      "insertion": {
+        "en": "Pisiform, hamate and fifth metacarpal base",
+        "th": "pisiform, hamate และฐานฝ่ามือชิ้นที่ 5"
+      },
+      "function": {
+        "en": "Bends the wrist down and toward the little finger.",
+        "th": "งอข้อมือลงและไปทางนิ้วก้อย"
       }
     },
     {
@@ -1121,9 +1553,21 @@
       "th": {
         "placement": "ปลายแขนด้านนอกส่วนบน ใต้ข้อศอกด้านนอกเล็กน้อย",
         "orientation": "ตามแนวปลายแขนถึงข้อมือ",
-        "reference": "ที่อีพิคอนไดล์ด้านนอกหรือข้อมือ",
+        "reference": "ที่ lateral epicondyle หรือข้อมือ",
         "posture": "นั่ง ปลายแขนวางราบ คว่ำฝ่ามือ",
         "test": "เหยียดข้อมือไปทางนิ้วโป้งต้านแรง"
+      },
+      "origin": {
+        "en": "Lateral supracondylar ridge and lateral epicondyle",
+        "th": "supracondylar ridge และ lateral epicondyle"
+      },
+      "insertion": {
+        "en": "Second and third metacarpal bases",
+        "th": "ฐานกระดูกฝ่ามือชิ้นที่ 2-3"
+      },
+      "function": {
+        "en": "Straightens the wrist toward the thumb side.",
+        "th": "เหยียดข้อมือไปทางนิ้วโป้ง"
       }
     },
     {
@@ -1148,11 +1592,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "ปลายแขนด้านหลังฝั่งกระดูกอัลนาส่วนบน",
+        "placement": "ปลายแขนด้านหลังฝั่ง ulna ส่วนบน",
         "orientation": "ตามแนวปลายแขนถึงข้อมือ",
-        "reference": "ที่อีพิคอนไดล์ด้านนอกหรือข้อมือ",
+        "reference": "ที่ lateral epicondyle หรือข้อมือ",
         "posture": "นั่ง ปลายแขนวางราบ คว่ำฝ่ามือ",
         "test": "เหยียดข้อมือไปทางนิ้วก้อยต้านแรง"
+      },
+      "origin": {
+        "en": "Lateral epicondyle of humerus",
+        "th": "lateral epicondyle"
+      },
+      "insertion": {
+        "en": "Fifth metacarpal base",
+        "th": "ฐานกระดูกฝ่ามือชิ้นที่ 5"
+      },
+      "function": {
+        "en": "Straightens the wrist toward the little-finger side.",
+        "th": "เหยียดข้อมือไปทางนิ้วก้อย"
       }
     },
     {
@@ -1196,6 +1652,18 @@
         "reference": "ที่ข้อมือ",
         "posture": "นั่ง ปลายแขนวางราบ คว่ำฝ่ามือ",
         "test": "เหยียดนิ้วมือต้านแรง"
+      },
+      "origin": {
+        "en": "Lateral epicondyle of humerus",
+        "th": "lateral epicondyle"
+      },
+      "insertion": {
+        "en": "Middle and distal phalanges of fingers 2-5",
+        "th": "กระดูกนิ้วมือท่อนกลางและปลายนิ้วที่ 2-5"
+      },
+      "function": {
+        "en": "Straightens the fingers.",
+        "th": "เหยียดนิ้วมือ"
       }
     },
     {
@@ -1221,11 +1689,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "ปลายแขนด้านในส่วนบน ใต้คิวบิทัลฟอสซาเล็กน้อย",
-        "orientation": "เฉียงจากข้อศอกด้านในไปกลางปลายแขน",
-        "reference": "ที่อีพิคอนไดล์ด้านในหรือข้อมือ",
+        "placement": "ปลายแขนด้านในส่วนบน ใต้ cubital fossa เล็กน้อย",
+        "orientation": "เฉียงจาก medial epicondyle ไปกลางปลายแขน",
+        "reference": "ที่ medial epicondyle หรือข้อมือ",
         "posture": "นั่ง งอศอก 90 องศา",
         "test": "หมุนฝ่ามือคว่ำลงต้านแรง"
+      },
+      "origin": {
+        "en": "Medial epicondyle and coronoid process",
+        "th": "medial epicondyle และ coronoid process"
+      },
+      "insertion": {
+        "en": "Mid-radius, lateral side",
+        "th": "กลาง radius ด้านนอก"
+      },
+      "function": {
+        "en": "Turns the palm downward.",
+        "th": "หมุนฝ่ามือคว่ำลง"
       }
     },
     {
@@ -1251,11 +1731,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "ขอบฝ่ามือด้านนิ้วก้อย ตรงเนิน hypothenar ใช้อิเล็กโทรดเล็ก",
+        "placement": "ขอบฝ่ามือด้านนิ้วก้อย ตรงเนินใต้นิ้วก้อย (hypothenar) ใช้อิเล็กโทรดเล็ก",
         "orientation": "ตามแนวฝ่ามือไปนิ้วก้อย",
         "reference": "ที่ข้อมือ",
         "posture": "นั่ง หงายฝ่ามือวางราบ",
         "test": "กางนิ้วก้อยออกจากนิ้วนางต้านแรง"
+      },
+      "origin": {
+        "en": "Pisiform bone",
+        "th": "pisiform"
+      },
+      "insertion": {
+        "en": "Base of fifth proximal phalanx",
+        "th": "ฐานกระดูกนิ้วก้อยท่อนโคน"
+      },
+      "function": {
+        "en": "Moves the little finger away from the ring finger.",
+        "th": "กางนิ้วก้อยออกจากนิ้วนาง"
       }
     },
     {
@@ -1286,6 +1778,18 @@
         "reference": "ที่สันกระดูกเชิงกรานหรือข้อมือ",
         "posture": "นอนหงาย งอเข่าเล็กน้อย",
         "test": "ยกสะบักขึ้นจากพื้นเล็กน้อย"
+      },
+      "origin": {
+        "en": "Pubic crest and symphysis",
+        "th": "pubic crest และ pubic symphysis"
+      },
+      "insertion": {
+        "en": "Xiphoid process and costal cartilages 5-7",
+        "th": "ลิ้นปี่และกระดูกอ่อนซี่โครงที่ 5-7"
+      },
+      "function": {
+        "en": "Bends the trunk forward.",
+        "th": "งอลำตัวไปข้างหน้า"
       }
     },
     {
@@ -1315,6 +1819,18 @@
         "reference": "ที่สันกระดูกเชิงกรานหรือข้อมือ",
         "posture": "นอนหงายหรือยืนตัวตรง",
         "test": "บิดลำตัวไปด้านตรงข้ามต้านแรง"
+      },
+      "origin": {
+        "en": "Outer surface of ribs 5-12",
+        "th": "ผิวซี่โครงที่ 5-12 ด้านนอก"
+      },
+      "insertion": {
+        "en": "Linea alba and iliac crest",
+        "th": "linea alba และสันเชิงกราน"
+      },
+      "function": {
+        "en": "Twists the trunk to the opposite side.",
+        "th": "บิดลำตัวไปด้านตรงข้าม"
       }
     },
     {
@@ -1339,11 +1855,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Cram's Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "ต้นขาด้านใน ต่ำกว่าปุ่มหัวหน่าวประมาณ 10 ซม. ตรงก้อนกล้ามเนื้อ",
+        "placement": "ต้นขาด้านใน ต่ำกว่า pubic tubercle ประมาณ 10 ซม. ตรงมัดกล้ามเนื้อ",
         "orientation": "ตามแนวต้นขาถึงเข่าด้านใน",
-        "reference": "ที่ข้อเท้าหรืออีพิคอนไดล์ด้านใน",
+        "reference": "ที่ข้อเท้าหรือ medial epicondyle",
         "posture": "นอนหงาย เหยียดขาตรง",
         "test": "หนีบเข่าชิดกันต้านแรง"
+      },
+      "origin": {
+        "en": "Body of pubis",
+        "th": "กระดูกหัวหน่าว"
+      },
+      "insertion": {
+        "en": "Linea aspera, middle third of femur",
+        "th": "linea aspera กลางต้นขา"
+      },
+      "function": {
+        "en": "Pulls the legs together.",
+        "th": "หนีบขาชิดกัน"
       }
     },
     {
@@ -1370,9 +1898,21 @@
       "th": {
         "placement": "แถบตื้นต้นขาด้านใน ระหว่างกลุ่ม adductor กับ sartorius กลางต้นขา",
         "orientation": "ตามแนวต้นขาถึงเข่าด้านใน",
-        "reference": "ที่ข้อเท้าหรืออีพิคอนไดล์ด้านใน",
+        "reference": "ที่ข้อเท้าหรือ medial epicondyle",
         "posture": "นอนหงาย เหยียดขาตรง",
         "test": "หนีบเข่าชิดกันพร้อมงอเข่าเล็กน้อย"
+      },
+      "origin": {
+        "en": "Pubic symphysis and body",
+        "th": "ข้อต่อและกระดูกหัวหน่าว"
+      },
+      "insertion": {
+        "en": "Medial proximal tibia (pes anserinus)",
+        "th": "แข้งด้านในส่วนบน"
+      },
+      "function": {
+        "en": "Pulls the legs together and assists knee bending.",
+        "th": "หนีบขาชิดกันและช่วยงอเข่า"
       }
     },
     {
@@ -1399,9 +1939,21 @@
       "th": {
         "placement": "เฉียงจากปุ่ม ASIS ถึงเข่าด้านใน ช่วงหนึ่งในสามบน กล้ามเนื้อบาง ระวังสัญญาณจาก quadriceps",
         "orientation": "เฉียงจากเชิงกรานถึงเข่าด้านใน",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นอนหงาย",
         "test": "ยกขาพร้อมงอสะโพก หมุนออก และงอเข่าเล็กน้อย"
+      },
+      "origin": {
+        "en": "Anterior superior iliac spine",
+        "th": "ปุ่ม ASIS"
+      },
+      "insertion": {
+        "en": "Medial proximal tibia (pes anserinus)",
+        "th": "แข้งด้านในส่วนบน"
+      },
+      "function": {
+        "en": "Bends the hip outward-turned and bends the knee.",
+        "th": "งอสะโพกแบบหมุนออกและงอเข่า"
       }
     },
     {
@@ -1428,9 +1980,21 @@
       "th": {
         "placement": "ด้านนอกสันแข้ง ต่ำกว่าหัวกระดูกน่องประมาณ 5 ซม.",
         "orientation": "ตามแนวขาถึงข้อเท้า",
-        "reference": "ที่ข้อเท้าหรือปุ่มสไปนัส C7",
+        "reference": "ที่ข้อเท้าหรือ spinous process C7",
         "posture": "นั่ง ปลายเท้าพักสบาย",
         "test": "ยกนิ้วเท้าและเท้าขึ้นต้านแรง"
+      },
+      "origin": {
+        "en": "Lateral tibial condyle and fibula",
+        "th": "lateral tibial condyle และกระดูกน่อง"
+      },
+      "insertion": {
+        "en": "Middle and distal phalanges of toes 2-5",
+        "th": "กระดูกนิ้วเท้าท่อนกลางและปลายนิ้วที่ 2-5"
+      },
+      "function": {
+        "en": "Lifts the toes and foot upward.",
+        "th": "ยกนิ้วเท้าและเท้าขึ้น"
       }
     },
     {
@@ -1456,11 +2020,23 @@
       "standard": "extended",
       "citation": "Standard clinical surface-EMG practice for thoracic paraspinals (paraphrased)",
       "th": {
-        "placement": "ห่างปุ่มสไปนัส T9 ออกด้านข้าง 3-5 ซม.",
+        "placement": "ห่าง spinous process T9 ออกด้านข้าง 3-5 ซม.",
         "orientation": "แนวตั้ง ขนานกระดูกสันหลัง",
-        "reference": "ที่ปุ่มสไปนัส C7",
+        "reference": "ที่ spinous process C7",
         "posture": "นอนคว่ำ",
         "test": "ยกท่อนบนลำตัวขึ้นจากท่านอนคว่ำ"
+      },
+      "origin": {
+        "en": "Sacrum and iliac crest (common tendon)",
+        "th": "กระดูกกระเบนเหน็บและสันเชิงกราน (เอ็นร่วม)"
+      },
+      "insertion": {
+        "en": "Ribs and thoracic vertebrae",
+        "th": "ซี่โครงและกระดูกสันหลังอก"
+      },
+      "function": {
+        "en": "Extends the spine.",
+        "th": "เหยียดกระดูกสันหลัง"
       }
     },
     {
@@ -1485,11 +2061,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Crams Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "ใต้รักแร้หลัง ตรงก้อนกล้ามเนื้อด้านนอกขอบสะบัก ระวังกล้ามเนื้อ latissimus ใกล้กัน",
+        "placement": "ใต้รักแร้หลัง ตรงมัดกล้ามเนื้อด้านนอกขอบสะบัก ระวังกล้ามเนื้อ latissimus ใกล้กัน",
         "orientation": "ไปทางต้นแขน ตามแนวเส้นใย",
-        "reference": "ที่อะโครเมียนหรือปุ่มสไปนัส C7",
+        "reference": "ที่ acromion หรือ spinous process C7",
         "posture": "นั่ง แขนพักข้างลำตัว",
         "test": "ดึงศอกลงและไปข้างหลังต้านแรง (เหยียดและหุบไหล่)"
+      },
+      "origin": {
+        "en": "Dorsal scapula near inferior angle",
+        "th": "หลังสะบักใกล้มุมล่าง"
+      },
+      "insertion": {
+        "en": "Bicipital groove, medial lip",
+        "th": "ร่อง bicipital ขอบด้านใน"
+      },
+      "function": {
+        "en": "Pulls the elbow down and back.",
+        "th": "ดึงศอกลงและไปข้างหลัง"
       }
     },
     {
@@ -1514,11 +2102,23 @@
       "standard": "extended",
       "citation": "Cram JR, Kasman GS, Holtz J. Crams Introduction to Surface Electromyography (standard clinical practice; paraphrased)",
       "th": {
-        "placement": "ขอบเท้าด้านในใต้ตาตุ่ม ตรงก้อนกล้ามเนื้อ ใช้อิเล็กโทรดเล็ก",
+        "placement": "ขอบเท้าด้านในใต้ตาตุ่ม ตรงมัดกล้ามเนื้อ ใช้อิเล็กโทรดเล็ก",
         "orientation": "ตามแนวเท้าไปนิ้วโป้ง",
         "reference": "ที่ข้อเท้า",
         "posture": "นั่ง วางเท้าราบกับพื้น",
         "test": "กางนิ้วโป้งออกจากนิ้วอื่นต้านแรง"
+      },
+      "origin": {
+        "en": "Medial calcaneal tuberosity",
+        "th": "ปุ่ม calcaneal tuberosity ด้านใน"
+      },
+      "insertion": {
+        "en": "Base of hallux proximal phalanx, medial side",
+        "th": "ฐานกระดูกนิ้วโป้งท่อนโคนด้านใน"
+      },
+      "function": {
+        "en": "Spreads the big toe away from the others.",
+        "th": "กางนิ้วโป้งออกจากนิ้วอื่น"
       }
     }
   ]
